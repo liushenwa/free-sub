@@ -1,0 +1,110 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "76.26.114.253",
+      "server_port": 39593,
+      "version": "4",
+      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.32.160.61",
+      "server_port": 1088,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "67.210.146.50",
+      "server_port": 11080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "107.150.41.226",
+      "server_port": 18080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "69.70.74.118",
+      "server_port": 1337,
+      "version": "4",
+      "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "49.13.87.123",
+      "server_port": 1167,
+      "version": "5",
+      "tag": "🇳🇴 挪威 (Norway) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "57.129.134.10",
+      "server_port": 8082,
+      "version": "5",
+      "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "177.23.148.2",
+      "server_port": 1088,
+      "version": "5",
+      "tag": "🇧🇷 巴西 (Brazil) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "187.188.131.169",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇲🇽 墨西哥 (Mexico) 09 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇺🇸 美国 (United States) 04 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 05 - xiaohe",
+        "🇳🇴 挪威 (Norway) 06 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 08 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 09 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇺🇸 美国 (United States) 04 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 05 - xiaohe",
+        "🇳🇴 挪威 (Norway) 06 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 08 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 09 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

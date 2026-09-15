@@ -1,0 +1,110 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "146.103.110.233",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "37.9.4.101",
+      "server_port": 1088,
+      "version": "5",
+      "tag": "🇳🇱 荷兰 (Netherlands) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "157.90.113.23",
+      "server_port": 9052,
+      "version": "4",
+      "tag": "🇳🇱 荷兰 (Netherlands) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.84.222.220",
+      "server_port": 8080,
+      "version": "4",
+      "tag": "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.112.68.25",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇱 荷兰 (Netherlands) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "5.255.103.55",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇳🇱 荷兰 (Netherlands) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "57.128.231.218",
+      "server_port": 1000,
+      "version": "4",
+      "tag": "🇳🇱 荷兰 (Netherlands) 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "5.253.59.150",
+      "server_port": 1082,
+      "version": "4",
+      "tag": "🇳🇱 荷兰 (Netherlands) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "5.255.99.75",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇳🇱 荷兰 (Netherlands) 09 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 03 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 05 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 06 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 07 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 08 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 09 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 03 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 05 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 06 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 07 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 08 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 09 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "124.41.225.101",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "110.34.3.144",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

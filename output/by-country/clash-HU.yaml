@@ -1,0 +1,32 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  server: 46.107.230.122
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇭🇺 匈牙利 (Hungary) 02 - xiaohe
+  server: 178.48.13.177
+  port: 80
+  udp: true
+  type: socks4
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  - 🇭🇺 匈牙利 (Hungary) 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  - 🇭🇺 匈牙利 (Hungary) 02 - xiaohe
+rules:
+- MATCH,PROXIES

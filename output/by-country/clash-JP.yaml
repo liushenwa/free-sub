@@ -1,0 +1,39 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇯🇵 日本 (Japan) 01 - xiaohe
+  server: 5.75.133.113
+  port: 10811
+  udp: true
+  type: socks5
+- name: 🇯🇵 日本 (Japan) 02 - xiaohe
+  server: 103.75.118.84
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇯🇵 日本 (Japan) 03 - xiaohe
+  server: 103.38.183.18
+  port: 1088
+  udp: true
+  type: socks4
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
+rules:
+- MATCH,PROXIES

@@ -1,0 +1,39 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  server: 69.70.74.118
+  port: 1337
+  udp: true
+  type: socks4
+- name: 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  server: 65.21.252.66
+  port: 10801
+  udp: true
+  type: socks5
+- name: 🇨🇦 加拿大 (Canada) 03 - xiaohe
+  server: 192.158.15.201
+  port: 50877
+  udp: true
+  type: socks4
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 03 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 03 - xiaohe
+rules:
+- MATCH,PROXIES

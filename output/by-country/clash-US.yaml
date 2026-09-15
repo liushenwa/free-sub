@@ -1,0 +1,137 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 76.26.114.253
+  port: 39593
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 45.32.160.61
+  port: 1088
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
+  server: 67.210.146.50
+  port: 11080
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 04 - xiaohe
+  server: 107.150.41.226
+  port: 18080
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 05 - xiaohe
+  server: 108.174.152.80
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 06 - xiaohe
+  server: 144.24.47.42
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 07 - xiaohe
+  server: 45.74.31.42
+  port: 14292
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 08 - xiaohe
+  server: 45.74.31.42
+  port: 14526
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 09 - xiaohe
+  server: 50.238.47.86
+  port: 32100
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 10 - xiaohe
+  server: 64.49.67.166
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 11 - xiaohe
+  server: 47.254.36.25
+  port: 11080
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 12 - xiaohe
+  server: 50.250.205.21
+  port: 32100
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 13 - xiaohe
+  server: 45.74.31.42
+  port: 14638
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 14 - xiaohe
+  server: 50.172.193.250
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 15 - xiaohe
+  server: 178.130.47.21
+  port: 1082
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 16 - xiaohe
+  server: 45.74.31.42
+  port: 14423
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 17 - xiaohe
+  server: 45.74.31.42
+  port: 28587
+  udp: true
+  type: socks5
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 04 - xiaohe
+  - 🇺🇸 美国 (United States) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 06 - xiaohe
+  - 🇺🇸 美国 (United States) 07 - xiaohe
+  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇺🇸 美国 (United States) 09 - xiaohe
+  - 🇺🇸 美国 (United States) 10 - xiaohe
+  - 🇺🇸 美国 (United States) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 12 - xiaohe
+  - 🇺🇸 美国 (United States) 13 - xiaohe
+  - 🇺🇸 美国 (United States) 14 - xiaohe
+  - 🇺🇸 美国 (United States) 15 - xiaohe
+  - 🇺🇸 美国 (United States) 16 - xiaohe
+  - 🇺🇸 美国 (United States) 17 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 04 - xiaohe
+  - 🇺🇸 美国 (United States) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 06 - xiaohe
+  - 🇺🇸 美国 (United States) 07 - xiaohe
+  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇺🇸 美国 (United States) 09 - xiaohe
+  - 🇺🇸 美国 (United States) 10 - xiaohe
+  - 🇺🇸 美国 (United States) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 12 - xiaohe
+  - 🇺🇸 美国 (United States) 13 - xiaohe
+  - 🇺🇸 美国 (United States) 14 - xiaohe
+  - 🇺🇸 美国 (United States) 15 - xiaohe
+  - 🇺🇸 美国 (United States) 16 - xiaohe
+  - 🇺🇸 美国 (United States) 17 - xiaohe
+rules:
+- MATCH,PROXIES

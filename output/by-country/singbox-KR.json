@@ -1,0 +1,47 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "121.169.46.116",
+      "server_port": 1090,
+      "version": "5",
+      "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "221.157.45.249",
+      "server_port": 80,
+      "version": "4",
+      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇰🇷 韩国 (South Korea) 01 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇰🇷 韩国 (South Korea) 01 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

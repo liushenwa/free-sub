@@ -1,0 +1,56 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "5.75.133.113",
+      "server_port": 10811,
+      "version": "5",
+      "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.75.118.84",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇯🇵 日本 (Japan) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.38.183.18",
+      "server_port": 1088,
+      "version": "4",
+      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 02 - xiaohe",
+        "🇯🇵 日本 (Japan) 03 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 02 - xiaohe",
+        "🇯🇵 日本 (Japan) 03 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

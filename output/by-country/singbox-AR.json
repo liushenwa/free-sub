@@ -1,0 +1,56 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "168.196.24.29",
+      "server_port": 60606,
+      "version": "4",
+      "tag": "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "190.108.57.211",
+      "server_port": 1085,
+      "version": "4",
+      "tag": "🇦🇷 阿根廷 (Argentina) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "186.138.177.33",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇦🇷 阿根廷 (Argentina) 03 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 03 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 03 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

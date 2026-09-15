@@ -5,8 +5,8 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 10223,
+      "server": "45.74.31.22",
+      "server_port": 9595,
       "version": "5",
       "tag": "🇧🇮 BI 01 - xiaohe"
     },

@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇮 BI 01 - xiaohe
-  server: 45.74.31.40
-  port: 10223
+  server: 45.74.31.22
+  port: 9595
   udp: true
   type: socks5
 proxy-groups:

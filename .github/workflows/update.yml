@@ -2,7 +2,7 @@ name: Update Subscriptions
 
 on:
   schedule:
-    # 每天在 UTC 时间 0:00, 6:00, 12:00, 18:00 自动触发更新
+    # 每 4 小时自动更新一次（UTC）
     - cron: '0 */4 * * *'
   workflow_dispatch: # 支持手动点击运行
 
@@ -13,7 +13,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     permissions:
       contents: write
 
@@ -30,7 +30,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r scripts/requirements.txt
+          python -m pip install --upgrade pip
+          pip install --disable-pip-version-check --retries 5 --timeout 60 -r scripts/requirements.txt
 
       - name: Run Real-Prober and Classifier (sing-box v1.14 全协议)
         run: |
@@ -51,8 +52,34 @@ jobs:
           name: run-report
           path: |
             output/e2e_test_report.json
+            output/run_report.json
+            output/summary.json
           retention-days: 7
           if-no-files-found: ignore
+
+      - name: Write Job Summary
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          p = Path('output/summary.json')
+          print('## 本轮节点更新摘要')
+          if not p.exists():
+              print('未生成 summary.json，可能本轮在测活阶段提前退出；请查看上方日志。')
+          else:
+              try:
+                  d = json.loads(p.read_text(encoding='utf-8'))
+                  print(f"- 总节点：**{d.get('total', 0)}**")
+                  print(f"- 家宽：**{d.get('residential', 0)}**")
+                  print(f"- 非家宽低欺诈原生 IP：**{d.get('non_residential', 0)}**")
+                  print(f"- 家宽五星：**{d.get('residential_stars', {}).get('5', 0)}**")
+                  print(f"- 家宽四星：**{d.get('residential_stars', {}).get('4', 0)}**")
+                  print(f"- 家宽三星：**{d.get('residential_stars', {}).get('3', 0)}**")
+              except Exception as e:
+                  print(f'读取 summary.json 失败：{e}')
+          PY
 
       - name: Commit and Push Results
         run: |

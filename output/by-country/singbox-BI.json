@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.60.186.21",
-      "server_port": 52195,
-      "version": "4",
-      "tag": "🇮🇳 印度 (India) 01 - xiaohe"
+      "server": "45.74.31.40",
+      "server_port": 10223,
+      "version": "5",
+      "tag": "🇧🇮 BI 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

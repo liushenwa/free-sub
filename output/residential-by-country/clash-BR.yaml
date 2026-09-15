@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇴 挪威 (Norway) 01 - xiaohe
-  server: 49.13.87.123
-  port: 1167
+- name: 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
+  server: 181.233.94.101
+  port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇳🇴 挪威 (Norway) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇴 挪威 (Norway) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

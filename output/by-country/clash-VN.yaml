@@ -9,29 +9,19 @@ proxies:
   port: 10808
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 58.187.104.62
-  port: 1062
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  server: 45.74.31.50
+  port: 12367
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 58.187.104.62
-  port: 1088
+  server: 45.74.31.30
+  port: 9156
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  server: 58.187.104.62
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 116.97.117.27
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  server: 45.74.31.42
-  port: 32043
+  server: 45.74.31.30
+  port: 8581
   udp: true
   type: socks5
 proxy-groups:
@@ -40,21 +30,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
 rules:
 - MATCH,PROXIES

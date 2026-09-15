@@ -4,44 +4,34 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 212.55.99.157
+- name: 🇪🇬 埃及 (Egypt) 01 - xiaohe
+  server: 162.250.124.70
+  port: 10808
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  server: 103.162.30.189
+  port: 10808
+  udp: true
+  type: socks5
+- name: 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
+  server: 45.74.31.25
+  port: 5453
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  server: 179.185.14.157
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 58.187.104.62
-  port: 1089
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 116.101.7.126
-  port: 1066
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 188.124.124.53
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
-  server: 116.101.1.175
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇧🇮 BI 06 - xiaohe
-  server: 45.74.31.22
-  port: 9595
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 07 - xiaohe
-  server: 45.74.31.30
-  port: 9322
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 08 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
   server: 45.74.31.42
-  port: 12365
+  port: 12662
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  server: 45.74.31.47
+  port: 19711
   udp: true
   type: socks5
 proxy-groups:
@@ -49,26 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
-  - 🇧🇮 BI 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
-  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇪🇬 埃及 (Egypt) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
-  - 🇧🇮 BI 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
-  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇪🇬 埃及 (Egypt) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
 rules:
 - MATCH,PROXIES

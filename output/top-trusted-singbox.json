@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "138.59.177.117",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇭🇳 HN 01 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇭🇳 HN 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇭🇳 HN 01 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

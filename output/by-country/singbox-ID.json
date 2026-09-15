@@ -5,66 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.134.214.131",
-      "server_port": 1648,
+      "server": "103.140.35.11",
+      "server_port": 4145,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.216.106.169",
-      "server_port": 1080,
+      "server": "103.66.46.54",
+      "server_port": 69,
       "version": "5",
       "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.187.162.75",
-      "server_port": 8199,
-      "version": "5",
+      "server": "43.248.27.11",
+      "server_port": 54730,
+      "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.172.71.204",
+      "server": "103.159.224.90",
       "server_port": 1080,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.154.76.90",
-      "server_port": 12,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "182.16.171.42",
-      "server_port": 51459,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.173.139.214",
-      "server_port": 8080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "117.102.115.158",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 08 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.148.201.74",
-      "server_port": 1089,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 09 - xiaohe"
     },
     {
       "type": "selector",
@@ -74,12 +39,7 @@
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 05 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 06 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 07 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 08 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 09 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
       ]
     },
     {
@@ -89,12 +49,7 @@
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 05 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 06 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 07 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 08 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 09 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,112 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 185.49.110.155
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 94.253.95.241
-  port: 3629
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 5.254.178.160
-  port: 10801
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 92.255.190.64
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 95.154.72.56
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 88.87.79.18
-  port: 3629
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: 176.118.232.12
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 94.228.240.23
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  server: 89.250.148.158
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  server: 77.37.209.86
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  server: 176.214.78.230
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
-  server: 80.93.62.239
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
-  server: 83.219.1.130
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
-  server: 46.8.104.176
-  port: 1080
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
 rules:
 - MATCH,PROXIES

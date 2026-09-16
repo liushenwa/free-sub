@@ -4,34 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
-  server: 103.18.47.79
-  port: 4145
+- name: 🇿🇦 南非 (South Africa) 01 - xiaohe
+  server: 102.39.156.82
+  port: 1080
   udp: true
   type: socks4
 - name: 🇮🇹 意大利 (Italy) 02 - xiaohe
-  server: 94.198.211.217
+  server: 94.198.213.252
   port: 5678
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 177.66.43.189
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇮🇷 IR 04 - xiaohe
-  server: 81.29.249.82
-  port: 5071
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 103.42.202.190
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  server: 27.147.181.162
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
+  server: 103.157.116.179
+  port: 10810
   udp: true
   type: socks4
 proxy-groups:
@@ -39,22 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇮🇷 IR 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇮🇷 IR 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "94.198.211.217",
+      "server": "94.198.213.252",
       "server_port": 5678,
       "version": "4",
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "109.73.181.233",
-      "server_port": 7080,
-      "version": "5",
-      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 意大利 (Italy) 01 - xiaohe",
-        "🇮🇹 意大利 (Italy) 02 - xiaohe"
+        "🇮🇹 意大利 (Italy) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 意大利 (Italy) 01 - xiaohe",
-        "🇮🇹 意大利 (Italy) 02 - xiaohe"
+        "🇮🇹 意大利 (Italy) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T16:04:15.561447+00:00",
+  "updated_at": "2026-09-16T19:24:38.172004+00:00",
   "description": "动态五星家宽候选池；下次运行会优先读取并重新测活。连续失败达到阈值自动移除。",
   "max_failures": 6,
   "nodes": [
@@ -71,7 +71,8 @@
       "overall_score": 68,
       "source": "",
       "last_verified": "2026-09-16T02:41:58.727996+00:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 0,
+      "last_checked": "2026-09-16T19:24:38.171910+00:00"
     },
     {
       "raw": "socks4://103.18.47.79:4145",
@@ -95,7 +96,7 @@
       "source": "",
       "last_verified": "2026-09-16T09:08:55.922666+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-09-16T16:04:15.561358+00:00"
+      "last_checked": "2026-09-16T19:24:38.171920+00:00"
     },
     {
       "raw": "socks5://212.55.99.157:1080",
@@ -307,7 +308,7 @@
       "source": "",
       "last_verified": "2026-09-15T02:00:39.873633+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-09-16T16:04:15.561369+00:00"
+      "last_checked": "2026-09-16T19:24:38.171925+00:00"
     }
   ]
 }

@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 103.162.30.189
-  port: 10808
+- name: 🇮🇷 IR 01 - xiaohe
+  server: 81.29.249.82
+  port: 5071
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 rules:
 - MATCH,PROXIES

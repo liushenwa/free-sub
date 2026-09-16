@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - xiaohe
-  server: 94.198.213.252
+  server: 94.198.211.217
   port: 5678
   udp: true
   type: socks4

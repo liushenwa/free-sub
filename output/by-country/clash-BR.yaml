@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 177.136.124.45
-  port: 56113
+  server: 177.66.43.189
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:

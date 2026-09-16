@@ -4,29 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
-  server: 166.111.189.38
-  port: 29290
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 31.42.2.113
+  port: 5678
   udp: true
   type: socks4
-- name: 🇨🇳 CN 02 - xiaohe
-  server: 47.82.67.48
-  port: 1011
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
-  - 🇨🇳 CN 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
-  - 🇨🇳 CN 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,29 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 188.17.93.62
+- name: 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
+  server: 181.233.94.101
   port: 1080
   udp: true
   type: socks4
-- name: 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 移动家宽 - xiaohe
-  server: 144.255.17.68
-  port: 7890
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 170.80.221.192
+  port: 4153
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 177.136.124.45
-  port: 56113
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 103.83.233.165
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 27.147.181.162
-  port: 1080
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
+  server: 109.248.152.231
+  port: 60606
   udp: true
   type: socks4
 proxy-groups:
@@ -34,20 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 移动家宽 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 移动家宽 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
 rules:
 - MATCH,PROXIES

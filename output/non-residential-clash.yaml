@@ -4,57 +4,71 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 177.136.124.45
-  port: 56113
+- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  server: 109.206.143.77
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
+  server: 45.74.31.22
+  port: 14853
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  server: 170.80.221.192
+  port: 4153
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   server: 103.83.233.165
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 45.74.31.25
-  port: 4581
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 85.142.124.27
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 45.80.220.92
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  server: 109.248.152.231
+  port: 60606
+  udp: true
+  type: socks4
+- name: 🇧🇮 BI 07 - xiaohe
+  server: 45.74.31.25
+  port: 10602
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
   server: 188.17.116.119
   port: 1080
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  server: 27.147.181.162
-  port: 1080
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  - 🇧🇮 BI 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe
+  - 🇧🇮 BI 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 rules:
 - MATCH,PROXIES

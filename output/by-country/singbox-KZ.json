@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "144.255.17.68",
-      "server_port": 7890,
+      "server": "109.248.152.231",
+      "server_port": 60606,
       "version": "4",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 移动家宽 - xiaohe"
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 移动家宽 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 移动家宽 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

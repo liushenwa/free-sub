@@ -5,69 +5,87 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "177.136.124.45",
-      "server_port": 56113,
+      "server": "109.206.143.77",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.22",
+      "server_port": 14853,
+      "version": "5",
+      "tag": "🇦🇷 阿根廷 (Argentina) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "170.80.221.192",
+      "server_port": 4153,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "103.83.233.165",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.25",
-      "server_port": 4581,
-      "version": "5",
-      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "85.142.124.27",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "188.17.116.119",
+      "server": "45.80.220.92",
       "server_port": 1080,
       "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "27.147.181.162",
-      "server_port": 1080,
+      "server": "109.248.152.231",
+      "server_port": 60606,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 10602,
+      "version": "5",
+      "tag": "🇧🇮 BI 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "188.17.116.119",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe",
+        "🇧🇮 BI 07 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - xiaohe",
+        "🇧🇮 BI 07 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  server: 61.247.178.178
+  server: 103.162.57.42
   port: 1080
   udp: true
   type: socks5

@@ -5,52 +5,52 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "212.55.99.157",
+      "server": "188.134.95.74",
       "server_port": 1080,
       "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "78.29.56.178",
+      "server": "188.134.89.238",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "109.206.143.77",
+      "server": "77.51.181.20",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.22",
-      "server_port": 14853,
+      "server": "93.127.133.109",
+      "server_port": 1081,
       "version": "5",
-      "tag": "🇦🇷 阿根廷 (Argentina) 04 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.80.220.92",
-      "server_port": 1080,
+      "server": "103.162.30.189",
+      "server_port": 10808,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 05 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.25",
-      "server_port": 10602,
+      "server": "45.74.31.41",
+      "server_port": 12659,
       "version": "5",
-      "tag": "🇧🇮 BI 06 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 06 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "188.17.116.119",
-      "server_port": 1080,
+      "server": "45.74.31.42",
+      "server_port": 14918,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
     },
     {
       "type": "selector",
@@ -58,12 +58,12 @@
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇧🇮 BI 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
+        "🇺🇸 美国 (United States) 06 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
       ]
     },
     {
@@ -71,12 +71,12 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇧🇮 BI 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
+        "🇺🇸 美国 (United States) 06 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

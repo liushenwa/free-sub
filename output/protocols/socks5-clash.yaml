@@ -5,38 +5,38 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 212.55.99.157
+  server: 188.134.95.74
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  server: 78.29.56.178
+- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  server: 188.134.89.238
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 109.206.143.77
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
+  server: 77.51.181.20
   port: 1080
   udp: true
   type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  server: 45.74.31.22
-  port: 14853
+- name: 🇩🇪 德国 (Germany) 04 - xiaohe
+  server: 93.127.133.109
+  port: 1081
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 45.80.220.92
-  port: 1080
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 103.162.30.189
+  port: 10808
   udp: true
   type: socks5
-- name: 🇧🇮 BI 06 - xiaohe
-  server: 45.74.31.25
-  port: 10602
+- name: 🇺🇸 美国 (United States) 06 - xiaohe
+  server: 45.74.31.41
+  port: 12659
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: 188.17.116.119
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  server: 45.74.31.42
+  port: 14918
   udp: true
   type: socks5
 proxy-groups:
@@ -45,23 +45,23 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇧🇮 BI 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇩🇪 德国 (Germany) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇧🇮 BI 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇩🇪 德国 (Germany) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 rules:
 - MATCH,PROXIES

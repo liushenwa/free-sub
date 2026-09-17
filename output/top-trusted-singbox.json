@@ -4,16 +4,44 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "104.161.23.122",
+      "server_port": 5062,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.75.197.9",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.47.103.209",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

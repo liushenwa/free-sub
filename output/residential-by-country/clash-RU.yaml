@@ -10,11 +10,6 @@ proxies:
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  server: 188.134.95.74
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
   server: 77.51.181.20
   port: 1080
   udp: true
@@ -26,7 +21,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,6 +28,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

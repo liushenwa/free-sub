@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "5.101.11.17",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

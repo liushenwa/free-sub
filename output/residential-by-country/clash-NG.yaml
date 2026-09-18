@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
-  server: 210.77.11.248
-  port: 10808
+- name: 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.103.226
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

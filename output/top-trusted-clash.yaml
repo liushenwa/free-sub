@@ -4,9 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 104.161.23.122
-  port: 5062
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe
+  server: 37.232.218.12
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 5.101.11.17
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,17 +5,17 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "104.161.23.122",
-      "server_port": 5062,
+      "server": "212.55.99.157",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "210.77.11.248",
-      "server_port": 10808,
+      "server": "180.183.198.87",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -25,22 +25,40 @@
       "tag": "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "188.134.95.74",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "109.201.65.165",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

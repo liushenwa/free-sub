@@ -5,24 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
+      "server": "180.183.198.87",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
       "server": "171.4.85.65",
       "server_port": 5678,
       "version": "4",
-      "tag": "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,29 +4,44 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 45.61.188.134
-  port: 44499
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.40
+  port: 13235
   udp: true
   type: socks5
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 93.127.133.109
-  port: 1081
+- name: 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  server: 104.161.23.122
+  port: 5037
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  server: 5.167.171.79
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  server: 188.134.89.238
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 171.244.199.151
+  port: 1337
+  udp: true
+  type: socks5
+- name: 🇩🇪 德国 (Germany) 06 - xiaohe
+  server: 45.74.31.25
+  port: 6898
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
   server: 103.162.30.189
   port: 10808
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 45.74.31.50
-  port: 9512
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 212.3.132.16
-  port: 1080
+- name: 🇩🇪 德国 (Germany) 08 - xiaohe
+  server: 45.74.31.30
+  port: 9354
   udp: true
   type: socks5
 proxy-groups:
@@ -34,20 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇩🇪 德国 (Germany) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇩🇪 德国 (Germany) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇩🇪 德国 (Germany) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇩🇪 德国 (Germany) 08 - xiaohe
 rules:
 - MATCH,PROXIES

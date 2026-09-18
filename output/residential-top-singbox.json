@@ -5,33 +5,69 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "171.4.85.65",
-      "server_port": 5678,
+      "server": "90.151.59.8",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "181.233.94.101",
-      "server_port": 1080,
+      "server": "45.74.31.40",
+      "server_port": 13235,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "171.4.85.65",
+      "server_port": 5678,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "5.167.171.79",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "188.134.89.238",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "104.161.23.122",
+      "server_port": 5037,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

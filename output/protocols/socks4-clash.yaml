@@ -4,27 +4,37 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.169.169.41
-  port: 1085
+- name: 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
+  server: 210.77.11.248
+  port: 10808
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 31.42.2.113
+- name: 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  server: 171.4.85.65
   port: 5678
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 113.167.83.98
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 103.83.233.165
   port: 1080
   udp: true
   type: socks4
-- name: 🇲🇿 MZ 05 - xiaohe
+- name: 🇮🇷 IR 04 - xiaohe
+  server: 81.29.249.82
+  port: 5071
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+  server: 31.42.2.113
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  server: 113.167.83.98
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇲🇿 MZ 07 - xiaohe
   server: 160.119.159.98
   port: 1080
   udp: true
@@ -34,20 +44,24 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇲🇿 MZ 05 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇮🇷 IR 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇲🇿 MZ 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇲🇿 MZ 05 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇮🇷 IR 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇲🇿 MZ 07 - xiaohe
 rules:
 - MATCH,PROXIES

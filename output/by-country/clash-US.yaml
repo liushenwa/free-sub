@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 45.74.31.41
-  port: 12378
+  server: 188.17.148.68
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:

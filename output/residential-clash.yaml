@@ -4,14 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 11693
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 104.161.23.122
+  port: 5062
   udp: true
   type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
-  server: 45.169.169.41
-  port: 1085
+- name: 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe
+  server: 210.77.11.248
+  port: 10808
+  udp: true
+  type: socks4
+- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
+  server: 171.4.85.65
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -19,14 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

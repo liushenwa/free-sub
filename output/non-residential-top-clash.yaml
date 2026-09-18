@@ -3,23 +3,16 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 5.101.11.17
-  port: 1080
-  udp: true
-  type: socks5
+proxies: []
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  proxies: []
 rules:
 - MATCH,PROXIES

@@ -5,42 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  server: 180.183.198.87
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
   server: 171.4.85.65
   port: 5678
   udp: true
   type: socks4
-- name: 🇨🇲 CM 03 ★★★★☆ 家宽 - xiaohe
-  server: 143.105.153.7
+- name: 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
+  server: 181.233.94.101
   port: 1080
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 03 - xiaohe
+  server: 105.214.104.26
+  port: 5678
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   server: 103.83.233.165
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 103.158.62.37
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 103.159.224.90
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇿 MZ 07 - xiaohe
-  server: 160.119.159.98
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇿🇦 南非 (South Africa) 08 - xiaohe
-  server: 102.39.156.82
   port: 1080
   udp: true
   type: socks4
@@ -50,25 +30,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇲 CM 03 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇲🇿 MZ 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇲 CM 03 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇲🇿 MZ 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
 rules:
 - MATCH,PROXIES

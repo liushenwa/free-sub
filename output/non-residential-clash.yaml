@@ -4,71 +4,64 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 45.74.31.50
-  port: 29746
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 45.61.188.134
+  port: 44499
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 93.127.133.109
+  port: 1081
+  udp: true
+  type: socks5
+- name: 🇿🇦 南非 (South Africa) 03 - xiaohe
+  server: 105.214.104.26
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   server: 103.83.233.165
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
   server: 103.162.30.189
   port: 10808
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  server: 103.158.62.37
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 103.159.224.90
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇿 MZ 06 - xiaohe
-  server: 160.119.159.98
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  server: 45.74.31.47
-  port: 15577
+- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  server: 45.74.31.50
+  port: 9512
   udp: true
   type: socks5
-- name: 🇿🇦 南非 (South Africa) 08 - xiaohe
-  server: 102.39.156.82
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  server: 212.3.132.16
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇲🇿 MZ 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇿🇦 南非 (South Africa) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇲🇿 MZ 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 rules:
 - MATCH,PROXIES

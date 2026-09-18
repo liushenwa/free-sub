@@ -4,28 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 77.51.181.20
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
-  server: 180.183.198.87
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
   server: 171.4.85.65
   port: 5678
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  server: 188.134.89.238
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇲 CM 05 ★★★★☆ 家宽 - xiaohe
-  server: 143.105.153.7
+- name: 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
+  server: 181.233.94.101
   port: 1080
   udp: true
   type: socks4
@@ -34,20 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇨🇲 CM 05 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇨🇲 CM 05 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

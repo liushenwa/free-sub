@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇷 阿根廷 (Argentina) 01 - xiaohe
-  server: 45.172.177.1
-  port: 59341
+  server: 45.74.31.23
+  port: 6374
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

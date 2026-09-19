@@ -5,18 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 45.74.31.30
-  port: 4312
-  udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 02 - xiaohe
-  server: 45.74.31.30
-  port: 21006
-  udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 03 - xiaohe
   server: 45.74.31.42
-  port: 4320
+  port: 15251
   udp: true
   type: socks5
 proxy-groups:
@@ -25,15 +15,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
-  - 🇩🇪 德国 (Germany) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
-  - 🇩🇪 德国 (Germany) 03 - xiaohe
 rules:
 - MATCH,PROXIES

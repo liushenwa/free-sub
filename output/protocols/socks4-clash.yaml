@@ -4,14 +4,39 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 2.29.9.126
-  port: 443
+- name: 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
+  server: 103.18.47.79
+  port: 4145
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  server: 171.4.85.65
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇸🇾 SY 03 - xiaohe
+  server: 205.209.66.105
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
   server: 182.253.144.20
   port: 4153
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 103.83.233.165
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  server: 177.66.43.189
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇭🇳 HN 07 - xiaohe
+  server: 200.115.96.65
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:
@@ -19,14 +44,24 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  - 🇸🇾 SY 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  - 🇭🇳 HN 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 02 ★★★★★ 家宽 - xiaohe
+  - 🇸🇾 SY 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  - 🇭🇳 HN 07 - xiaohe
 rules:
 - MATCH,PROXIES

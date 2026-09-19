@@ -4,44 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "socks",
-      "server": "213.67.114.78",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "194.88.150.90",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "2.29.9.126",
-      "server_port": 443,
-      "version": "4",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇵🇱 波兰 (Poland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇵🇱 波兰 (Poland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
-      ],
+      "outbounds": [],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

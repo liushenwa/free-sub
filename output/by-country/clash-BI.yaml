@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 2.29.9.126
-  port: 443
+- name: 🇧🇮 BI 01 - xiaohe
+  server: 45.74.31.22
+  port: 10665
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
+  - 🇧🇮 BI 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
+  - 🇧🇮 BI 01 - xiaohe
 rules:
 - MATCH,PROXIES

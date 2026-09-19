@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇷 阿根廷 (Argentina) 01 - xiaohe
-  server: 45.74.31.23
-  port: 6374
+- name: 🇭🇳 HN 01 - xiaohe
+  server: 200.115.96.65
+  port: 4145
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇷 阿根廷 (Argentina) 01 - xiaohe
+  - 🇭🇳 HN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇷 阿根廷 (Argentina) 01 - xiaohe
+  - 🇭🇳 HN 01 - xiaohe
 rules:
 - MATCH,PROXIES

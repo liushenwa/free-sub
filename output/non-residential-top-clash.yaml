@@ -3,37 +3,16 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 213.67.114.78
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 194.88.150.90
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 2.29.9.126
-  port: 443
-  udp: true
-  type: socks4
+proxies: []
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  proxies: []
 rules:
 - MATCH,PROXIES

@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "41.216.232.213",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe"
+      "server": "45.74.31.42",
+      "server_port": 4857,
+      "version": "5",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

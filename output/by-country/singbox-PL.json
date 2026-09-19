@@ -11,18 +11,36 @@
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "194.88.150.90",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "212.244.235.217",
+      "server_port": 4153,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

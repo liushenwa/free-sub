@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 91.151.195.138
+  server: 194.186.5.83
   port: 1080
   udp: true
   type: socks5

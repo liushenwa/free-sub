@@ -5,51 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "104.161.23.122",
-      "server_port": 5062,
+      "server": "188.32.80.88",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.18.47.79",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.41",
-      "server_port": 12866,
+      "server": "188.134.95.74",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.4.85.65",
-      "server_port": 5678,
+      "server": "144.255.31.220",
+      "server_port": 7890,
       "version": "4",
-      "tag": "🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 移动家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 移动家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 移动家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

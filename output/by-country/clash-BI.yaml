@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇮 BI 01 - xiaohe
   server: 45.74.31.22
-  port: 10665
+  port: 13399
   udp: true
   type: socks5
 proxy-groups:

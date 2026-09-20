@@ -5,24 +5,60 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.22",
-      "server_port": 13399,
+      "server": "45.74.31.25",
+      "server_port": 16729,
       "version": "5",
       "tag": "🇧🇮 BI 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.40",
+      "server_port": 10291,
+      "version": "5",
+      "tag": "🇧🇮 BI 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 9058,
+      "version": "5",
+      "tag": "🇧🇮 BI 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.40",
+      "server_port": 11438,
+      "version": "5",
+      "tag": "🇧🇮 BI 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 10602,
+      "version": "5",
+      "tag": "🇧🇮 BI 05 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇮 BI 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe",
+        "🇧🇮 BI 02 - xiaohe",
+        "🇧🇮 BI 03 - xiaohe",
+        "🇧🇮 BI 04 - xiaohe",
+        "🇧🇮 BI 05 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇮 BI 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe",
+        "🇧🇮 BI 02 - xiaohe",
+        "🇧🇮 BI 03 - xiaohe",
+        "🇧🇮 BI 04 - xiaohe",
+        "🇧🇮 BI 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,12 +6,17 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
   server: 45.74.31.42
-  port: 7079
+  port: 6753
   udp: true
   type: socks5
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
-  server: 45.74.31.25
-  port: 5733
+  server: 45.74.31.42
+  port: 6003
+  udp: true
+  type: socks5
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  server: 45.74.31.42
+  port: 5616
   udp: true
   type: socks5
 proxy-groups:
@@ -21,6 +26,7 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +34,6 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
 rules:
 - MATCH,PROXIES

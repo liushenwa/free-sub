@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
-  server: 183.173.145.45
-  port: 29290
+- name: 🇮🇹 意大利 (Italy) 01 - xiaohe
+  server: 109.70.206.178
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - xiaohe
 rules:
 - MATCH,PROXIES

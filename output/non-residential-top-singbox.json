@@ -5,30 +5,30 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "162.216.185.241",
-      "server_port": 1084,
-      "version": "4",
-      "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "185.87.255.47",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "62.60.239.67",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe"
+      "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "109.70.206.178",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "171.234.162.101",
-      "server_port": 1088,
-      "version": "4",
+      "server_port": 1081,
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {
@@ -36,9 +36,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇮🇹 意大利 (Italy) 03 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
       ]
     },
@@ -46,9 +46,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇮🇹 意大利 (Italy) 03 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

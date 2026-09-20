@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.50",
-      "server_port": 10658,
-      "version": "5",
-      "tag": "🇧🇮 BI 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "197.157.194.10",
+      "server": "62.60.239.67",
       "server_port": 1080,
-      "version": "4",
-      "tag": "🇧🇮 BI 02 - xiaohe"
+      "version": "5",
+      "tag": "🇦🇹 奥地利 (Austria) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇮 BI 01 - xiaohe",
-        "🇧🇮 BI 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇮 BI 01 - xiaohe",
-        "🇧🇮 BI 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

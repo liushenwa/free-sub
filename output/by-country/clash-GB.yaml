@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
-  server: 41.216.232.213
-  port: 4153
+- name: 🇬🇧 英国 (United Kingdom) 01 - xiaohe
+  server: 185.87.255.47
+  port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
 rules:
 - MATCH,PROXIES

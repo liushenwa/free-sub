@@ -12,23 +12,23 @@
     },
     {
       "type": "socks",
-      "server": "45.74.31.22",
-      "server_port": 11774,
+      "server": "45.74.31.30",
+      "server_port": 6811,
       "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.234.162.101",
-      "server_port": 1083,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "171.233.24.44",
       "server_port": 5000,
       "version": "4",
+      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "171.234.162.101",
+      "server_port": 1083,
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {

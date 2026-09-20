@@ -12,24 +12,38 @@
     },
     {
       "type": "socks",
-      "server": "62.60.239.67",
+      "server": "62.83.34.87",
       "server_port": 1080,
       "version": "5",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "109.70.206.178",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe"
+      "server": "188.68.186.18",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.234.162.101",
-      "server_port": 1081,
+      "server": "185.239.51.58",
+      "server_port": 10808,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 14214,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 12003,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -38,8 +52,10 @@
         "auto",
         "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -48,8 +64,10 @@
       "outbounds": [
         "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

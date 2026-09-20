@@ -10,18 +10,28 @@ proxies:
   udp: true
   type: socks5
 - name: 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  server: 62.60.239.67
+  server: 62.83.34.87
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇹 意大利 (Italy) 03 - xiaohe
-  server: 109.70.206.178
-  port: 5678
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 188.68.186.18
+  port: 1080
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  server: 171.234.162.101
-  port: 1081
+  type: socks5
+- name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  server: 185.239.51.58
+  port: 10808
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.50
+  port: 14214
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.50
+  port: 12003
   udp: true
   type: socks5
 proxy-groups:
@@ -31,8 +41,10 @@ proxy-groups:
   - AUTO
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,7 +52,9 @@ proxy-groups:
   proxies:
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

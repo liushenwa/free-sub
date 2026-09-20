@@ -9,45 +9,66 @@ proxies:
   port: 1337
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 11774
+- name: 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
+  server: 103.18.47.79
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.30
+  port: 6811
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 171.234.162.101
-  port: 1083
+- name: 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
+  server: 171.4.85.65
+  port: 5678
   udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   server: 171.233.24.44
   port: 5000
   udp: true
   type: socks4
-- name: 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  server: 171.234.162.101
+  port: 1083
+  udp: true
+  type: socks5
+- name: 🇹🇭 泰国 (Thailand) 07 ★★★★☆ 家宽 - xiaohe
   server: 125.24.156.113
   port: 7080
   udp: true
   type: socks5
+- name: 🇿🇦 南非 (South Africa) 08 ★★★★☆ 家宽 - xiaohe
+  server: 196.210.48.80
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 08 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇿🇦 南非 (South Africa) 08 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

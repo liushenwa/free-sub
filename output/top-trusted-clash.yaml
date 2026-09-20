@@ -10,7 +10,12 @@ proxies:
   udp: true
   type: socks5
 - name: 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  server: 62.60.239.67
+  server: 62.83.34.87
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 188.68.186.18
   port: 1080
   udp: true
   type: socks5
@@ -21,6 +26,7 @@ proxy-groups:
   - AUTO
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +34,6 @@ proxy-groups:
   proxies:
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

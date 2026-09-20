@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇹 奥地利 (Austria) 01 - xiaohe
-  server: 62.60.239.67
+  server: 62.83.34.87
   port: 1080
   udp: true
   type: socks5

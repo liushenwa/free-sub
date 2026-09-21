@@ -5,42 +5,60 @@
   "outbounds": [
     {
       "type": "socks",
+      "server": "85.117.242.61",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.87.255.54",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
       "server": "185.87.255.47",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+      "tag": "🇬🇧 英国 (United Kingdom) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "93.127.133.109",
+      "server_port": 1081,
+      "version": "5",
+      "tag": "🇨🇿 捷克 (Czech) 04 - xiaohe"
     },
     {
       "type": "socks",
       "server": "62.83.34.87",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "188.68.186.18",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+      "tag": "🇦🇹 奥地利 (Austria) 05 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 05 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

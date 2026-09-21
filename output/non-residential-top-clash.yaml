@@ -5,33 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 85.117.242.61
-  port: 1080
+  server: 45.61.188.134
+  port: 44499
   udp: true
   type: socks5
 - name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  server: 185.87.255.54
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
   server: 185.87.255.47
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
-  server: 93.127.133.109
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  server: 62.83.34.87
+- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
+  server: 185.87.255.54
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 14214
+- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.30
+  port: 6811
   udp: true
   type: socks5
 proxy-groups:
@@ -42,9 +32,7 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  - 🇨🇿 捷克 (Czech) 04 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -53,8 +41,6 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  - 🇨🇿 捷克 (Czech) 04 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

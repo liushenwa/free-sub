@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "109.73.181.233",
-      "server_port": 7080,
-      "version": "5",
-      "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe"
+      "server": "154.64.219.4",
+      "server_port": 5555,
+      "version": "4",
+      "tag": "🇵🇷 PR 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 意大利 (Italy) 01 - xiaohe"
+        "🇵🇷 PR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 意大利 (Italy) 01 - xiaohe"
+        "🇵🇷 PR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

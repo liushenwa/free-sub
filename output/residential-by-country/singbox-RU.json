@@ -12,24 +12,17 @@
     },
     {
       "type": "socks",
-      "server": "77.51.182.67",
+      "server": "188.32.80.88",
       "server_port": 1080,
       "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "85.235.62.246",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "94.232.62.170",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -38,8 +31,7 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -48,8 +40,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -10,8 +10,8 @@ proxies:
   udp: true
   type: socks4
 - name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 168.232.213.9
-  port: 4153
+  server: 177.136.124.45
+  port: 56113
   udp: true
   type: socks4
 proxy-groups:

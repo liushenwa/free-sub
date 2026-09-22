@@ -4,13 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 185.14.149.33
+- name: 🇮🇳 印度 (India) 01 - xiaohe
+  server: 103.86.1.29
   port: 4145
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 31.42.2.113
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 45.116.114.37
   port: 5678
   udp: true
   type: socks4
@@ -19,14 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇿🇦 南非 (South Africa) 01 - xiaohe
-  server: 105.214.51.155
-  port: 5678
+- name: 🇩🇪 德国 (Germany) 01 - xiaohe
+  server: 45.74.31.50
+  port: 4910
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 - xiaohe
 rules:
 - MATCH,PROXIES

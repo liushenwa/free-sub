@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - xiaohe
-  server: 185.87.255.47
+  server: 185.87.255.54
   port: 1080
   udp: true
   type: socks5

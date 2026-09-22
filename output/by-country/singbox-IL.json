@@ -5,105 +5,87 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "185.87.255.54",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "185.87.255.47",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "45.74.31.42",
       "server_port": 4820,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 4938,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 4770,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 5808,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.22",
       "server_port": 4131,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 6200,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 5895,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
       "server_port": 5048,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe",
         "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

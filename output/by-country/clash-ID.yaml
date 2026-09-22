@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 45.74.31.50
-  port: 20431
+  server: 45.74.31.47
+  port: 5500
   udp: true
   type: socks5
 proxy-groups:

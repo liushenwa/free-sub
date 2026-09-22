@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "178.57.106.43",
-      "server_port": 4145,
+      "server": "197.157.194.10",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+      "tag": "🇧🇮 BI 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇧🇮 BI 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

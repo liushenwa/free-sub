@@ -4,43 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 4131
-  udp: true
-  type: socks5
-- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  server: 185.87.255.47
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   server: 185.87.255.54
   port: 1080
   udp: true
   type: socks5
-- name: 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
-  server: 201.174.17.126
-  port: 7755
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
 rules:
 - MATCH,PROXIES

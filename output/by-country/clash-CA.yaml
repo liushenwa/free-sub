@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 4131
+- name: 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  server: 162.216.185.241
+  port: 1084
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
 rules:
 - MATCH,PROXIES

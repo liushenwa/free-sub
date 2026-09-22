@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "212.231.230.141",
-      "server_port": 18500,
-      "version": "5",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe"
+      "server": "201.174.17.126",
+      "server_port": 7755,
+      "version": "4",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

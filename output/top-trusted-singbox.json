@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "154.9.243.56",
-      "server_port": 1088,
+      "server": "45.74.31.22",
+      "server_port": 4131,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+      "tag": "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -18,20 +18,38 @@
       "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "185.87.255.54",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇬🇧 英国 (United Kingdom) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "201.174.17.126",
+      "server_port": 7755,
+      "version": "4",
+      "tag": "🇲🇽 墨西哥 (Mexico) 04 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

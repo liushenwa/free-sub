@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇹 立陶宛 (Lithuania) 01 ★★★☆☆ 家宽 R72 - xiaohe
-  server: 45.74.31.50
-  port: 36893
+- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.22
+  port: 4131
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇱🇹 立陶宛 (Lithuania) 01 ★★★☆☆ 家宽 R72 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇹 立陶宛 (Lithuania) 01 ★★★☆☆ 家宽 R72 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

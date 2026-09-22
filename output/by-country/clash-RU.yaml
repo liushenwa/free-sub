@@ -5,21 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 178.57.106.43
-  port: 4145
+  server: 78.110.158.176
+  port: 1080
   udp: true
-  type: socks4
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 37.193.218.66
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 83.221.222.194
+  port: 1080
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

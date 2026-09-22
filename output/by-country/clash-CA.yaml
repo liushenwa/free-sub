@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - xiaohe
-  server: 162.216.185.241
-  port: 1084
+  server: 132.243.168.30
+  port: 9150
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

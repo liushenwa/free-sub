@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  server: 57.128.249.250
-  port: 9052
+- name: 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
+  server: 185.190.154.121
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

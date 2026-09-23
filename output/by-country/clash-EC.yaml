@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇿🇦 南非 (South Africa) 01 - xiaohe
-  server: 105.214.51.155
-  port: 5678
+- name: 🇪🇨 EC 01 - xiaohe
+  server: 160.20.165.242
+  port: 8080
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇪🇨 EC 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇪🇨 EC 01 - xiaohe
 rules:
 - MATCH,PROXIES

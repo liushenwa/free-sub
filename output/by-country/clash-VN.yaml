@@ -8,7 +8,7 @@ proxies:
   server: 171.234.162.101
   port: 1085
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

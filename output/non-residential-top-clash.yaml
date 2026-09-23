@@ -9,24 +9,9 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  server: 185.87.255.54
+- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
+  server: 104.245.245.218
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 93.127.133.109
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.30
-  port: 5293
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.30
-  port: 9901
   udp: true
   type: socks5
 proxy-groups:
@@ -35,19 +20,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 02 - xiaohe
 rules:
 - MATCH,PROXIES

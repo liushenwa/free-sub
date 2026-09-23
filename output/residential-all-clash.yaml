@@ -9,19 +9,39 @@ proxies:
   port: 5062
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 14.225.68.207
-  port: 1337
+- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  server: 46.188.48.92
+  port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 171.234.162.101
-  port: 1083
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  server: 83.237.214.70
+  port: 1080
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  server: 80.79.241.118
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇪🇸 西班牙 (Spain) 05 ★★★★☆ 家宽 - xiaohe
+  server: 77.209.239.223
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
+  server: 77.50.132.155
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  server: 94.232.62.170
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.42
-  port: 6143
+  port: 7608
   udp: true
   type: socks5
 proxy-groups:
@@ -30,17 +50,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

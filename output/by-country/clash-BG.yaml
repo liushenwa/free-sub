@@ -10,10 +10,10 @@ proxies:
   udp: true
   type: socks4
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 94.72.158.129
-  port: 4153
+  server: 45.74.31.40
+  port: 6535
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

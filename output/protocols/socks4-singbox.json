@@ -12,73 +12,52 @@
     },
     {
       "type": "socks",
-      "server": "185.14.149.33",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "31.42.2.113",
       "server_port": 5678,
       "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.234.162.101",
-      "server_port": 1085,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "113.167.83.98",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.86.1.29",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇮🇳 印度 (India) 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.115.255.225",
-      "server_port": 36331,
-      "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe"
+      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "88.213.214.254",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe"
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "94.72.158.129",
+      "server": "162.216.185.241",
+      "server_port": 1084,
+      "version": "4",
+      "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "69.36.63.128",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇺🇸 美国 (United States) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "205.209.66.105",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇸🇾 SY 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.14.149.33",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "122.102.41.226",
       "server_port": 4153,
       "version": "4",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.116.114.37",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇮🇳 印度 (India) 10 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "177.136.124.45",
-      "server_port": 56113,
-      "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 11 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 08 - xiaohe"
     },
     {
       "type": "selector",
@@ -87,15 +66,12 @@
         "auto",
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
-        "🇵🇱 波兰 (Poland) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇮🇳 印度 (India) 10 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 04 - xiaohe",
+        "🇺🇸 美国 (United States) 05 - xiaohe",
+        "🇸🇾 SY 06 - xiaohe",
+        "🇵🇱 波兰 (Poland) 07 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 08 - xiaohe"
       ]
     },
     {
@@ -104,15 +80,12 @@
       "outbounds": [
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
-        "🇵🇱 波兰 (Poland) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
-        "🇮🇳 印度 (India) 10 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 11 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 04 - xiaohe",
+        "🇺🇸 美国 (United States) 05 - xiaohe",
+        "🇸🇾 SY 06 - xiaohe",
+        "🇵🇱 波兰 (Poland) 07 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

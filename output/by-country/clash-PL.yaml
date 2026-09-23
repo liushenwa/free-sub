@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 185.14.149.33
-  port: 4145
+  server: 31.42.2.113
+  port: 5678
   udp: true
   type: socks4
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 31.42.2.113
-  port: 5678
+  server: 185.14.149.33
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:

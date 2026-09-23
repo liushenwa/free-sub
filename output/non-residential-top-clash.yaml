@@ -14,46 +14,6 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 4820
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 4938
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 4770
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 5808
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 4131
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 6200
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 5895
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 5048
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -61,14 +21,6 @@ proxy-groups:
   - AUTO
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,13 +28,5 @@ proxy-groups:
   proxies:
   - 🇬🇧 英国 (United Kingdom) 01 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

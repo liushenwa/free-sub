@@ -1,0 +1,38 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "143.105.108.210",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇵🇾 PY 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇾 PY 01 ★★★★☆ 家宽 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇾 PY 01 ★★★★☆ 家宽 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

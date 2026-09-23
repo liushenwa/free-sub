@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "62.220.49.233",
+      "server": "90.151.59.8",
       "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe"
+      "version": "4",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -19,55 +19,55 @@
     },
     {
       "type": "socks",
-      "server": "85.172.81.216",
+      "server": "188.134.95.74",
       "server_port": 1080,
       "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "80.79.241.118",
+      "server": "109.201.65.165",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "88.87.69.240",
+      "server": "95.220.82.101",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "5.167.171.79",
+      "server": "77.50.132.155",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

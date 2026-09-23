@@ -4,54 +4,64 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
-  server: 62.220.49.233
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  server: 90.151.59.8
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   server: 90.154.61.187
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  server: 85.172.81.216
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.22
+  port: 4055
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  server: 188.134.95.74
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  server: 14.225.68.207
-  port: 1337
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  server: 80.79.241.118
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 06 ★★★★★ 家宽 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 05 ★★★★★ 家宽 - xiaohe
   server: 171.4.85.65
   port: 5678
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
-  server: 88.87.69.240
+- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 移动家宽 - xiaohe
+  server: 109.201.65.165
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
-  server: 5.167.171.79
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
   server: 171.234.162.101
-  port: 1085
+  port: 1083
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
+  server: 95.220.82.101
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇵🇾 PY 09 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.108.210
+  port: 1080
   udp: true
   type: socks4
-- name: 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
+- name: 🇨🇲 CM 10 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.153.7
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 11 ★★★★☆ 家宽 - xiaohe
+  server: 77.50.132.155
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇮🇱 以色列 (Israel) 12 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.30
-  port: 9872
+  port: 9875
   udp: true
   type: socks5
 proxy-groups:
@@ -59,30 +69,34 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 06 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇾 PY 09 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇲 CM 10 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 12 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 06 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇾 PY 09 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇲 CM 10 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 12 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

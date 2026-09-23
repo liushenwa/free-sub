@@ -4,33 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
-  server: 62.220.49.233
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  server: 90.151.59.8
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   server: 90.154.61.187
   port: 1080
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  server: 85.172.81.216
+  server: 188.134.95.74
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  server: 80.79.241.118
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  server: 109.201.65.165
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  server: 88.87.69.240
+- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
+  server: 95.220.82.101
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe
-  server: 5.167.171.79
+- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
+  server: 77.50.132.155
   port: 1080
   udp: true
   type: socks5
@@ -39,22 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,15 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  server: 45.74.31.22
+  port: 8113
+  udp: true
+  type: socks5
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  server: 45.74.31.25
+  port: 4269
+  udp: true
+  type: socks5
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 88.213.214.254
   port: 4145
   udp: true
   type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 45.74.31.40
-  port: 6535
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -21,6 +26,7 @@ proxy-groups:
   - AUTO
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +34,6 @@ proxy-groups:
   proxies:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
 rules:
 - MATCH,PROXIES

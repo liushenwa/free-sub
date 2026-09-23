@@ -5,15 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 45.74.31.47
-  port: 32846
+  server: 45.61.188.134
+  port: 44499
   udp: true
   type: socks5
 - name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 45.74.31.23
-  port: 6304
+  server: 162.255.110.52
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
+  server: 45.74.31.42
+  port: 44528
   udp: true
   type: socks5
+- name: 🇺🇸 美国 (United States) 04 - xiaohe
+  server: 154.12.58.81
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -21,6 +31,8 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +40,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇺🇸 美国 (United States) 04 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,24 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "185.87.255.47",
+      "server": "45.61.188.134",
+      "server_port": 44499,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "162.255.110.52",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "104.245.245.218",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.76.111.88",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇵🇱 波兰 (Poland) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,17 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 32846,
+      "server": "45.61.188.134",
+      "server_port": 44499,
       "version": "5",
       "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.23",
-      "server_port": 6304,
-      "version": "5",
+      "server": "162.255.110.52",
+      "server_port": 5678,
+      "version": "4",
       "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.42",
+      "server_port": 44528,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "154.12.58.81",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇺🇸 美国 (United States) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +37,9 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe"
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇺🇸 美国 (United States) 04 - xiaohe"
       ]
     },
     {
@@ -31,7 +47,9 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe"
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇺🇸 美国 (United States) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

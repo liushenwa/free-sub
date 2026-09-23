@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 94.72.158.129
-  port: 4153
+  server: 45.74.31.42
+  port: 5604
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 45.74.31.42
   port: 6607

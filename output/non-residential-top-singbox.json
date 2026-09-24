@@ -5,69 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 4466,
+      "server": "212.231.230.141",
+      "server_port": 18500,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
-      "server_port": 4652,
+      "server_port": 6437,
       "version": "5",
       "tag": "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 4028,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.50",
-      "server_port": 5339,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 5668,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 4587,
-      "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

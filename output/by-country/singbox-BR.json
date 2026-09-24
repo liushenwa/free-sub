@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "131.0.245.82",
-      "server_port": 60606,
+      "server": "143.255.109.76",
+      "server_port": 1080,
       "version": "4",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "186.194.127.41",
-      "server_port": 4153,
+      "server": "131.0.245.82",
+      "server_port": 60606,
       "version": "4",
       "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
     },

@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.25
-  port: 8114
+  port: 6490
   udp: true
   type: socks5
 proxy-groups:

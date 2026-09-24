@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
-  server: 47.82.73.135
-  port: 1011
+- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  server: 138.16.140.161
+  port: 8888
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
 rules:
 - MATCH,PROXIES

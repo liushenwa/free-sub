@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇳 HN 01 - xiaohe
-  server: 45.4.136.106
-  port: 10801
+- name: 🇦🇹 奥地利 (Austria) 01 - xiaohe
+  server: 91.107.188.12
+  port: 9092
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇳 HN 01 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇳 HN 01 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 01 - xiaohe
 rules:
 - MATCH,PROXIES

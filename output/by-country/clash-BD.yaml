@@ -1,0 +1,25 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
+  server: 103.66.176.45
+  port: 32251
+  udp: true
+  type: socks4
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
+rules:
+- MATCH,PROXIES

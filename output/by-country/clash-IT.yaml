@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 62.182.192.16
-  port: 1080
+- name: 🇮🇹 意大利 (Italy) 01 - xiaohe
+  server: 94.198.213.252
+  port: 5678
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇮🇹 意大利 (Italy) 01 - xiaohe
 rules:
 - MATCH,PROXIES

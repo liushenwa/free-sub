@@ -4,39 +4,74 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 85.172.81.216
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  server: 62.220.49.233
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  server: 104.161.23.122
+  port: 5062
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  server: 212.55.99.157
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe
+  server: 218.164.172.63
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe
   server: 103.18.47.79
   port: 4145
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
   server: 45.74.31.22
   port: 4055
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 11599
+- name: 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
+  server: 88.87.69.240
+  port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
   server: 77.51.182.67
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
-  server: 94.232.62.170
+- name: 🇷🇺 俄罗斯 (Russia) 09 ★★★★★ 家宽 - xiaohe
+  server: 5.17.2.117
   port: 1080
   udp: true
   type: socks5
-- name: 🇱🇹 立陶宛 (Lithuania) 07 ★★★☆☆ 家宽 R72 - xiaohe
-  server: 45.74.31.22
-  port: 32669
+- name: 🇹🇭 泰国 (Thailand) 10 ★★★★★ 家宽 - xiaohe
+  server: 171.4.85.65
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 11 ★★★★★ 家宽 - xiaohe
+  server: 181.233.94.101
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇲 CM 12 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.153.7
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇬 尼日利亚 (Nigeria) 13 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.112.46
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇱 以色列 (Israel) 14 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 8305
   udp: true
   type: socks5
 proxy-groups:
@@ -44,24 +79,38 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 07 ★★★☆☆ 家宽 R72 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 10 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 ★★★★★ 家宽 - xiaohe
+  - 🇨🇲 CM 12 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 13 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 14 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 07 ★★★☆☆ 家宽 R72 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 10 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 ★★★★★ 家宽 - xiaohe
+  - 🇨🇲 CM 12 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 13 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 14 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

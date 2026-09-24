@@ -5,24 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "102.39.156.82",
-      "server_port": 1080,
+      "server": "105.214.55.246",
+      "server_port": 5678,
       "version": "4",
       "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "105.214.104.26",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "213.150.221.198",
+      "server_port": 4153,
+      "version": "4",
+      "tag": "🇿🇦 南非 (South Africa) 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe",
+        "🇿🇦 南非 (South Africa) 02 - xiaohe",
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe",
+        "🇿🇦 南非 (South Africa) 02 - xiaohe",
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

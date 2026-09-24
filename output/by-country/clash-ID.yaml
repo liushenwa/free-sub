@@ -5,23 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 45.74.31.42
-  port: 5696
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 45.74.31.22
-  port: 9352
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 45.74.31.23
-  port: 4189
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 45.74.31.42
-  port: 4610
+  server: 103.18.78.156
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -30,17 +15,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,19 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 6742
+- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 4466
   udp: true
   type: socks5
-- name: 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
-  server: 183.88.240.139
-  port: 4153
+- name: 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 4652
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 8114
+  server: 45.74.31.42
+  port: 4587
   udp: true
   type: socks5
 proxy-groups:
@@ -24,16 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 9256,
-      "version": "5",
+      "server": "117.102.115.158",
+      "server_port": 4153,
+      "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.25",
-      "server_port": 4468,
+      "server": "45.74.31.42",
+      "server_port": 9256,
       "version": "5",
       "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
     },

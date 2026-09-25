@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  server: 117.102.115.158
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   server: 45.74.31.42
   port: 9256
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 45.74.31.25
-  port: 4468
   udp: true
   type: socks5
 proxy-groups:

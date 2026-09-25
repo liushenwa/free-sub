@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 6490
+- name: 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.112.46
+  port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

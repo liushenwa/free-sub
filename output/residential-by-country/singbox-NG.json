@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.78.151.82",
-      "server_port": 4145,
+      "server": "143.105.112.46",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+      "tag": "🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇳🇬 尼日利亚 (Nigeria) 01 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇿 MZ 01 - xiaohe
-  server: 45.74.31.40
-  port: 5162
+  server: 45.74.31.47
+  port: 5221
   udp: true
   type: socks5
 proxy-groups:

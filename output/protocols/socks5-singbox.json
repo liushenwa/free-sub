@@ -5,69 +5,132 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "95.31.29.206",
+      "server": "45.61.188.134",
+      "server_port": 44499,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "168.222.43.35",
+      "server_port": 8443,
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.76.111.88",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 4850,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.30",
+      "server_port": 8247,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 05 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.40",
-      "server_port": 5162,
+      "server_port": 4321,
       "version": "5",
-      "tag": "🇲🇿 MZ 02 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 06 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "77.241.244.133",
-      "server_port": 1080,
+      "server": "45.74.31.47",
+      "server_port": 5221,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+      "tag": "🇲🇿 MZ 07 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.41",
-      "server_port": 4371,
+      "server": "45.74.31.30",
+      "server_port": 8873,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 6447,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe"
     },
     {
       "type": "socks",
       "server": "212.231.230.141",
       "server_port": 18500,
       "version": "5",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe"
+      "tag": "🇪🇸 西班牙 (Spain) 10 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "163.223.77.236",
-      "server_port": 6666,
+      "server": "45.74.31.30",
+      "server_port": 11129,
       "version": "5",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 11 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.22",
+      "server_port": 8718,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 12 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.151.74.5",
+      "server_port": 2025,
+      "version": "5",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇲🇿 MZ 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 05 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+        "🇺🇸 美国 (United States) 05 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 - xiaohe",
+        "🇲🇿 MZ 07 - xiaohe",
+        "🇺🇸 美国 (United States) 08 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 10 - xiaohe",
+        "🇺🇸 美国 (United States) 11 - xiaohe",
+        "🇺🇸 美国 (United States) 12 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇲🇿 MZ 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 05 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+        "🇺🇸 美国 (United States) 05 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 - xiaohe",
+        "🇲🇿 MZ 07 - xiaohe",
+        "🇺🇸 美国 (United States) 08 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 10 - xiaohe",
+        "🇺🇸 美国 (United States) 11 - xiaohe",
+        "🇺🇸 美国 (United States) 12 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

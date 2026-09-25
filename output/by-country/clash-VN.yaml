@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 45.74.31.41
-  port: 4371
+  server: 45.74.31.40
+  port: 4321
   udp: true
   type: socks5
 proxy-groups:

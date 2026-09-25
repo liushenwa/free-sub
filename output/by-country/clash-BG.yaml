@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 45.74.31.42
-  port: 11809
+  server: 45.74.31.25
+  port: 5816
   udp: true
   type: socks5
 proxy-groups:

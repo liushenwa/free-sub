@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "200.115.96.65",
+      "server": "202.57.46.138",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇭🇳 HN 01 - xiaohe"
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇳 HN 01 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇳 HN 01 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

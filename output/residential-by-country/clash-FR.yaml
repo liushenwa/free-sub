@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇷 PR 01 - xiaohe
-  server: 154.64.219.4
-  port: 5555
+- name: 🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe
+  server: 57.128.249.250
+  port: 9052
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇷 PR 01 - xiaohe
+  - 🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇷 PR 01 - xiaohe
+  - 🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

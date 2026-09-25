@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "195.225.49.137",
-      "server_port": 55774,
+      "server": "57.128.249.250",
+      "server_port": 9052,
       "version": "4",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+      "tag": "🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇫🇷 法国 (France) 01 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

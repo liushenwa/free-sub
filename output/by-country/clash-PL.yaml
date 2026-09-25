@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 91.223.52.141
-  port: 5678
+  server: 185.14.149.33
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:

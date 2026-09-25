@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "31.76.111.88",
-      "server_port": 1080,
-      "version": "5",
+      "server": "168.222.43.35",
+      "server_port": 8443,
+      "version": "4",
       "tag": "🇩🇪 德国 (Germany) 01 - xiaohe"
     },
     {

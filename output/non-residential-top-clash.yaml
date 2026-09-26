@@ -4,49 +4,34 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 168.222.43.35
-  port: 8443
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 64.83.19.216
+  port: 10808
   udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 02 - xiaohe
+  type: socks4
+- name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  server: 45.81.154.75
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇩🇪 德国 (Germany) 03 - xiaohe
   server: 45.74.31.25
   port: 14022
   udp: true
   type: socks5
-- name: 🇩🇪 德国 (Germany) 03 - xiaohe
-  server: 45.74.31.42
-  port: 4654
+- name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  server: 62.83.33.70
+  port: 1080
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  server: 45.74.31.25
-  port: 11971
+- name: 🇩🇪 德国 (Germany) 05 - xiaohe
+  server: 45.74.31.50
+  port: 5389
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  server: 45.74.31.47
-  port: 7470
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 7450
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.23
-  port: 5991
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 6714
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.30
-  port: 8393
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 46.39.251.233
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -54,28 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇩🇪 德国 (Germany) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  - 🇩🇪 德国 (Germany) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇩🇪 德国 (Germany) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
+  - 🇩🇪 德国 (Germany) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 rules:
 - MATCH,PROXIES

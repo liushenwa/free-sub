@@ -4,8 +4,18 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 203.251.28.105
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 64.83.19.216
+  port: 10808
+  udp: true
+  type: socks4
+- name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  server: 45.81.154.75
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
+  server: 62.83.33.70
   port: 1080
   udp: true
   type: socks5
@@ -14,12 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  - 🇦🇹 奥地利 (Austria) 03 - xiaohe
 rules:
 - MATCH,PROXIES

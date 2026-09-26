@@ -5,15 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 45.74.31.22
-  port: 11371
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 69.36.63.128
-  port: 1080
+  server: 64.83.19.216
+  port: 10808
   udp: true
   type: socks4
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 45.74.31.42
+  port: 6754
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

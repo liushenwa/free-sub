@@ -8,11 +8,6 @@ proxies:
   server: 116.101.76.225
   port: 1081
   udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 移动家宽 - xiaohe
-  server: 171.238.31.130
-  port: 4001
-  udp: true
   type: socks4
 proxy-groups:
 - name: PROXIES
@@ -20,13 +15,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 移动家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 移动家宽 - xiaohe
 rules:
 - MATCH,PROXIES

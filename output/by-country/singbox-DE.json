@@ -5,24 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "168.222.43.35",
-      "server_port": 8443,
+      "server": "45.74.31.25",
+      "server_port": 14022,
       "version": "5",
       "tag": "🇩🇪 德国 (Germany) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.25",
-      "server_port": 14022,
+      "server": "45.74.31.50",
+      "server_port": 5389,
       "version": "5",
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 4654,
+      "server": "168.222.43.35",
+      "server_port": 8443,
       "version": "5",
       "tag": "🇩🇪 德国 (Germany) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.30",
+      "server_port": 12421,
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +38,8 @@
         "auto",
         "🇩🇪 德国 (Germany) 01 - xiaohe",
         "🇩🇪 德国 (Germany) 02 - xiaohe",
-        "🇩🇪 德国 (Germany) 03 - xiaohe"
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "outbounds": [
         "🇩🇪 德国 (Germany) 01 - xiaohe",
         "🇩🇪 德国 (Germany) 02 - xiaohe",
-        "🇩🇪 德国 (Germany) 03 - xiaohe"
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

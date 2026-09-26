@@ -5,42 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "116.101.76.225",
+      "server": "31.76.111.88",
       "server_port": 1080,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.50",
-      "server_port": 4472,
+      "server_port": 5389,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 12424,
+      "server": "45.74.31.50",
+      "server_port": 4491,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

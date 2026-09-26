@@ -4,57 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 203.251.28.105
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
-  server: 201.165.172.14
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  server: 23.137.228.149
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
   server: 116.101.76.225
   port: 1081
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.76.225
-  port: 1082
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 23335
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

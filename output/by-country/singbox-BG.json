@@ -5,17 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "79.110.122.220",
-      "server_port": 1080,
-      "version": "4",
+      "server": "45.74.31.30",
+      "server_port": 7156,
+      "version": "5",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 7470,
+      "server": "45.74.31.22",
+      "server_port": 5237,
       "version": "5",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.40",
+      "server_port": 5910,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +30,8 @@
       "outbounds": [
         "auto",
         "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
       ]
     },
     {
@@ -31,7 +39,8 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

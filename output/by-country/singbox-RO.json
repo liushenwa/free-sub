@@ -11,27 +11,18 @@
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
     },
     {
-      "type": "socks",
-      "server": "86.127.187.149",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

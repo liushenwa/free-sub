@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "154.37.218.130",
-      "server_port": 555,
+      "server": "45.74.31.25",
+      "server_port": 4229,
       "version": "5",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
+      "tag": "🇲🇿 MZ 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
+        "🇲🇿 MZ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
+        "🇲🇿 MZ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,64 +4,49 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 31.76.111.88
-  port: 1080
+- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 4466
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 45.74.31.30
-  port: 7156
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  server: 116.101.76.225
+  port: 1081
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 45.74.31.22
-  port: 5237
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  server: 45.74.31.40
-  port: 5910
-  udp: true
-  type: socks5
-- name: 🇯🇵 日本 (Japan) 05 - xiaohe
-  server: 116.28.78.125
-  port: 10808
-  udp: true
-  type: socks5
-- name: 🇨🇳 CN 06 - xiaohe
-  server: 221.225.48.84
-  port: 8989
-  udp: true
-  type: socks5
-- name: 🇲🇿 MZ 07 - xiaohe
-  server: 45.74.31.25
-  port: 4229
-  udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 08 - xiaohe
-  server: 45.74.31.50
-  port: 5389
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  server: 45.74.31.50
-  port: 4472
-  udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 10 - xiaohe
-  server: 45.74.31.50
-  port: 4491
-  udp: true
-  type: socks5
-- name: 🇯🇵 日本 (Japan) 11 - xiaohe
+- name: 🇯🇵 日本 (Japan) 03 - xiaohe
   server: 45.192.197.165
   port: 5555
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 12 - xiaohe
+- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.47
-  port: 12424
+  port: 4734
+  udp: true
+  type: socks5
+- name: 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 5984
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 46.39.251.233
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 5793
+  udp: true
+  type: socks5
+- name: 🇩🇪 德国 (Germany) 08 - xiaohe
+  server: 45.74.31.42
+  port: 4654
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  server: 172.86.112.25
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -69,34 +54,28 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇯🇵 日本 (Japan) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
-  - 🇲🇿 MZ 07 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
   - 🇩🇪 德国 (Germany) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇩🇪 德国 (Germany) 10 - xiaohe
-  - 🇯🇵 日本 (Japan) 11 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇯🇵 日本 (Japan) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
-  - 🇲🇿 MZ 07 - xiaohe
+  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
   - 🇩🇪 德国 (Germany) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇩🇪 德国 (Germany) 10 - xiaohe
-  - 🇯🇵 日本 (Japan) 11 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
 rules:
 - MATCH,PROXIES

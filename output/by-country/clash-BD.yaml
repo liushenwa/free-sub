@@ -10,13 +10,8 @@ proxies:
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  server: 103.229.86.73
-  port: 8080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 203.190.8.59
-  port: 1088
+  server: 103.205.134.188
+  port: 4153
   udp: true
   type: socks4
 proxy-groups:
@@ -26,7 +21,6 @@ proxy-groups:
   - AUTO
   - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,6 +28,5 @@ proxy-groups:
   proxies:
   - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
 rules:
 - MATCH,PROXIES

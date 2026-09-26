@@ -10,20 +10,20 @@ proxies:
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 103.102.13.107
-  port: 8080
+  server: 45.74.31.47
+  port: 5017
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 45.74.31.40
-  port: 4395
+  server: 45.74.31.50
+  port: 4013
   udp: true
   type: socks5
 - name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 45.74.31.50
-  port: 6847
+  server: 103.140.35.11
+  port: 4145
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

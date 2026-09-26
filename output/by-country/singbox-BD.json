@@ -12,17 +12,10 @@
     },
     {
       "type": "socks",
-      "server": "103.151.74.5",
-      "server_port": 2025,
-      "version": "5",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "115.127.95.82",
-      "server_port": 1080,
+      "server": "203.190.8.59",
+      "server_port": 1088,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
     },
     {
       "type": "selector",
@@ -30,8 +23,7 @@
       "outbounds": [
         "auto",
         "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
       ]
     },
     {
@@ -39,8 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

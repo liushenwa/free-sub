@@ -6,16 +6,51 @@
     {
       "type": "socks",
       "server": "45.74.31.25",
-      "server_port": 4850,
+      "server_port": 11971,
       "version": "5",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.25",
-      "server_port": 6447,
+      "server": "45.74.31.47",
+      "server_port": 7470,
       "version": "5",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 7503,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.22",
+      "server_port": 12096,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.30",
+      "server_port": 15802,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 9334,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.30",
+      "server_port": 10642,
+      "version": "5",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +58,12 @@
       "outbounds": [
         "auto",
         "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe"
       ]
     },
     {
@@ -31,7 +71,12 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

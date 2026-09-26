@@ -10,8 +10,13 @@ proxies:
   udp: true
   type: socks5
 - name: 🇩🇪 德国 (Germany) 02 - xiaohe
-  server: 31.76.111.88
-  port: 1080
+  server: 45.74.31.25
+  port: 14022
+  udp: true
+  type: socks5
+- name: 🇩🇪 德国 (Germany) 03 - xiaohe
+  server: 45.74.31.42
+  port: 4654
   udp: true
   type: socks5
 proxy-groups:
@@ -21,6 +26,7 @@ proxy-groups:
   - AUTO
   - 🇩🇪 德国 (Germany) 01 - xiaohe
   - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇩🇪 德国 (Germany) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +34,6 @@ proxy-groups:
   proxies:
   - 🇩🇪 德国 (Germany) 01 - xiaohe
   - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇩🇪 德国 (Germany) 03 - xiaohe
 rules:
 - MATCH,PROXIES

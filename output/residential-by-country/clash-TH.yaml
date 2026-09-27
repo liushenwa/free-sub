@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
-  server: 202.57.46.138
+- name: 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
+  server: 58.136.234.169
   port: 4145
   udp: true
   type: socks4
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

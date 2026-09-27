@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 79.110.122.220
-  port: 1080
+  server: 45.74.31.40
+  port: 4333
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

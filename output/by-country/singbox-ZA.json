@@ -11,18 +11,27 @@
       "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "102.36.127.249",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe",
+        "🇿🇦 南非 (South Africa) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe",
+        "🇿🇦 南非 (South Africa) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

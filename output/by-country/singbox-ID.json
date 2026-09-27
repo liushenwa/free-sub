@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "117.102.115.156",
+      "server": "117.102.115.158",
       "server_port": 4153,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
@@ -19,10 +19,17 @@
     },
     {
       "type": "socks",
-      "server": "103.146.185.172",
-      "server_port": 1083,
+      "server": "122.102.41.226",
+      "server_port": 4153,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.157.116.179",
+      "server_port": 10810,
+      "version": "4",
+      "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +38,8 @@
         "auto",
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "outbounds": [
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

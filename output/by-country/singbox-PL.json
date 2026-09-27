@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "46.151.114.131",
+      "server": "91.223.52.141",
       "server_port": 5678,
       "version": "4",
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "91.223.52.141",
-      "server_port": 5678,
+      "server": "185.14.149.33",
+      "server_port": 4145,
       "version": "4",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
     },

@@ -5,42 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "38.246.244.220",
-      "server_port": 555,
+      "server": "45.192.197.165",
+      "server_port": 5555,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+      "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "185.232.205.31",
+      "server": "64.56.71.124",
+      "server_port": 10808,
+      "version": "5",
+      "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.76.111.88",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 4333,
-      "version": "5",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

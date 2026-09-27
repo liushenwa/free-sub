@@ -4,14 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 38.246.244.220
-  port: 555
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 185.232.205.31
-  port: 1080
+- name: 🇯🇵 日本 (Japan) 01 - xiaohe
+  server: 45.192.197.165
+  port: 5555
   udp: true
   type: socks5
 proxy-groups:
@@ -19,14 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
 rules:
 - MATCH,PROXIES

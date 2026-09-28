@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 45.74.31.50
-  port: 5214
+- name: 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
+  server: 138.124.66.226
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
 rules:
 - MATCH,PROXIES

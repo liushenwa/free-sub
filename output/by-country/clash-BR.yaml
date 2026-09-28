@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 45.74.31.47
-  port: 5488
+  server: 170.246.199.114
+  port: 5678
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 168.232.213.9
   port: 4153

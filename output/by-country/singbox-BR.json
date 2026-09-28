@@ -5,17 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "170.246.199.114",
-      "server_port": 5678,
-      "version": "4",
+      "server": "45.74.31.47",
+      "server_port": 6159,
+      "version": "5",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "168.232.213.9",
-      "server_port": 4153,
-      "version": "4",
+      "server": "45.74.31.22",
+      "server_port": 4099,
+      "version": "5",
       "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "177.128.81.10",
+      "server_port": 81,
+      "version": "4",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.22",
+      "server_port": 5842,
+      "version": "5",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +37,9 @@
       "outbounds": [
         "auto",
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 04 - xiaohe"
       ]
     },
     {
@@ -31,7 +47,9 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

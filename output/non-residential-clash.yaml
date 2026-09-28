@@ -4,92 +4,113 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 185.110.124.87
+- name: 🇮🇳 印度 (India) 01 - xiaohe
+  server: 202.179.83.169
+  port: 51951
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  server: 103.9.134.114
   port: 1080
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  server: 45.74.31.50
+  port: 5214
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  server: 45.74.31.50
+  port: 4190
+  udp: true
+  type: socks5
+- name: 🇨🇦 加拿大 (Canada) 05 - xiaohe
+  server: 162.216.185.241
+  port: 1084
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 176.100.121.173
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  server: 202.142.170.115
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 08 - xiaohe
   server: 31.42.2.113
   port: 5678
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 170.246.199.114
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
-  server: 103.31.103.71
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇭 菲律宾 (Philippines) 05 - xiaohe
-  server: 202.57.46.138
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  server: 137.59.195.198
-  port: 1080
+- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  server: 45.74.31.47
+  port: 4813
   udp: true
   type: socks5
-- name: 🇹🇭 泰国 (Thailand) 07 - xiaohe
-  server: 125.27.10.84
-  port: 4153
+- name: 🇧🇷 巴西 (Brazil) 10 - xiaohe
+  server: 45.74.31.47
+  port: 6159
+  udp: true
+  type: socks5
+- name: 🇪🇸 西班牙 (Spain) 11 - xiaohe
+  server: 212.231.230.141
+  port: 18500
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 12 - xiaohe
+  server: 45.74.31.22
+  port: 4099
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 13 - xiaohe
+  server: 177.128.81.10
+  port: 81
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 08 - xiaohe
-  server: 168.232.213.9
-  port: 4153
+- name: 🇧🇷 巴西 (Brazil) 14 - xiaohe
+  server: 45.74.31.22
+  port: 5842
   udp: true
-  type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
-  server: 94.72.158.129
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
-  server: 185.190.154.121
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
-  server: 138.124.66.226
-  port: 1080
-  udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 05 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 07 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 08 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  - 🇵🇱 波兰 (Poland) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 10 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 11 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 13 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 05 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 07 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 08 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  - 🇵🇱 波兰 (Poland) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 10 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 11 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 13 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 14 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,53 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 4709
+  server: 45.74.31.40
+  port: 7838
   udp: true
   type: socks5
 - name: 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.25
-  port: 4415
+  server: 45.74.31.42
+  port: 8419
   udp: true
   type: socks5
 - name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.41
-  port: 4227
+  port: 5149
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 4011
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
+- name: 🇮🇱 以色列 (Israel) 04 - xiaohe
   server: 45.74.31.50
-  port: 4292
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 4339
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.41
-  port: 4056
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 4108
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.22
-  port: 4419
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 4317
+  port: 6309
   udp: true
   type: socks5
 proxy-groups:
@@ -62,13 +32,7 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -77,12 +41,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 - xiaohe
 rules:
 - MATCH,PROXIES

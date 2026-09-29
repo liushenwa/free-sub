@@ -4,12 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  server: 58.136.234.169
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
   server: 118.172.49.210
   port: 4153
   udp: true
@@ -19,14 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

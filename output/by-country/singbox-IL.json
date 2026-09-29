@@ -5,24 +5,105 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.50",
-      "server_port": 6160,
+      "server": "45.74.31.25",
+      "server_port": 4709,
       "version": "5",
       "tag": "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.25",
+      "server_port": 4415,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.41",
+      "server_port": 4227,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 4011,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 4292,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 4339,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.41",
+      "server_port": 4056,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 4108,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.22",
+      "server_port": 4419,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.50",
+      "server_port": 4317,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 08 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 09 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 10 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

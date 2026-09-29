@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 45.74.31.23
-  port: 4249
+- name: 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
+  server: 91.150.80.161
+  port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

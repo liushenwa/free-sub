@@ -4,39 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 203.251.28.105
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  server: 78.85.193.226
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 5181
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  server: 116.101.76.225
-  port: 1081
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  server: 118.71.227.218
+  port: 1100
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.76.225
-  port: 1082
+- name: 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
+  server: 200.16.211.68
+  port: 4153
   udp: true
   type: socks4
-- name: 🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe
-  server: 95.3.92.2
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.76.225
-  port: 1111
-  udp: true
-  type: socks5
-- name: 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.41
-  port: 4217
+- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.23
+  port: 34871
   udp: true
   type: socks5
 proxy-groups:
@@ -44,24 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

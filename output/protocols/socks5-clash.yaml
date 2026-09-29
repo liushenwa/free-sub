@@ -4,59 +4,44 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.23
-  port: 34871
+- name: 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
+  server: 125.24.156.113
+  port: 7080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  server: 78.85.193.226
+- name: 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  server: 95.3.92.2
   port: 1080
   udp: true
   type: socks5
-- name: 🇫🇷 法国 (France) 03 - xiaohe
-  server: 212.180.120.105
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇸🇮 斯洛文尼亚 (Slovenia) 04 - xiaohe
-  server: 45.74.31.40
-  port: 6294
-  udp: true
-  type: socks5
-- name: 🇲🇿 MZ 05 - xiaohe
-  server: 45.74.31.22
-  port: 6605
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
-  server: 45.74.31.22
-  port: 6065
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  server: 45.74.31.50
-  port: 4940
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+- name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
   server: 45.74.31.47
-  port: 9953
+  port: 7024
   udp: true
   type: socks5
-- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  server: 45.74.31.42
-  port: 8118
+- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.47
+  port: 4284
   udp: true
   type: socks5
-- name: 🇸🇮 斯洛文尼亚 (Slovenia) 10 - xiaohe
-  server: 45.74.31.40
-  port: 4288
+- name: 🇯🇵 日本 (Japan) 05 - xiaohe
+  server: 122.193.144.130
+  port: 1080
   udp: true
   type: socks5
-- name: 🇧🇷 巴西 (Brazil) 11 - xiaohe
-  server: 45.74.31.42
-  port: 4118
+- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  server: 212.231.230.141
+  port: 18500
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+  server: 118.179.136.122
+  port: 9090
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  server: 103.103.146.149
+  port: 7080
   udp: true
   type: socks5
 proxy-groups:
@@ -64,32 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇫🇷 法国 (France) 03 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 04 - xiaohe
-  - 🇲🇿 MZ 05 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 10 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇫🇷 法国 (France) 03 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 04 - xiaohe
-  - 🇲🇿 MZ 05 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 10 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,23 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 78.85.193.226
+  server: 90.151.38.60
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  server: 95.3.92.2
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 118.71.227.218
-  port: 1100
+- name: 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
+  server: 125.24.156.113
+  port: 7080
   udp: true
-  type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
-  server: 200.16.211.68
-  port: 4153
-  udp: true
-  type: socks4
+  type: socks5
 - name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.23
-  port: 34871
+  server: 45.74.31.47
+  port: 7024
   udp: true
   type: socks5
 proxy-groups:
@@ -30,8 +30,8 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
@@ -39,8 +39,8 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
   - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

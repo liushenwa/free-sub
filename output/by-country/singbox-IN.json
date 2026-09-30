@@ -5,17 +5,45 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 4262,
+      "server": "45.74.31.40",
+      "server_port": 8414,
       "version": "5",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 5471,
+      "server": "45.74.31.40",
+      "server_port": 8241,
       "version": "5",
       "tag": "🇮🇳 印度 (India) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.41",
+      "server_port": 4519,
+      "version": "5",
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 4415,
+      "version": "5",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "146.196.63.234",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.23",
+      "server_port": 7005,
+      "version": "5",
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +51,11 @@
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe",
+        "🇮🇳 印度 (India) 03 - xiaohe",
+        "🇮🇳 印度 (India) 04 - xiaohe",
+        "🇮🇳 印度 (India) 05 - xiaohe",
+        "🇮🇳 印度 (India) 06 - xiaohe"
       ]
     },
     {
@@ -31,7 +63,11 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe",
+        "🇮🇳 印度 (India) 03 - xiaohe",
+        "🇮🇳 印度 (India) 04 - xiaohe",
+        "🇮🇳 印度 (India) 05 - xiaohe",
+        "🇮🇳 印度 (India) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

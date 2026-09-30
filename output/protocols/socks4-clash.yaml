@@ -4,29 +4,44 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
-  server: 202.57.46.138
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
   server: 31.42.2.113
   port: 5678
   udp: true
   type: socks4
-- name: 🇸🇾 SY 03 - xiaohe
+- name: 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  server: 209.94.84.193
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
+  server: 202.57.46.138
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇸🇾 SY 04 - xiaohe
   server: 205.209.66.105
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  server: 103.205.134.188
-  port: 4153
+- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  server: 103.23.100.9
+  port: 1080
   udp: true
   type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  server: 79.110.122.220
-  port: 1080
+- name: 🇮🇳 印度 (India) 06 - xiaohe
+  server: 146.196.63.234
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
+  server: 185.190.154.121
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 08 - xiaohe
+  server: 105.214.10.6
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -34,20 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇸🇾 SY 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
+  - 🇸🇾 SY 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
+  - 🇿🇦 南非 (South Africa) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇭 菲律宾 (Philippines) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇸🇾 SY 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
+  - 🇸🇾 SY 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
+  - 🇿🇦 南非 (South Africa) 08 - xiaohe
 rules:
 - MATCH,PROXIES

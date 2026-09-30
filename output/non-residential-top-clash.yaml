@@ -4,9 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇷 法国 (France) 01 - xiaohe
-  server: 185.229.202.11
-  port: 1080
+- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 192.141.74.246
+  port: 1088
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.41
+  port: 5141
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇫🇷 法国 (France) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇷 法国 (France) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

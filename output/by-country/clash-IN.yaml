@@ -5,13 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  server: 45.74.31.47
-  port: 4262
+  server: 45.74.31.40
+  port: 8414
   udp: true
   type: socks5
 - name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 45.74.31.40
+  port: 8241
+  udp: true
+  type: socks5
+- name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: 45.74.31.41
+  port: 4519
+  udp: true
+  type: socks5
+- name: 🇮🇳 印度 (India) 04 - xiaohe
   server: 45.74.31.47
-  port: 5471
+  port: 4415
+  udp: true
+  type: socks5
+- name: 🇮🇳 印度 (India) 05 - xiaohe
+  server: 146.196.63.234
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇮🇳 印度 (India) 06 - xiaohe
+  server: 45.74.31.23
+  port: 7005
   udp: true
   type: socks5
 proxy-groups:
@@ -21,6 +41,10 @@ proxy-groups:
   - AUTO
   - 🇮🇳 印度 (India) 01 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +52,9 @@ proxy-groups:
   proxies:
   - 🇮🇳 印度 (India) 01 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 rules:
 - MATCH,PROXIES

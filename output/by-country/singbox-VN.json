@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 5949,
+      "server": "116.96.36.148",
+      "server_port": 1090,
       "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.23",
-      "server_port": 4308,
+      "server": "45.74.31.41",
+      "server_port": 4787,
       "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe"
     },

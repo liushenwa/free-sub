@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  server: 103.162.57.42
-  port: 1080
+  server: 103.205.134.188
+  port: 4153
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

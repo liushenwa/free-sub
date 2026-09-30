@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
-  server: 91.150.80.161
-  port: 1080
+  server: 185.190.154.121
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:

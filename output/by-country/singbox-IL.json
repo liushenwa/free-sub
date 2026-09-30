@@ -6,23 +6,32 @@
     {
       "type": "socks",
       "server": "45.74.31.47",
-      "server_port": 4284,
+      "server_port": 8636,
       "version": "5",
       "tag": "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 7439,
+      "version": "5",
+      "tag": "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -9,14 +9,14 @@ proxies:
   port: 8600
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 8636
+- name: 🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe
+  server: 45.74.31.50
+  port: 4147
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 7439
+- name: 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
+  server: 45.74.31.22
+  port: 10427
   udp: true
   type: socks5
 proxy-groups:
@@ -25,15 +25,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe
-  - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe
-  - 🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe
+  - 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

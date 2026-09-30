@@ -12,17 +12,17 @@
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 8636,
+      "server": "45.74.31.50",
+      "server_port": 4147,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 7439,
+      "server": "45.74.31.22",
+      "server_port": 10427,
       "version": "5",
-      "tag": "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe"
     },
     {
       "type": "selector",
@@ -30,8 +30,8 @@
       "outbounds": [
         "auto",
         "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe",
+        "🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe"
       ]
     },
     {
@@ -39,8 +39,8 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 02 - xiaohe",
+        "🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

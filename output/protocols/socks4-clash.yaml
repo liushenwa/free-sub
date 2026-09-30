@@ -4,13 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 90.151.38.60
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  server: 117.102.115.156
+  port: 4153
   udp: true
   type: socks4
-- name: 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
-  server: 91.150.80.161
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  server: 103.23.100.9
   port: 1080
   udp: true
   type: socks4
@@ -19,29 +19,44 @@ proxies:
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  server: 177.66.43.189
-  port: 4145
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+  server: 94.72.158.129
+  port: 4153
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
+  server: 86.127.187.149
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
   server: 31.42.2.113
   port: 5678
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 103.23.100.9
-  port: 1080
+- name: 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
+  server: 45.172.177.1
+  port: 59341
   udp: true
   type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
-  server: 202.142.170.115
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  server: 43.248.27.11
+  port: 54730
   udp: true
   type: socks4
-- name: 🇿🇦 南非 (South Africa) 08 - xiaohe
+- name: 🇿🇦 南非 (South Africa) 09 - xiaohe
   server: 105.214.10.6
   port: 5678
+  udp: true
+  type: socks4
+- name: 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
+  server: 185.190.154.121
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇨🇦 加拿大 (Canada) 11 - xiaohe
+  server: 162.216.185.241
+  port: 1084
   udp: true
   type: socks4
 proxy-groups:
@@ -49,26 +64,32 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇿🇦 南非 (South Africa) 09 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇿🇦 南非 (South Africa) 09 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 11 - xiaohe
 rules:
 - MATCH,PROXIES

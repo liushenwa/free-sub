@@ -5,24 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.50",
-      "server_port": 4619,
+      "server": "45.74.31.42",
+      "server_port": 5949,
       "version": "5",
-      "tag": "🇲🇿 MZ 01 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.23",
+      "server_port": 4308,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇿 MZ 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇿 MZ 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

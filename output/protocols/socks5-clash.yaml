@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 10454
+- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  server: 203.251.28.105
+  port: 1080
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
@@ -14,63 +14,43 @@ proxies:
   port: 8917
   udp: true
   type: socks5
-- name: 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
-  server: 45.74.31.47
-  port: 8600
+- name: 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 14562
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 8636
+- name: 🇯🇵 日本 (Japan) 04 - xiaohe
+  server: 45.192.197.165
+  port: 5555
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 103.236.190.197
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 103.162.57.42
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 7439
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  server: 45.74.31.47
-  port: 11058
-  udp: true
-  type: socks5
-- name: 🇲🇿 MZ 08 - xiaohe
-  server: 45.74.31.50
-  port: 4619
-  udp: true
-  type: socks5
-- name: 🇸🇮 斯洛文尼亚 (Slovenia) 09 - xiaohe
-  server: 45.74.31.50
-  port: 4147
-  udp: true
-  type: socks5
-- name: 🇮🇹 意大利 (Italy) 10 - xiaohe
-  server: 188.215.44.164
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇸🇦 沙特 (Saudi Arabia) 11 - xiaohe
-  server: 45.74.31.50
-  port: 6320
-  udp: true
-  type: socks5
-- name: 🇸🇮 斯洛文尼亚 (Slovenia) 12 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
   server: 45.74.31.22
-  port: 10427
+  port: 6065
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe
-  server: 45.74.31.25
-  port: 7460
+- name: 🇮🇱 以色列 (Israel) 07 - xiaohe
+  server: 45.74.31.42
+  port: 5875
   udp: true
   type: socks5
-- name: 🇨🇭 瑞士 (Switzerland) 14 - xiaohe
-  server: 138.124.66.226
+- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  server: 45.74.31.42
+  port: 5949
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  server: 45.74.31.23
+  port: 4308
+  udp: true
+  type: socks5
+- name: 🇵🇾 PY 10 - xiaohe
+  server: 143.202.210.76
   port: 1080
   udp: true
   type: socks5
@@ -79,38 +59,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  - 🇲🇿 MZ 08 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 09 - xiaohe
-  - 🇮🇹 意大利 (Italy) 10 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 11 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 12 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 14 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+  - 🇮🇱 以色列 (Israel) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇵🇾 PY 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 03 - xiaohe
-  - 🇮🇱 以色列 (Israel) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇱 以色列 (Israel) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
-  - 🇲🇿 MZ 08 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 09 - xiaohe
-  - 🇮🇹 意大利 (Italy) 10 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 11 - xiaohe
-  - 🇸🇮 斯洛文尼亚 (Slovenia) 12 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 14 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+  - 🇮🇱 以色列 (Israel) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇵🇾 PY 10 - xiaohe
 rules:
 - MATCH,PROXIES

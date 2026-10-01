@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇳 印度 (India) 01 - xiaohe
-  server: 117.198.221.34
-  port: 4153
+- name: 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
+  server: 45.115.115.37
+  port: 9090
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

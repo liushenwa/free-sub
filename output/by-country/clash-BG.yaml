@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 45.74.31.25
-  port: 7416
+  server: 45.74.31.50
+  port: 7488
   udp: true
   type: socks5
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 45.74.31.50
-  port: 7414
+  server: 45.74.31.40
+  port: 4666
   udp: true
   type: socks5
 proxy-groups:

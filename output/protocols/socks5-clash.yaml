@@ -10,38 +10,43 @@ proxies:
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 116.96.36.148
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 45.74.31.25
-  port: 7416
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  server: 42.114.62.148
-  port: 20001
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   server: 42.116.103.107
-  port: 1106
+  port: 1111
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  server: 116.96.36.148
-  port: 1090
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  server: 116.101.13.111
+  port: 20002
   udp: true
   type: socks5
-- name: 🇩🇪 德国 (Germany) 07 - xiaohe
-  server: 138.124.66.226
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  server: 94.19.74.39
   port: 1080
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 42.114.2.222
+  port: 20001
+  udp: true
+  type: socks5
+- name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
   server: 45.74.31.50
-  port: 7414
+  port: 7488
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 45.74.31.40
+  port: 5479
+  udp: true
+  type: socks5
+- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+  server: 45.74.31.40
+  port: 4666
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  server: 45.74.31.47
+  port: 5567
   udp: true
   type: socks5
 proxy-groups:
@@ -51,12 +56,13 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  - 🇩🇪 德国 (Germany) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,11 +70,12 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  - 🇩🇪 德国 (Germany) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,42 +5,42 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 42.114.62.148
+  server: 42.114.2.222
   port: 20001
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 42.116.103.107
-  port: 1106
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 116.96.36.148
-  port: 1090
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  server: 116.97.117.27
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 101.96.105.87
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  server: 1.54.101.89
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  server: 42.114.2.230
-  port: 20001
+- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  server: 116.96.36.148
+  port: 1111
   udp: true
   type: socks4
+- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  server: 45.74.31.40
+  port: 5479
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 42.116.103.107
+  port: 1090
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  server: 45.74.31.47
+  port: 5567
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 - xiaohe
@@ -51,7 +51,7 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 - xiaohe

@@ -4,44 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 31.42.2.113
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇨🇦 加拿大 (Canada) 02 - xiaohe
+- name: 🇨🇦 加拿大 (Canada) 01 - xiaohe
   server: 209.94.84.193
   port: 1080
   udp: true
   type: socks4
-- name: 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
-  server: 202.57.46.138
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇸🇾 SY 04 - xiaohe
-  server: 205.209.66.105
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   server: 103.23.100.9
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 06 - xiaohe
-  server: 146.196.63.234
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 178.57.106.43
   port: 4145
-  udp: true
-  type: socks4
-- name: 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
-  server: 185.190.154.121
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇿🇦 南非 (South Africa) 08 - xiaohe
-  server: 105.214.10.6
-  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -49,26 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
-  - 🇸🇾 SY 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇨🇦 加拿大 (Canada) 02 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 03 - xiaohe
-  - 🇸🇾 SY 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 07 - xiaohe
-  - 🇿🇦 南非 (South Africa) 08 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 69.168.225.235
+  server: 138.124.66.226
   port: 1080
   udp: true
   type: socks5

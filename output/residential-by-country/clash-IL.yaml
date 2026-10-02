@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.46
-  port: 11535
+  server: 45.74.31.42
+  port: 10794
   udp: true
   type: socks5
 proxy-groups:

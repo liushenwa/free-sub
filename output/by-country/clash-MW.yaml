@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇼 MW 01 - xiaohe
-  server: 41.70.9.10
+  server: 41.70.106.1
   port: 5678
   udp: true
   type: socks4

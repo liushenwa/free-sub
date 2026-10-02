@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.115.115.37
-  port: 9090
+- name: 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
+  server: 138.124.66.226
+  port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇩 孟加拉 (Bangladesh) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
 rules:
 - MATCH,PROXIES

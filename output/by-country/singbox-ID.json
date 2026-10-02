@@ -5,38 +5,17 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.140.35.11",
-      "server_port": 4145,
-      "version": "4",
+      "server": "45.74.31.41",
+      "server_port": 5025,
+      "version": "5",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.23.100.9",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "122.102.41.226",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.105.79.18",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.22",
-      "server_port": 5757,
+      "server": "45.74.31.23",
+      "server_port": 6551,
       "version": "5",
-      "tag": "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
     },
     {
       "type": "selector",
@@ -44,10 +23,7 @@
       "outbounds": [
         "auto",
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
       ]
     },
     {
@@ -55,10 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

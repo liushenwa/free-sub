@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "213.150.221.198",
-      "server_port": 4153,
+      "server": "105.214.32.156",
+      "server_port": 5678,
       "version": "4",
       "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "102.214.147.147",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe",
-        "🇿🇦 南非 (South Africa) 02 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe",
-        "🇿🇦 南非 (South Africa) 02 - xiaohe"
+        "🇿🇦 南非 (South Africa) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,29 +4,44 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  server: 31.56.189.176
-  port: 10809
+- name: 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  server: 38.102.125.24
+  port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 45.61.188.134
+  port: 44499
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   server: 64.90.10.204
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇳 印度 (India) 03 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  server: 64.90.10.49
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: 45.74.31.42
+  port: 7409
+  udp: true
+  type: socks5
+- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  server: 45.74.31.30
+  port: 4024
+  udp: true
+  type: socks5
+- name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
+  server: 45.74.31.40
+  port: 4128
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
   server: 45.74.31.47
-  port: 5966
-  udp: true
-  type: socks5
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
-  server: 62.60.186.226
-  port: 1081
-  udp: true
-  type: socks5
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
-  server: 103.74.93.217
-  port: 10808
+  port: 6799
   udp: true
   type: socks5
 proxy-groups:
@@ -34,20 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇬🇧 英国 (United Kingdom) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 rules:
 - MATCH,PROXIES

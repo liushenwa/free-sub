@@ -4,26 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "socks",
-      "server": "45.80.37.229",
-      "server_port": 10801,
-      "version": "5",
-      "tag": "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
-      ],
+      "outbounds": [],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

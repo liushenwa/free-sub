@@ -5,36 +5,36 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "95.84.178.39",
+      "server": "64.90.10.204",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.80.37.229",
-      "server_port": 10801,
+      "server": "206.43.110.118",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇳🇱 荷兰 (Netherlands) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.30",
-      "server_port": 11553,
-      "version": "5",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.50",
-      "server_port": 5725,
+      "server_port": 4317,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.50",
-      "server_port": 6811,
+      "server_port": 9670,
+      "version": "5",
+      "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.41",
+      "server_port": 4094,
       "version": "5",
       "tag": "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
     },
@@ -43,10 +43,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
-        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
       ]
     },
@@ -54,10 +54,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe",
-        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

@@ -4,34 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  server: 171.241.156.41
-  port: 5000
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  server: 95.84.178.39
+  port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.23
-  port: 4664
+- name: 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  server: 45.80.37.229
+  port: 10801
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 03 - xiaohe
-  server: 45.61.188.134
-  port: 44499
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  server: 45.74.31.30
+  port: 11553
   udp: true
   type: socks5
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  server: 45.74.31.47
-  port: 8261
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
   server: 45.74.31.50
-  port: 10496
+  port: 5725
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  server: 45.74.31.25
-  port: 10993
+- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  server: 45.74.31.50
+  port: 6811
   udp: true
   type: socks5
 proxy-groups:
@@ -39,22 +34,20 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
 rules:
 - MATCH,PROXIES

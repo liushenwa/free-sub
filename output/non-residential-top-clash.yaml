@@ -4,14 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 45.61.188.134
-  port: 44499
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.50
-  port: 10496
+- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  server: 45.80.37.229
+  port: 10801
   udp: true
   type: socks5
 proxy-groups:
@@ -19,14 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
 rules:
 - MATCH,PROXIES

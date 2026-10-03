@@ -4,29 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
-  server: 111.125.154.22
+- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  server: 94.103.2.238
   port: 1080
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
-  server: 200.16.211.68
+- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  server: 181.78.67.162
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
+  server: 103.31.103.71
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
+  server: 202.142.153.220
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 05 - xiaohe
+  server: 102.214.147.147
   port: 4153
-  udp: true
-  type: socks4
-- name: 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
-  server: 176.236.29.193
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇭 菲律宾 (Philippines) 04 - xiaohe
-  server: 202.57.46.138
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  server: 181.205.207.66
-  port: 1080
   udp: true
   type: socks4
 - name: 🇧🇷 巴西 (Brazil) 06 - xiaohe
@@ -35,22 +35,22 @@ proxies:
   udp: true
   type: socks4
 - name: 🇮🇳 印度 (India) 07 - xiaohe
-  server: 45.117.29.137
-  port: 10888
+  server: 103.86.1.25
+  port: 4145
   udp: true
   type: socks4
-- name: 🇲🇩 摩尔多瓦 (Moldova) 08 - xiaohe
-  server: 94.103.2.238
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  server: 43.248.27.11
+  port: 54730
   udp: true
   type: socks4
-- name: 🇷🇸 塞尔维亚 (Serbia) 09 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 203.190.8.59
+  port: 1088
+  udp: true
+  type: socks4
+- name: 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
   server: 91.150.80.161
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
-  server: 202.142.153.220
   port: 1080
   udp: true
   type: socks4
@@ -59,30 +59,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
   - 🇧🇷 巴西 (Brazil) 06 - xiaohe
   - 🇮🇳 印度 (India) 07 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 08 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 09 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
   - 🇧🇷 巴西 (Brazil) 06 - xiaohe
   - 🇮🇳 印度 (India) 07 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 08 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 09 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇸 塞尔维亚 (Serbia) 10 - xiaohe
 rules:
 - MATCH,PROXIES

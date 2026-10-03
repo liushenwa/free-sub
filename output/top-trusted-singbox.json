@@ -4,26 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "socks",
-      "server": "38.102.125.24",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe"
-      ],
+      "outbounds": [],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

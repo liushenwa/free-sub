@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 45.74.31.42
-  port: 7409
+  server: 45.74.31.30
+  port: 6089
   udp: true
   type: socks5
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 45.74.31.30
-  port: 4024
+  server: 45.74.31.47
+  port: 5164
   udp: true
   type: socks5
 proxy-groups:

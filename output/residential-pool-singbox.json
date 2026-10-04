@@ -4,16 +4,35 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "111.125.154.22",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.191.229.11",
+      "server_port": 6080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

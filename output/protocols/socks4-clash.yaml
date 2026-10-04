@@ -4,33 +4,38 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 69.36.63.128
+- name: 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  server: 111.125.154.22
   port: 1080
   udp: true
   type: socks4
-- name: 🇱🇾 LY 02 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 02 ★★★★☆ 家宽 - xiaohe
+  server: 185.218.93.36
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  server: 143.255.109.76
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇩 CD 04 - xiaohe
+  server: 41.190.233.61
+  port: 36926
+  udp: true
+  type: socks4
+- name: 🇱🇾 LY 05 - xiaohe
   server: 165.16.99.209
   port: 1080
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
+- name: 🇦🇷 阿根廷 (Argentina) 06 - xiaohe
   server: 181.209.98.106
   port: 1080
   udp: true
   type: socks4
-- name: 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  server: 45.118.77.67
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇩 摩尔多瓦 (Moldova) 05 - xiaohe
+- name: 🇲🇩 摩尔多瓦 (Moldova) 07 - xiaohe
   server: 94.103.2.238
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 06 - xiaohe
-  server: 181.233.94.101
   port: 1080
   udp: true
   type: socks4
@@ -39,22 +44,24 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇱🇾 LY 02 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 05 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇨🇩 CD 04 - xiaohe
+  - 🇱🇾 LY 05 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 06 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇱🇾 LY 02 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 03 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 05 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇨🇩 CD 04 - xiaohe
+  - 🇱🇾 LY 05 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 06 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 07 - xiaohe
 rules:
 - MATCH,PROXIES

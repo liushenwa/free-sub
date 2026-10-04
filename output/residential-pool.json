@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T10:31:54.356494+00:00",
+  "updated_at": "2026-10-04T16:23:22.782153+00:00",
   "description": "动态五星家宽候选池；下次运行会优先读取并重新测活。连续失败达到阈值自动移除。",
   "max_failures": 6,
   "nodes": [
@@ -26,6 +26,29 @@
       "last_verified": "2026-10-02T03:30:21.868980+00:00",
       "consecutive_failures": 1,
       "last_checked": "2026-10-02T10:29:52.222884+00:00"
+    },
+    {
+      "raw": "socks5://185.191.229.11:6080",
+      "server": "185.191.229.11",
+      "port": 6080,
+      "proto": "socks",
+      "exit_ip": "73.155.25.14",
+      "country": "US",
+      "net_type": "residential",
+      "residential_score": 96,
+      "residential_stars": 5,
+      "anonymity": "unknown",
+      "anonymity_score": 48,
+      "risk_score": 10,
+      "fraud_score": 12,
+      "stability_rate": 1.0,
+      "survival_streak": 0,
+      "latency_ms": 907,
+      "speed_bps": 967952,
+      "overall_score": 79,
+      "source": "",
+      "last_verified": "2026-10-04T16:23:22.777120+00:00",
+      "consecutive_failures": 0
     },
     {
       "raw": "socks5://104.161.23.122:5062",
@@ -121,7 +144,7 @@
       "source": "",
       "last_verified": "2026-09-26T15:42:38.385221+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-03T22:44:35.147065+00:00"
+      "last_checked": "2026-10-04T16:23:22.781977+00:00"
     },
     {
       "raw": "socks4://90.151.59.8:1080",
@@ -145,7 +168,7 @@
       "source": "",
       "last_verified": "2026-09-23T16:02:02.431418+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T03:49:30.313774+00:00"
+      "last_checked": "2026-10-04T16:23:22.781984+00:00"
     },
     {
       "raw": "socks5://52.8.53.117:6000",
@@ -218,30 +241,6 @@
       "last_checked": "2026-09-30T10:19:10.158738+00:00"
     },
     {
-      "raw": "socks4://111.125.154.22:1080",
-      "server": "111.125.154.22",
-      "port": 1080,
-      "proto": "socks",
-      "exit_ip": "111.125.154.22",
-      "country": "AF",
-      "net_type": "mobile",
-      "residential_score": 100,
-      "residential_stars": 5,
-      "anonymity": "unknown",
-      "anonymity_score": 48,
-      "risk_score": 10,
-      "fraud_score": 0,
-      "stability_rate": 1.0,
-      "survival_streak": 0,
-      "latency_ms": 1826,
-      "speed_bps": 728589,
-      "overall_score": 71,
-      "source": "",
-      "last_verified": "2026-10-03T09:46:46.095580+00:00",
-      "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356343+00:00"
-    },
-    {
       "raw": "socks5://77.51.182.67:1080",
       "server": "77.51.182.67",
       "port": 1080,
@@ -263,7 +262,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.622935+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-03T15:40:32.092003+00:00"
+      "last_checked": "2026-10-04T16:23:22.781988+00:00"
     },
     {
       "raw": "socks4://181.233.94.101:1080",
@@ -287,7 +286,7 @@
       "source": "",
       "last_verified": "2026-10-02T03:30:21.869000+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356353+00:00"
+      "last_checked": "2026-10-04T16:23:22.781991+00:00"
     },
     {
       "raw": "socks4://58.187.104.62:1062",
@@ -405,7 +404,7 @@
       "source": "",
       "last_verified": "2026-09-23T22:49:02.122571+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356357+00:00"
+      "last_checked": "2026-10-04T16:23:22.781994+00:00"
     },
     {
       "raw": "socks5://37.110.1.165:1080",
@@ -595,7 +594,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.622924+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356364+00:00"
+      "last_checked": "2026-10-04T16:23:22.781998+00:00"
     },
     {
       "raw": "socks4://218.164.172.63:5678",
@@ -643,6 +642,29 @@
       "last_verified": "2026-09-17T22:42:00.077334+00:00",
       "consecutive_failures": 0,
       "last_checked": "2026-09-18T18:55:49.740879+00:00"
+    },
+    {
+      "raw": "socks4://111.125.154.22:1080",
+      "server": "111.125.154.22",
+      "port": 1080,
+      "proto": "socks",
+      "exit_ip": "111.125.154.22",
+      "country": "AF",
+      "net_type": "mobile",
+      "residential_score": 100,
+      "residential_stars": 5,
+      "anonymity": "unknown",
+      "anonymity_score": 48,
+      "risk_score": 10,
+      "fraud_score": 0,
+      "stability_rate": 1.0,
+      "survival_streak": 0,
+      "latency_ms": 3011,
+      "speed_bps": 660370,
+      "overall_score": 64,
+      "source": "",
+      "last_verified": "2026-10-04T16:23:22.777139+00:00",
+      "consecutive_failures": 0
     },
     {
       "raw": "socks5://45.74.31.22:4055",
@@ -713,7 +735,7 @@
       "source": "",
       "last_verified": "2026-09-23T22:49:02.122561+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T03:49:30.313794+00:00"
+      "last_checked": "2026-10-04T16:23:22.782001+00:00"
     },
     {
       "raw": "socks5://5.17.2.117:1080",
@@ -737,7 +759,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.623010+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356367+00:00"
+      "last_checked": "2026-10-04T16:23:22.782003+00:00"
     },
     {
       "raw": "socks4://23.137.228.232:1080",
@@ -972,7 +994,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.623001+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356372+00:00"
+      "last_checked": "2026-10-04T16:23:22.782007+00:00"
     },
     {
       "raw": "socks5://45.74.31.47:5181",
@@ -1210,7 +1232,7 @@
       "source": "",
       "last_verified": "2026-09-23T19:37:13.340576+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-03T15:40:32.092034+00:00"
+      "last_checked": "2026-10-04T16:23:22.782010+00:00"
     },
     {
       "raw": "socks4://144.255.17.68:7890",
@@ -1281,7 +1303,7 @@
       "source": "",
       "last_verified": "2026-09-23T19:37:13.340583+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T03:49:30.313800+00:00"
+      "last_checked": "2026-10-04T16:23:22.782013+00:00"
     },
     {
       "raw": "socks5://45.74.31.47:5693",
@@ -1569,7 +1591,7 @@
       "source": "",
       "last_verified": "2026-09-19T08:37:16.038770+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T03:49:30.313803+00:00"
+      "last_checked": "2026-10-04T16:23:22.782017+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:5339",
@@ -1689,7 +1711,7 @@
       "source": "",
       "last_verified": "2026-09-23T16:02:02.431461+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T03:49:30.313805+00:00"
+      "last_checked": "2026-10-04T16:23:22.782019+00:00"
     },
     {
       "raw": "socks5://45.74.31.23:4664",
@@ -1970,7 +1992,7 @@
       "source": "",
       "last_verified": "2026-09-21T09:42:58.779173+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-10-03T19:08:54.079608+00:00"
+      "last_checked": "2026-10-04T16:23:22.782023+00:00"
     },
     {
       "raw": "socks4://14.225.68.207:1337",
@@ -2065,7 +2087,7 @@
       "source": "",
       "last_verified": "2026-10-03T03:16:04.807020+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-10-04T03:49:30.313812+00:00"
+      "last_checked": "2026-10-04T16:23:22.782027+00:00"
     },
     {
       "raw": "socks5://5.167.171.79:1080",
@@ -2232,7 +2254,7 @@
       "source": "",
       "last_verified": "2026-09-21T23:10:24.567516+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-04T10:31:54.356386+00:00"
+      "last_checked": "2026-10-04T16:23:22.782030+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:12774",

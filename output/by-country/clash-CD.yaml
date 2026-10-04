@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  server: 103.20.63.18
-  port: 443
+- name: 🇨🇩 CD 01 - xiaohe
+  server: 41.190.233.61
+  port: 36926
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
+  - 🇨🇩 CD 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
+  - 🇨🇩 CD 01 - xiaohe
 rules:
 - MATCH,PROXIES

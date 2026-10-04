@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
-  server: 111.125.154.22
+- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  server: 181.205.207.66
   port: 1080
   udp: true
   type: socks4
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

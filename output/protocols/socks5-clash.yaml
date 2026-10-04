@@ -9,14 +9,24 @@ proxies:
   port: 6080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  server: 118.71.44.176
+  port: 1117
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   server: 103.20.63.18
   port: 443
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 103.151.74.5
-  port: 2025
+- name: 🇮🇶 IQ 04 - xiaohe
+  server: 130.255.95.177
+  port: 4080
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 42.112.52.16
+  port: 20001
   udp: true
   type: socks5
 proxy-groups:
@@ -25,15 +35,19 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇮🇶 IQ 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  - 🇮🇶 IQ 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
 rules:
 - MATCH,PROXIES

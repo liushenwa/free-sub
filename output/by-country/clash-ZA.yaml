@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 185.14.149.33
-  port: 4145
+- name: 🇿🇦 南非 (South Africa) 01 - xiaohe
+  server: 105.214.69.194
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇿🇦 南非 (South Africa) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇿🇦 南非 (South Africa) 01 - xiaohe
 rules:
 - MATCH,PROXIES

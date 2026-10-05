@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "165.16.99.209",
+      "server": "175.107.30.110",
       "server_port": 1080,
-      "version": "4",
-      "tag": "🇱🇾 LY 01 - xiaohe"
+      "version": "5",
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇾 LY 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇾 LY 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

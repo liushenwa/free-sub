@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
-  server: 31.57.219.168
-  port: 6002
+- name: 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
+  server: 200.16.211.68
+  port: 4153
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

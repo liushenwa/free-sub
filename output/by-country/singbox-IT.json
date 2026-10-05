@@ -11,18 +11,27 @@
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "45.66.206.242",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 意大利 (Italy) 01 - xiaohe"
+        "🇮🇹 意大利 (Italy) 01 - xiaohe",
+        "🇮🇹 意大利 (Italy) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 意大利 (Italy) 01 - xiaohe"
+        "🇮🇹 意大利 (Italy) 01 - xiaohe",
+        "🇮🇹 意大利 (Italy) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

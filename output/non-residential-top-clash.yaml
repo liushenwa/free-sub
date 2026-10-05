@@ -4,36 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 185.73.115.109
-  port: 2080
+- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  server: 181.143.45.218
+  port: 1080
   udp: true
-  type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 185.73.115.43
-  port: 2080
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  server: 118.71.44.176
+  port: 1080
   udp: true
-  type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 143.20.21.5
-  port: 1082
-  udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -9,31 +9,17 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 185.73.115.109
-  port: 2080
-  udp: true
-  type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 185.73.115.43
-  port: 2080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 rules:
 - MATCH,PROXIES

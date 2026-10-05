@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "169.255.48.50",
-      "server_port": 1080,
+      "server": "200.16.211.68",
+      "server_port": 4153,
       "version": "4",
-      "tag": "🇹🇿 TZ 01 - xiaohe"
+      "tag": "🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇿 TZ 01 - xiaohe"
+        "🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇿 TZ 01 - xiaohe"
+        "🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

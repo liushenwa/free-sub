@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "183.106.215.208",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

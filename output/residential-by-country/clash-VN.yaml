@@ -8,10 +8,10 @@ proxies:
   server: 118.71.44.176
   port: 1081
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
   server: 117.0.78.133
-  port: 1100
+  port: 1039
   udp: true
   type: socks4
 proxy-groups:

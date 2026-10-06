@@ -13,7 +13,7 @@ proxies:
   server: 118.71.44.176
   port: 1081
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

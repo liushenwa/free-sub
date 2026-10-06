@@ -4,49 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 130.255.95.177
-  port: 4080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 45.74.31.47
-  port: 9554
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 45.74.31.47
-  port: 7779
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   server: 118.71.44.176
-  port: 1111
+  port: 1081
   udp: true
   type: socks5
-- name: 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
-  server: 202.142.153.220
+- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
+  server: 46.72.176.213
   port: 1080
   udp: true
   type: socks5
-- name: 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  server: 119.73.109.210
-  port: 1080
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
+  server: 45.61.188.134
+  port: 44499
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: 194.9.233.171
-  port: 1080
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: 185.73.115.109
+  port: 2080
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
-  server: 202.4.119.226
-  port: 9090
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 09 - xiaohe
-  server: 45.74.31.47
-  port: 8833
+- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  server: 45.74.31.41
+  port: 5583
   udp: true
   type: socks5
 proxy-groups:
@@ -54,28 +34,20 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
 rules:
 - MATCH,PROXIES

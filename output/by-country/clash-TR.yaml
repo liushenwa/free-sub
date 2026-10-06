@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 185.73.115.109
+  server: 185.73.115.43
   port: 2080
   udp: true
   type: socks5

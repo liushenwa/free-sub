@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
-  server: 111.125.154.22
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  server: 178.67.206.199
   port: 1080
   udp: true
   type: socks4
@@ -13,76 +13,69 @@ proxies:
   server: 183.106.215.208
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.41
-  port: 5422
+  server: 118.71.44.176
+  port: 1104
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  server: 83.237.92.106
+  port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
-  server: 118.71.44.176
-  port: 1105
-  udp: true
-  type: socks4
 - name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   server: 118.71.44.176
-  port: 1106
+  port: 1112
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 58.187.44.103
-  port: 1086
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
   server: 118.71.44.176
-  port: 1103
+  port: 1107
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  server: 58.187.44.103
-  port: 1084
+- name: 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  server: 109.63.154.23
+  port: 10808
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 09 ★★★★☆ 家宽 - xiaohe
-  server: 94.188.123.226
-  port: 2080
-  udp: true
-  type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
+- name: 🇦🇷 阿根廷 (Argentina) 08 ★★★★☆ 家宽 - xiaohe
   server: 200.16.211.68
   port: 4153
   udp: true
   type: socks4
+- name: 🇺🇸 美国 (United States) 09 ★★★★☆ 家宽 - xiaohe
+  server: 23.95.222.32
+  port: 6060
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 09 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇫 AF 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 09 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

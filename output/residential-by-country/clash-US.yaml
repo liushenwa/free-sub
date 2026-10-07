@@ -9,31 +9,17 @@ proxies:
   port: 6060
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  server: 45.230.174.21
-  port: 4153
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
 rules:
 - MATCH,PROXIES

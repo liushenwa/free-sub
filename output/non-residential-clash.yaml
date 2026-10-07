@@ -4,84 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  server: 45.230.174.21
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇽🇰 XK 02 - xiaohe
-  server: 82.114.86.173
-  port: 1090
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  server: 181.78.67.162
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇸🇦 沙特 (Saudi Arabia) 04 - xiaohe
-  server: 130.94.57.165
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇲🇾 马来西亚 (Malaysia) 05 - xiaohe
-  server: 115.135.214.113
-  port: 1083
-  udp: true
-  type: socks5
-- name: 🇲🇩 摩尔多瓦 (Moldova) 06 - xiaohe
-  server: 94.103.2.238
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  server: 189.90.99.14
-  port: 1090
-  udp: true
-  type: socks5
-- name: 🇺🇦 乌克兰 (Ukraine) 08 - xiaohe
-  server: 194.44.255.112
-  port: 8090
-  udp: true
-  type: socks5
-- name: 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
+- name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   server: 195.13.182.212
   port: 8080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  server: 42.112.52.62
-  port: 20001
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 187.62.144.64
+  port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 11 - xiaohe
-  server: 118.71.44.176
-  port: 1114
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
+  server: 109.95.175.64
+  port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 12 ★★★★★ 家宽 - xiaohe
-  server: 118.71.44.176
-  port: 1083
-  udp: true
-  type: socks4
-- name: 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
-  server: 195.13.182.212
-  port: 8888
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 14 ★★★★★ 家宽 - xiaohe
-  server: 118.71.44.176
-  port: 1113
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 15 ★★★★☆ 家宽 - xiaohe
-  server: 118.71.44.176
-  port: 1115
-  udp: true
-  type: socks4
-- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
-  server: 217.165.51.161
-  port: 10800
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 103.155.185.26
+  port: 1088
   udp: true
   type: socks5
 proxy-groups:
@@ -89,42 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  - 🇽🇰 XK 02 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 04 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 05 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 08 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 12 ★★★★★ 家宽 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 14 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 15 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 16 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  - 🇽🇰 XK 02 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 04 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 05 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 08 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 12 ★★★★★ 家宽 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 14 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 15 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 16 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
 rules:
 - MATCH,PROXIES

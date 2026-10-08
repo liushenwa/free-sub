@@ -12,52 +12,10 @@
     },
     {
       "type": "socks",
-      "server": "118.168.201.115",
-      "server_port": 1082,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "118.168.217.62",
-      "server_port": 1082,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "118.168.226.222",
-      "server_port": 1082,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "49.12.188.170",
-      "server_port": 3001,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "103.18.47.79",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 06 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "217.60.35.156",
-      "server_port": 10808,
-      "version": "5",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "83.237.82.146",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 移动家宽 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -65,13 +23,7 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 06 ★★★★★ 家宽 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 移动家宽 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -79,13 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 ★★★★★ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 06 ★★★★★ 家宽 - xiaohe",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 07 ★★★★★ 家宽 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 移动家宽 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

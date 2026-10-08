@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "52.128.241.107",
+      "server": "52.128.241.106",
       "server_port": 1080,
       "version": "5",
       "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
@@ -19,10 +19,10 @@
     },
     {
       "type": "socks",
-      "server": "118.168.217.62",
-      "server_port": 1082,
+      "server": "52.128.241.107",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 03 - xiaohe"
     },
     {
       "type": "socks",
@@ -32,30 +32,14 @@
       "tag": "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe"
     },
     {
-      "type": "socks",
-      "server": "118.168.201.115",
-      "server_port": 1082,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "118.168.226.222",
-      "server_port": 1082,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 ★★★★★ 家宽 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 - xiaohe",
         "🇺🇸 美国 (United States) 02 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 06 ★★★★★ 家宽 - xiaohe"
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -64,10 +48,8 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 - xiaohe",
         "🇺🇸 美国 (United States) 02 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 06 ★★★★★ 家宽 - xiaohe"
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

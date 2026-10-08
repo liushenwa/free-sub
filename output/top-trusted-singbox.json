@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "23.95.222.32",
-      "server_port": 6060,
+      "server": "82.114.86.173",
+      "server_port": 1090,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇽🇰 XK 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇽🇰 XK 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇽🇰 XK 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

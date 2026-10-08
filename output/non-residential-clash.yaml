@@ -4,92 +4,99 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 52.128.241.106
-  port: 1080
+- name: 🇽🇰 XK 01 - xiaohe
+  server: 82.114.86.173
+  port: 1090
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 52.128.241.109
-  port: 1080
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
+  server: 157.90.113.23
+  port: 9052
   udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 - xiaohe
-  server: 52.128.241.107
-  port: 1080
+  type: socks4
+- name: 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  server: 195.13.169.219
+  port: 4153
   udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 04 - xiaohe
-  server: 185.191.229.11
-  port: 6026
+  type: socks4
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 62.60.186.226
+  port: 1080
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 27.69.78.20
+  port: 1083
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
   server: 27.69.77.5
   port: 1119
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 103.105.79.18
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  server: 36.66.146.93
+  port: 4153
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
-  server: 27.69.78.20
-  port: 1080
+- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  server: 27.69.77.5
+  port: 1111
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
-  server: 27.69.68.185
-  port: 1033
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 202.4.107.33
+  port: 9090
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  server: 27.69.77.5
-  port: 1089
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  server: 95.170.122.80
+  port: 2080
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  server: 27.69.78.20
-  port: 1079
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+  server: 45.74.31.41
+  port: 4343
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 11 - xiaohe
-  server: 27.69.78.20
-  port: 1089
+  type: socks5
+- name: 🇺🇸 美国 (United States) 12 - xiaohe
+  server: 185.191.229.11
+  port: 6026
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇺🇸 美国 (United States) 04 - xiaohe
+  - 🇽🇰 XK 01 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
   - 🇻🇳 越南 (Vietnam) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇺🇸 美国 (United States) 04 - xiaohe
+  - 🇽🇰 XK 01 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
   - 🇻🇳 越南 (Vietnam) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 12 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,150 +5,186 @@
   "outbounds": [
     {
       "type": "socks",
+      "server": "46.23.166.161",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "176.195.18.41",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
       "server": "183.106.215.208",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "116.106.111.28",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "103.18.47.79",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.233.81.107",
-      "server_port": 5002,
+      "server": "23.95.222.32",
+      "server_port": 6060,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "200.16.211.68",
+      "server_port": 4153,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.233.87.227",
-      "server_port": 5005,
+      "server": "82.114.86.173",
+      "server_port": 1090,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇽🇰 XK 08 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "52.128.241.106",
+      "server": "157.90.113.23",
+      "server_port": 9052,
+      "version": "4",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 09 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "195.13.169.219",
+      "server_port": 4153,
+      "version": "4",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "62.60.186.226",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 05 - xiaohe"
+      "tag": "🇫🇮 芬兰 (Finland) 11 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "52.128.241.109",
-      "server_port": 1080,
+      "server": "27.69.78.20",
+      "server_port": 1083,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "52.128.241.107",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 07 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "185.191.229.11",
-      "server_port": 6026,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 08 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 12 - xiaohe"
     },
     {
       "type": "socks",
       "server": "27.69.77.5",
       "server_port": 1119,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 09 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.105.79.18",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 10 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "27.69.78.20",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 11 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "27.69.68.185",
-      "server_port": 1033,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 12 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "27.69.77.5",
-      "server_port": 1089,
-      "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 13 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "27.69.78.20",
-      "server_port": 1079,
+      "server": "36.66.146.93",
+      "server_port": 4153,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 14 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 14 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "27.69.78.20",
-      "server_port": 1089,
-      "version": "4",
+      "server": "27.69.77.5",
+      "server_port": 1111,
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 15 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "202.4.107.33",
+      "server_port": 9090,
+      "version": "4",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "95.170.122.80",
+      "server_port": 2080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 17 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.41",
+      "server_port": 4343,
+      "version": "5",
+      "tag": "🇮🇩 印尼 (Indonesia) 18 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.191.229.11",
+      "server_port": 6026,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 19 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 05 - xiaohe",
-        "🇺🇸 美国 (United States) 06 - xiaohe",
-        "🇺🇸 美国 (United States) 07 - xiaohe",
-        "🇺🇸 美国 (United States) 08 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 10 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 11 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe",
+        "🇽🇰 XK 08 - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 09 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 11 - xiaohe",
         "🇻🇳 越南 (Vietnam) 12 - xiaohe",
         "🇻🇳 越南 (Vietnam) 13 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 14 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 15 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 14 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 15 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 17 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 18 - xiaohe",
+        "🇺🇸 美国 (United States) 19 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 05 - xiaohe",
-        "🇺🇸 美国 (United States) 06 - xiaohe",
-        "🇺🇸 美国 (United States) 07 - xiaohe",
-        "🇺🇸 美国 (United States) 08 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 10 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 11 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 05 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 06 ★★★★☆ 家宽 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe",
+        "🇽🇰 XK 08 - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 09 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 11 - xiaohe",
         "🇻🇳 越南 (Vietnam) 12 - xiaohe",
         "🇻🇳 越南 (Vietnam) 13 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 14 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 15 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 14 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 15 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 17 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 18 - xiaohe",
+        "🇺🇸 美国 (United States) 19 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

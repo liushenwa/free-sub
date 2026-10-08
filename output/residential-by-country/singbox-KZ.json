@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "41.190.233.61",
-      "server_port": 36926,
-      "version": "4",
-      "tag": "🇨🇩 CD 01 - xiaohe"
+      "server": "217.60.35.156",
+      "server_port": 10808,
+      "version": "5",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇩 CD 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇩 CD 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,59 +4,84 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇽🇰 XK 01 - xiaohe
-  server: 82.114.86.173
-  port: 1090
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 52.128.241.107
+  port: 1080
   udp: true
   type: socks5
-- name: 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 52.128.241.109
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇸🇦 沙特 (Saudi Arabia) 03 - xiaohe
   server: 130.94.57.165
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇩 CD 03 - xiaohe
-  server: 41.190.233.61
-  port: 36926
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 202.4.107.33
+  port: 9090
   udp: true
   type: socks4
-- name: 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
+- name: 🇰🇭 柬埔寨 (Cambodia) 05 - xiaohe
   server: 45.118.77.67
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 45.74.31.23
-  port: 4677
+- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  server: 45.74.31.41
+  port: 4560
   udp: true
   type: socks5
-- name: 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  server: 195.13.182.212
-  port: 8888
+- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  server: 45.74.31.41
+  port: 5056
   udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  server: 115.127.90.227
+  type: socks5
+- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
+  server: 62.60.186.226
   port: 1080
   udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 202.40.179.18
+  port: 4145
+  udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  server: 45.74.31.47
+  port: 5164
+  udp: true
+  type: socks5
+- name: 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
   server: 150.107.107.152
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 09 - xiaohe
-  server: 45.74.31.41
-  port: 4111
+- name: 🇵🇱 波兰 (Poland) 12 - xiaohe
+  server: 109.95.175.64
+  port: 1080
   udp: true
   type: socks5
-- name: 🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe
-  server: 195.13.182.212
-  port: 8080
+- name: 🇸🇲 SM 13 - xiaohe
+  server: 157.90.113.23
+  port: 9052
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 14 - xiaohe
+  server: 45.74.31.23
+  port: 4402
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 15 - xiaohe
+  server: 103.105.79.18
+  port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 11 - xiaohe
-  server: 185.17.1.218
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 16 - xiaohe
+  server: 45.74.31.41
+  port: 4204
   udp: true
   type: socks5
 proxy-groups:
@@ -64,32 +89,42 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇽🇰 XK 01 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
-  - 🇨🇩 CD 03 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇸🇦 沙特 (Saudi Arabia) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
+  - 🇵🇱 波兰 (Poland) 12 - xiaohe
+  - 🇸🇲 SM 13 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 14 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 15 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 16 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇽🇰 XK 01 - xiaohe
-  - 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
-  - 🇨🇩 CD 03 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 10 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇸🇦 沙特 (Saudi Arabia) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
+  - 🇵🇱 波兰 (Poland) 12 - xiaohe
+  - 🇸🇲 SM 13 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 14 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 15 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 16 - xiaohe
 rules:
 - MATCH,PROXIES

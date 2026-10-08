@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
-  port: 1080
+- name: 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
+  server: 200.16.211.68
+  port: 4153
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
@@ -14,9 +14,9 @@ proxies:
   port: 4145
   udp: true
   type: socks4
-- name: 🇨🇩 CD 03 - xiaohe
-  server: 41.190.233.61
-  port: 36926
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  server: 202.4.107.33
+  port: 9090
   udp: true
   type: socks4
 - name: 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
@@ -24,24 +24,19 @@ proxies:
   port: 1080
   udp: true
   type: socks4
-- name: 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
-  server: 195.13.182.212
-  port: 8888
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 202.40.179.18
+  port: 4145
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  server: 115.127.90.227
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
+- name: 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
   server: 150.107.107.152
   port: 1080
   udp: true
   type: socks4
-- name: 🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe
-  server: 195.13.182.212
-  port: 8080
+- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  server: 103.105.79.18
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -49,26 +44,24 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇩 CD 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇩 CD 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇰🇭 柬埔寨 (Cambodia) 04 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 rules:
 - MATCH,PROXIES

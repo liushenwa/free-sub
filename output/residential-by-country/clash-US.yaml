@@ -5,28 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  server: 49.12.188.170
-  port: 3001
+  server: 157.180.24.140
+  port: 11295
   udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
-  server: 23.95.222.32
-  port: 6060
-  udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

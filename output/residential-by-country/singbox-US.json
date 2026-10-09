@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "49.12.188.170",
-      "server_port": 3001,
-      "version": "5",
+      "server": "157.180.24.140",
+      "server_port": 11295,
+      "version": "4",
       "tag": "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "23.95.222.32",
-      "server_port": 6060,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

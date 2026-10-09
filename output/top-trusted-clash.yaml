@@ -4,43 +4,36 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe
-  server: 46.23.166.161
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 52.128.241.107
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  server: 176.195.18.41
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 52.128.241.106
   port: 1080
   udp: true
   type: socks5
-- name: 🇽🇰 XK 03 - xiaohe
-  server: 82.114.86.173
-  port: 1090
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
+  server: 52.128.241.109
+  port: 1080
   udp: true
   type: socks5
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
-  server: 157.90.113.23
-  port: 9052
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇽🇰 XK 03 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇽🇰 XK 03 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
 rules:
 - MATCH,PROXIES

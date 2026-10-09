@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "46.23.166.161",
+      "server": "189.51.168.163",
       "server_port": 1080,
-      "version": "5",
-      "tag": "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe"
+      "version": "4",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

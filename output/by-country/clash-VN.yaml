@@ -5,20 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 27.69.78.20
-  port: 1083
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
   server: 27.69.77.5
   port: 1119
   udp: true
   type: socks5
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  server: 27.69.78.20
+  port: 1079
+  udp: true
+  type: socks4
 - name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
   server: 27.69.77.5
-  port: 1111
+  port: 1089
   udp: true
-  type: socks5
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  server: 27.69.78.20
+  port: 1089
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -27,6 +32,7 @@ proxy-groups:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -35,5 +41,6 @@ proxy-groups:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
 rules:
 - MATCH,PROXIES

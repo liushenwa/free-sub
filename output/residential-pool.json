@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T04:00:15.443168+00:00",
+  "updated_at": "2026-10-09T11:17:36.746897+00:00",
   "description": "动态五星家宽候选池；下次运行会优先读取并重新测活。连续失败达到阈值自动移除。",
   "max_failures": 6,
   "nodes": [
@@ -26,6 +26,29 @@
       "last_verified": "2026-10-02T03:30:21.868980+00:00",
       "consecutive_failures": 1,
       "last_checked": "2026-10-02T10:29:52.222884+00:00"
+    },
+    {
+      "raw": "socks5://183.106.215.208:1080",
+      "server": "183.106.215.208",
+      "port": 1080,
+      "proto": "socks",
+      "exit_ip": "59.24.42.101",
+      "country": "KR",
+      "net_type": "residential",
+      "residential_score": 96,
+      "residential_stars": 5,
+      "anonymity": "unknown",
+      "anonymity_score": 48,
+      "risk_score": 10,
+      "fraud_score": 4,
+      "stability_rate": 1.0,
+      "survival_streak": 0,
+      "latency_ms": 790,
+      "speed_bps": 995644,
+      "overall_score": 80,
+      "source": "",
+      "last_verified": "2026-10-09T11:17:36.739401+00:00",
+      "consecutive_failures": 0
     },
     {
       "raw": "socks5://118.168.201.115:1082",
@@ -189,7 +212,8 @@
       "overall_score": 74,
       "source": "",
       "last_verified": "2026-10-09T04:00:15.437557+00:00",
-      "consecutive_failures": 0
+      "consecutive_failures": 1,
+      "last_checked": "2026-10-09T11:17:36.746701+00:00"
     },
     {
       "raw": "socks5://201.165.172.14:1080",
@@ -263,28 +287,27 @@
       "consecutive_failures": 0
     },
     {
-      "raw": "socks5://183.106.215.208:1080",
-      "server": "183.106.215.208",
+      "raw": "socks5://31.76.40.187:1080",
+      "server": "31.76.40.187",
       "port": 1080,
       "proto": "socks",
-      "exit_ip": "59.24.42.101",
-      "country": "KR",
-      "net_type": "residential",
-      "residential_score": 96,
+      "exit_ip": "31.76.40.187",
+      "country": "DE",
+      "net_type": "mobile",
+      "residential_score": 91,
       "residential_stars": 5,
       "anonymity": "unknown",
       "anonymity_score": 48,
       "risk_score": 10,
-      "fraud_score": 4,
+      "fraud_score": 0,
       "stability_rate": 1.0,
       "survival_streak": 0,
-      "latency_ms": 1033,
-      "speed_bps": 894947,
-      "overall_score": 73,
+      "latency_ms": 1814,
+      "speed_bps": 1040542,
+      "overall_score": 74,
       "source": "",
-      "last_verified": "2026-10-08T21:11:58.167699+00:00",
-      "consecutive_failures": 1,
-      "last_checked": "2026-10-09T04:00:15.442993+00:00"
+      "last_verified": "2026-10-09T11:17:36.739419+00:00",
+      "consecutive_failures": 0
     },
     {
       "raw": "socks5://103.213.217.91:1080",
@@ -450,7 +473,7 @@
       "source": "",
       "last_verified": "2026-10-08T04:23:14.064288+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-10-09T04:00:15.443002+00:00"
+      "last_checked": "2026-10-09T11:17:36.746711+00:00"
     },
     {
       "raw": "socks4://58.187.104.62:1062",
@@ -760,30 +783,6 @@
       "last_checked": "2026-10-09T04:00:15.443006+00:00"
     },
     {
-      "raw": "socks5://83.237.82.146:1080",
-      "server": "83.237.82.146",
-      "port": 1080,
-      "proto": "socks",
-      "exit_ip": "83.237.82.146",
-      "country": "RU",
-      "net_type": "mobile",
-      "residential_score": 91,
-      "residential_stars": 5,
-      "anonymity": "unknown",
-      "anonymity_score": 48,
-      "risk_score": 10,
-      "fraud_score": 0,
-      "stability_rate": 1.0,
-      "survival_streak": 0,
-      "latency_ms": 1251,
-      "speed_bps": 415002,
-      "overall_score": 65,
-      "source": "",
-      "last_verified": "2026-10-08T04:23:14.064278+00:00",
-      "consecutive_failures": 0,
-      "last_checked": "2026-10-08T21:11:58.172617+00:00"
-    },
-    {
       "raw": "socks5://212.55.99.157:1080",
       "server": "212.55.99.157",
       "port": 1080,
@@ -898,8 +897,8 @@
       "overall_score": 64,
       "source": "",
       "last_verified": "2026-10-08T04:23:14.064304+00:00",
-      "consecutive_failures": 0,
-      "last_checked": "2026-10-08T21:11:58.172620+00:00"
+      "consecutive_failures": 1,
+      "last_checked": "2026-10-09T11:17:36.746718+00:00"
     },
     {
       "raw": "socks5://45.74.31.22:4055",
@@ -1206,7 +1205,7 @@
       "source": "",
       "last_verified": "2026-09-30T10:19:10.152857+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-08T21:11:58.172623+00:00"
+      "last_checked": "2026-10-09T11:17:36.746722+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:10496",
@@ -1276,7 +1275,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.623001+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-09T04:00:15.443012+00:00"
+      "last_checked": "2026-10-09T11:17:36.746725+00:00"
     },
     {
       "raw": "socks5://45.74.31.47:5181",
@@ -1491,7 +1490,7 @@
       "source": "",
       "last_verified": "2026-09-26T09:14:57.177781+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-08T21:11:58.172629+00:00"
+      "last_checked": "2026-10-09T11:17:36.746729+00:00"
     },
     {
       "raw": "socks5://95.131.10.134:1080",
@@ -1633,7 +1632,7 @@
       "source": "",
       "last_verified": "2026-09-23T19:37:13.340583+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-08T21:11:58.172631+00:00"
+      "last_checked": "2026-10-09T11:17:36.746732+00:00"
     },
     {
       "raw": "socks5://45.74.31.47:5693",
@@ -1900,6 +1899,29 @@
       "last_checked": "2026-09-21T02:43:38.663690+00:00"
     },
     {
+      "raw": "socks5://83.237.82.146:1080",
+      "server": "83.237.82.146",
+      "port": 1080,
+      "proto": "socks",
+      "exit_ip": "83.237.82.146",
+      "country": "RU",
+      "net_type": "mobile",
+      "residential_score": 91,
+      "residential_stars": 5,
+      "anonymity": "unknown",
+      "anonymity_score": 48,
+      "risk_score": 10,
+      "fraud_score": 0,
+      "stability_rate": 1.0,
+      "survival_streak": 0,
+      "latency_ms": 2344,
+      "speed_bps": 261386,
+      "overall_score": 57,
+      "source": "",
+      "last_verified": "2026-10-09T11:17:36.739435+00:00",
+      "consecutive_failures": 0
+    },
+    {
       "raw": "socks4://118.71.44.176:1080",
       "server": "118.71.44.176",
       "port": 1080,
@@ -1969,7 +1991,7 @@
       "source": "",
       "last_verified": "2026-09-19T08:37:16.038770+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-10-09T04:00:15.443023+00:00"
+      "last_checked": "2026-10-09T11:17:36.746736+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:5339",
@@ -2041,7 +2063,7 @@
       "source": "",
       "last_verified": "2026-09-23T22:49:02.122539+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-10-09T04:00:15.443025+00:00"
+      "last_checked": "2026-10-09T11:17:36.746739+00:00"
     },
     {
       "raw": "socks5://116.101.1.175:1111",
@@ -2819,7 +2841,7 @@
       "source": "",
       "last_verified": "2026-10-07T10:54:47.273002+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-10-08T21:11:58.172645+00:00"
+      "last_checked": "2026-10-09T11:17:36.746747+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:12774",

@@ -5,17 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇿🇦 南非 (South Africa) 01 - xiaohe
-  server: 105.214.111.172
+  server: 105.214.87.243
   port: 5678
   udp: true
   type: socks4
 - name: 🇿🇦 南非 (South Africa) 02 - xiaohe
   server: 105.214.66.61
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇿🇦 南非 (South Africa) 03 - xiaohe
-  server: 105.214.42.19
   port: 5678
   udp: true
   type: socks4
@@ -26,7 +21,6 @@ proxy-groups:
   - AUTO
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
-  - 🇿🇦 南非 (South Africa) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,6 +28,5 @@ proxy-groups:
   proxies:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
-  - 🇿🇦 南非 (South Africa) 03 - xiaohe
 rules:
 - MATCH,PROXIES

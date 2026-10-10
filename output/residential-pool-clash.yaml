@@ -9,13 +9,13 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  server: 95.72.118.103
+- name: 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
+  server: 201.165.172.14
   port: 1080
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  server: 77.37.192.181
+  server: 212.103.116.73
   port: 1080
   udp: true
   type: socks5
@@ -25,7 +25,7 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
@@ -33,7 +33,7 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

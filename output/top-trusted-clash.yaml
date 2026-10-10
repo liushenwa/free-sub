@@ -10,12 +10,22 @@ proxies:
   udp: true
   type: socks5
 - name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 52.128.241.109
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
   server: 52.128.241.106
   port: 1080
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe
   server: 183.106.215.208
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe
+  server: 112.169.210.64
   port: 1080
   udp: true
   type: socks5
@@ -26,7 +36,9 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,6 +46,8 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 - xiaohe
   - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

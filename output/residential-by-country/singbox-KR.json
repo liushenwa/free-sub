@@ -11,18 +11,27 @@
       "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "112.169.210.64",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

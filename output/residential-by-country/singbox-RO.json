@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.93.218.62",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "110.39.135.194",
+      "server": "93.115.174.1",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe"
+      "tag": "🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

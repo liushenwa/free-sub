@@ -12,31 +12,17 @@
     },
     {
       "type": "socks",
-      "server": "105.214.87.243",
+      "server": "105.214.42.19",
       "server_port": 5678,
       "version": "4",
       "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "105.214.66.61",
+      "server": "105.214.87.243",
       "server_port": 5678,
       "version": "4",
       "tag": "🇿🇦 南非 (South Africa) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "105.214.94.99",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "105.214.111.172",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇿🇦 南非 (South Africa) 05 - xiaohe"
     },
     {
       "type": "selector",
@@ -45,9 +31,7 @@
         "auto",
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe",
-        "🇿🇦 南非 (South Africa) 05 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ]
     },
     {
@@ -56,9 +40,7 @@
       "outbounds": [
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe",
-        "🇿🇦 南非 (South Africa) 05 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,24 +5,45 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "112.175.232.169",
-      "server_port": 3001,
-      "version": "5",
+      "server": "183.106.215.208",
+      "server_port": 1080,
+      "version": "4",
       "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "183.106.215.208",
+      "server": "112.169.210.64",
       "server_port": 1080,
       "version": "5",
       "tag": "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "27.69.77.5",
-      "server_port": 1088,
+      "server": "93.115.174.1",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "77.37.192.181",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "27.69.68.185",
+      "server_port": 1081,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.115.115.37",
+      "server_port": 9090,
+      "version": "4",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +52,10 @@
         "auto",
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 06 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -40,7 +64,10 @@
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 06 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

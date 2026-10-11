@@ -9,32 +9,37 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  server: 112.169.210.64
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  server: 90.188.250.169
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  server: 90.150.21.88
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇴 罗马尼亚 (Romania) 05 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
   server: 93.115.174.1
   port: 1080
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 移动家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  server: 90.150.21.88
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  server: 95.64.159.130
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
   server: 83.237.82.146
   port: 1080
   udp: true
   type: socks5
-- name: 🇵🇭 菲律宾 (Philippines) 07 ★★★★☆ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  server: 27.69.68.185
+  port: 1027
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
+  server: 27.69.68.185
+  port: 1119
+  udp: true
+  type: socks5
+- name: 🇵🇭 菲律宾 (Philippines) 08 ★★★★☆ 家宽 - xiaohe
   server: 119.93.82.236
   port: 1080
   udp: true
@@ -45,23 +50,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 移动家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 08 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 ★★★★☆ 移动家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 08 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,23 +5,23 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "36.90.223.150",
+      "server": "117.102.115.158",
       "server_port": 4153,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "36.66.146.93",
-      "server_port": 4153,
+      "server": "103.140.35.11",
+      "server_port": 4145,
       "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 4107,
-      "version": "5",
+      "server": "36.66.146.93",
+      "server_port": 4153,
+      "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
     },
     {

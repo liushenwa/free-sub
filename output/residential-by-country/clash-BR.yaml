@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
-  server: 93.115.174.1
-  port: 1080
+- name: 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
+  server: 177.125.162.186
+  port: 4145
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

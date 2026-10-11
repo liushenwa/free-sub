@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "27.69.77.5",
-      "server_port": 1108,
+      "server": "116.101.14.169",
+      "server_port": 1090,
       "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "116.97.117.27",
-      "server_port": 4153,
+      "server": "116.101.14.169",
+      "server_port": 1083,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "42.112.52.66",
-      "server_port": 20001,
+      "server": "116.97.117.27",
+      "server_port": 4153,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe"
     },

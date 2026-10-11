@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇿🇦 南非 (South Africa) 01 - xiaohe
-  server: 105.214.87.243
-  port: 5678
+  server: 148.251.68.232
+  port: 8888
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇿🇦 南非 (South Africa) 02 - xiaohe
-  server: 105.214.42.19
+  server: 105.214.87.243
   port: 5678
   udp: true
   type: socks4

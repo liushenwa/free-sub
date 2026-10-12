@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.42.202.190",
+      "server": "61.247.178.178",
       "server_port": 1080,
-      "version": "4",
+      "version": "5",
       "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
     },
     {
@@ -19,9 +19,9 @@
     },
     {
       "type": "socks",
-      "server": "103.155.185.26",
-      "server_port": 1088,
-      "version": "5",
+      "server": "103.167.40.54",
+      "server_port": 1080,
+      "version": "4",
       "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
     },
     {

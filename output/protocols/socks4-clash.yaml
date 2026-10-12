@@ -4,49 +4,49 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
-  server: 177.125.162.186
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   server: 183.106.215.208
   port: 1080
   udp: true
   type: socks4
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  server: 171.248.221.142
+  port: 1080
+  udp: true
+  type: socks4
 - name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 171.250.218.15
+  server: 171.248.210.247
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 04 ★★★★☆ 家宽 - xiaohe
-  server: 103.157.116.179
-  port: 10810
-  udp: true
-  type: socks4
-- name: 🇵🇭 菲律宾 (Philippines) 05 ★★★★☆ 家宽 - xiaohe
-  server: 119.93.82.236
+- name: 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
+  server: 111.125.154.22
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.14.169
-  port: 1089
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 ★★★★☆ 家宽 - xiaohe
   server: 45.115.115.37
   port: 9090
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  server: 181.143.45.218
+- name: 🇷🇴 罗马尼亚 (Romania) 06 ★★★★★ 家宽 - xiaohe
+  server: 93.115.174.1
   port: 1080
   udp: true
   type: socks4
-- name: 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
-  server: 195.13.169.219
-  port: 4153
+- name: 🇺🇸 美国 (United States) 07 - xiaohe
+  server: 69.36.63.128
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
+  server: 181.205.207.66
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  server: 143.255.109.76
+  port: 1080
   udp: true
   type: socks4
 - name: 🇵🇱 波兰 (Poland) 10 - xiaohe
@@ -54,83 +54,98 @@ proxies:
   port: 5678
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 11 - xiaohe
-  server: 143.255.109.76
+- name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+  server: 89.125.147.135
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 12 - xiaohe
-  server: 177.66.43.189
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
-  server: 103.42.202.190
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 14 - xiaohe
-  server: 185.14.149.33
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 15 - xiaohe
-  server: 150.107.107.152
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 16 - xiaohe
-  server: 116.101.14.169
-  port: 1083
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 17 - xiaohe
-  server: 165.99.90.2
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 18 - xiaohe
-  server: 110.39.135.194
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇳 印度 (India) 19 - xiaohe
-  server: 202.179.76.105
-  port: 51951
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 20 - xiaohe
-  server: 117.102.115.158
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇿🇦 南非 (South Africa) 21 - xiaohe
-  server: 105.214.87.243
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇰🇭 柬埔寨 (Cambodia) 22 - xiaohe
-  server: 45.118.77.67
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 23 - xiaohe
-  server: 116.97.117.27
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 24 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 12 - xiaohe
   server: 103.140.35.11
   port: 4145
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
-  server: 181.209.98.106
+- name: 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
+  server: 195.13.182.212
+  port: 8080
+  udp: true
+  type: socks4
+- name: 🇱🇻 拉脱维亚 (Latvia) 14 - xiaohe
+  server: 195.13.182.211
+  port: 8080
+  udp: true
+  type: socks4
+- name: 🇵🇭 菲律宾 (Philippines) 15 - xiaohe
+  server: 180.191.22.50
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 16 - xiaohe
+  server: 116.97.117.27
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 17 - xiaohe
+  server: 36.90.223.150
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
+  server: 31.129.107.119
+  port: 443
+  udp: true
+  type: socks4
+- name: 🇮🇳 印度 (India) 19 - xiaohe
+  server: 103.105.40.17
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 20 - xiaohe
+  server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 26 - xiaohe
-  server: 45.224.62.149
+- name: 🇿🇦 南非 (South Africa) 21 - xiaohe
+  server: 105.214.42.19
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 22 - xiaohe
+  server: 36.90.222.122
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 23 - xiaohe
+  server: 185.14.149.33
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇵🇰 巴基斯坦 (Pakistan) 24 - xiaohe
+  server: 110.39.135.194
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 25 - xiaohe
+  server: 105.214.51.178
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 26 - xiaohe
+  server: 103.167.40.54
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 27 - xiaohe
+  server: 105.214.87.243
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
+  server: 181.143.45.218
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇦🇷 阿根廷 (Argentina) 29 - xiaohe
+  server: 181.209.98.106
   port: 1080
   udp: true
   type: socks4
@@ -139,62 +154,68 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 06 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 07 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
   - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 12 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 15 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 14 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 15 - xiaohe
   - 🇻🇳 越南 (Vietnam) 16 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 17 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 18 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 17 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
   - 🇮🇳 印度 (India) 19 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 20 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 20 - xiaohe
   - 🇿🇦 南非 (South Africa) 21 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 22 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 23 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 24 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 26 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 22 - xiaohe
+  - 🇵🇱 波兰 (Poland) 23 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 24 - xiaohe
+  - 🇿🇦 南非 (South Africa) 25 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 26 - xiaohe
+  - 🇿🇦 南非 (South Africa) 27 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 29 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 06 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 07 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
   - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 12 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 15 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 13 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 14 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 15 - xiaohe
   - 🇻🇳 越南 (Vietnam) 16 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 17 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 18 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 17 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
   - 🇮🇳 印度 (India) 19 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 20 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 20 - xiaohe
   - 🇿🇦 南非 (South Africa) 21 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 22 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 23 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 24 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 26 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 22 - xiaohe
+  - 🇵🇱 波兰 (Poland) 23 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 24 - xiaohe
+  - 🇿🇦 南非 (South Africa) 25 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 26 - xiaohe
+  - 🇿🇦 南非 (South Africa) 27 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 29 - xiaohe
 rules:
 - MATCH,PROXIES

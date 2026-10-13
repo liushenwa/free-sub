@@ -5,16 +5,16 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "149.86.146.205",
-      "server_port": 1080,
-      "version": "4",
+      "server": "185.73.115.43",
+      "server_port": 2080,
+      "version": "5",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "185.73.115.43",
-      "server_port": 2080,
-      "version": "5",
+      "server": "149.86.146.205",
+      "server_port": 1080,
+      "version": "4",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
     },
     {

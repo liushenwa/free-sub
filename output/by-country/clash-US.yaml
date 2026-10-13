@@ -10,20 +10,20 @@ proxies:
   udp: true
   type: socks5
 - name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 52.128.241.108
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 - xiaohe
   server: 52.128.241.106
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 04 - xiaohe
-  server: 64.83.14.6
-  port: 555
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
+  server: 52.128.241.108
+  port: 1080
   udp: true
   type: socks5
+- name: 🇺🇸 美国 (United States) 04 - xiaohe
+  server: 69.36.63.128
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

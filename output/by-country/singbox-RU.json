@@ -5,31 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "31.129.107.119",
-      "server_port": 443,
-      "version": "5",
+      "server": "85.198.84.66",
+      "server_port": 1080,
+      "version": "4",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "141.101.196.63",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "217.14.192.183",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "194.85.11.60",
-      "server_port": 1080,
-      "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "87.117.2.201",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -38,8 +31,7 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ]
     },
     {
@@ -48,8 +40,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,16 +5,16 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "195.13.169.219",
-      "server_port": 4153,
+      "server": "195.13.182.212",
+      "server_port": 8888,
       "version": "4",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "195.13.182.212",
+      "server": "195.13.182.211",
       "server_port": 8080,
-      "version": "4",
+      "version": "5",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
     },
     {

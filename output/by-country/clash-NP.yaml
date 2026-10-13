@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇵 尼泊尔 (Nepal) 01 - xiaohe
-  server: 150.107.107.152
+  server: 103.154.47.205
   port: 1080
   udp: true
   type: socks4

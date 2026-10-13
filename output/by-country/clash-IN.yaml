@@ -5,15 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  server: 111.118.179.98
-  port: 1080
+  server: 45.74.31.41
+  port: 6622
   udp: true
   type: socks5
 - name: 🇮🇳 印度 (India) 02 - xiaohe
-  server: 45.117.29.137
-  port: 10888
+  server: 45.74.31.40
+  port: 13960
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

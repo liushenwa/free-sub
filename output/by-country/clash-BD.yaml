@@ -5,30 +5,40 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  server: 165.99.90.1
+  server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  server: 118.179.135.69
+  port: 9090
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 165.99.74.71
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 103.167.40.54
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 202.40.179.18
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  server: 103.115.255.225
+  port: 36331
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
   server: 202.4.107.33
   port: 9090
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 61.247.178.178
-  port: 1080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +49,8 @@ proxy-groups:
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -49,5 +61,7 @@ proxy-groups:
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
 rules:
 - MATCH,PROXIES

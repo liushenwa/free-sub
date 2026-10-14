@@ -10,12 +10,12 @@ proxies:
   udp: true
   type: socks5
 - name: 🇿🇦 南非 (South Africa) 02 - xiaohe
-  server: 105.214.74.10
+  server: 105.214.42.19
   port: 5678
   udp: true
   type: socks4
 - name: 🇿🇦 南非 (South Africa) 03 - xiaohe
-  server: 105.214.42.19
+  server: 105.214.51.178
   port: 5678
   udp: true
   type: socks4

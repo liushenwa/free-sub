@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "195.13.169.219",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "195.13.182.211",
-      "server_port": 8080,
+      "server": "80.65.211.149",
+      "server_port": 8888,
       "version": "5",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "195.13.182.212",
       "server_port": 8080,
+      "version": "4",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "195.13.169.219",
+      "server_port": 4153,
       "version": "4",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe"
     },

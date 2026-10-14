@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇷 阿根廷 (Argentina) 01 - xiaohe
-  server: 190.108.57.19
-  port: 1085
+  server: 181.209.98.106
+  port: 1080
   udp: true
   type: socks4
 - name: 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
-  server: 181.209.98.106
-  port: 1080
+  server: 190.108.57.19
+  port: 1085
   udp: true
   type: socks4
 proxy-groups:

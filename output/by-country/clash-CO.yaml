@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - xiaohe
-  server: 46.100.44.35
-  port: 1085
+- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  server: 181.205.207.66
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
-  server: 103.151.42.242
+  server: 103.178.121.234
   port: 1080
   udp: true
   type: socks5

@@ -12,31 +12,10 @@
     },
     {
       "type": "socks",
-      "server": "14.32.24.79",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "183.106.215.208",
       "server_port": 1080,
-      "version": "5",
-      "tag": "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "112.169.210.64",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "121.133.16.56",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe"
+      "version": "4",
+      "tag": "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -44,10 +23,7 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -55,10 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 ★★★★★ 家宽 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 05 ★★★★★ 家宽 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

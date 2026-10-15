@@ -1,51 +1,57 @@
 {
-  "generated_at": "2026-10-15T19:57:46.172855+00:00",
-  "raw_sources_nodes": 5661,
-  "parsed_candidates": 5450,
-  "tested_candidates": 2807,
-  "test_results": 449,
-  "final_nodes": 15,
+  "generated_at": "2026-10-15T22:59:15.295208+00:00",
+  "raw_sources_nodes": 5808,
+  "parsed_candidates": 5570,
+  "tested_candidates": 2348,
+  "test_results": 514,
+  "final_nodes": 17,
   "residential_nodes": 5,
-  "non_residential_nodes": 10,
+  "non_residential_nodes": 12,
   "precheck_stats": {
-    "passed": 1132,
-    "deferred": 1675,
+    "passed": 1218,
+    "deferred": 1130,
     "deferred_to_residential": 0,
     "deferred_to_nonresidential": 1,
     "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.06,
+    "deferred_nonresidential_selection_rate": 0.09,
     "deferred_to_final_selection": 1,
-    "deferred_final_selection_rate": 0.06,
+    "deferred_final_selection_rate": 0.09,
     "residential_share_of_final": 0.0,
-    "nonresidential_share_of_final": 10.0
+    "nonresidential_share_of_final": 8.33
   },
-  "new_nodes": 9,
-  "disappeared_nodes": 7,
+  "new_nodes": 12,
+  "disappeared_nodes": 10,
   "protocol_stats": {
     "socks": {
-      "tested": 449,
-      "success": 115,
-      "success_rate": 25.6
+      "tested": 514,
+      "success": 135,
+      "success_rate": 26.3
     }
   },
   "new_node_ids": [
-    "48dfe097a3583d0f00fcb51a845d101936cf5e8a",
-    "51154d128bc01cadeac8ea613e01bceedda26036",
-    "8e68a0d15e4b786ec441b7d5f3f63edbe02c3e8d",
-    "a68840b76a1c87e2cc859659265eecca29a85cfc",
-    "cccc3f12d3b512c66eea0aaa65a2a7a7ecf59808",
-    "d09dafeb0c3708d7ca687b8984caf3ef073be42a",
-    "d6b60ef314b42b79db3c6c5cdc0e8a6b701d87db",
-    "dfec82d02cb7dafa49e8b7da56d42e09797146f3",
-    "e5a662313857b611cf5c1c866ac802e2809ecb25"
+    "1163ded4082c47dc212cece6c15737efd43cf92f",
+    "14d2551363c7c08dd48b097846a8f165573ecbd0",
+    "1a9005c69dc78f61d10358af7fb403139eccb53b",
+    "1aeddb7d4bb103bb2799721257a7e3a1be62f6d9",
+    "42c522bf8340f560df6302d2230f0aed33a8448c",
+    "5a0368147621b2dffc23aef9803ffb816ba07a23",
+    "7f84d973c3fd7c3c0cf059e4ab60e9294205eb7c",
+    "a103c0d926ee031853cc07c3fd8730dd2632b04c",
+    "d3c0d846d79f5d73697b49a59fa8d8f6a1fc8c7b",
+    "d5d7a3d204d7e7962775e604ce60d921ae3510db",
+    "e7b236690b2fa9519b0ccea8cd3f9447652bc606",
+    "ed61fd5a28b8c5dd183a44ab40e4b14cceeead9d"
   ],
   "disappeared_node_ids": [
-    "02d7f81f9265c009bbeb5d8a167a7df65cd56f94",
-    "0a23f3c67620b9bc4144a0bcb5e2dffd066cd927",
-    "471915974558088b63ea21e85acab2a4771e3edd",
-    "4c3c92124e63dc3572c6b2d4365a9cc51c48b6e0",
-    "5001b255666b7bdbcb205c408f43f3cf956cdb7f",
-    "e7b236690b2fa9519b0ccea8cd3f9447652bc606",
-    "e968bdc67b62729bf0a03a192a89b4d45bffbbac"
+    "48dfe097a3583d0f00fcb51a845d101936cf5e8a",
+    "57e59d91e55d497de738bb2edbf0098d61695c3c",
+    "8e68a0d15e4b786ec441b7d5f3f63edbe02c3e8d",
+    "a68840b76a1c87e2cc859659265eecca29a85cfc",
+    "c79f68960751e309242273130256ebc96fded952",
+    "cccc3f12d3b512c66eea0aaa65a2a7a7ecf59808",
+    "dfec82d02cb7dafa49e8b7da56d42e09797146f3",
+    "ee306008dca1f76987dd54bc8a10440d5ac26973",
+    "f65e74c09034f93b0697cddd80e34b51412299ea",
+    "fc0d8728ca216ef46ec27c08a4a88b47c4d6b3c6"
   ]
 }

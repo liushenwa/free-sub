@@ -5,7 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 42.112.52.40
+  server: 42.112.52.24
+  port: 20001
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  server: 116.104.251.199
+  port: 1081
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  server: 42.114.56.27
   port: 20001
   udp: true
   type: socks4
@@ -15,11 +25,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -8,7 +8,7 @@ proxies:
   server: 183.106.215.208
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   server: 14.32.24.79
   port: 1080
@@ -19,36 +19,16 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
-  server: 12.154.48.194
-  port: 5678
+- name: 🇯🇵 日本 (Japan) 04 ★★★★☆ 家宽 - xiaohe
+  server: 58.89.82.209
+  port: 1080
   udp: true
-  type: socks4
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   server: 116.104.251.199
-  port: 1050
+  port: 1034
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 116.104.251.199
-  port: 1049
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  server: 116.104.251.199
-  port: 1042
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  server: 116.104.251.199
-  port: 1095
-  udp: true
-  type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 09 ★★★★☆ 家宽 - xiaohe
-  server: 200.16.211.68
-  port: 4153
-  udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,12 +37,8 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 04 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 09 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -71,11 +47,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 04 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 09 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

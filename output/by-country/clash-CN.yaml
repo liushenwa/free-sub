@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: 120.220.197.200
+  server: 120.220.197.199
   port: 59999
   udp: true
   type: socks5

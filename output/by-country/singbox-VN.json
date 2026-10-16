@@ -5,23 +5,23 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "42.112.52.24",
-      "server_port": 20001,
+      "server": "116.104.251.199",
+      "server_port": 1029,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "116.104.251.199",
-      "server_port": 1081,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
+      "server_port": 1043,
+      "version": "4",
+      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "42.114.56.27",
+      "server": "42.112.52.239",
       "server_port": 20001,
-      "version": "4",
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe"
     },
     {
@@ -29,8 +29,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 - xiaohe"
       ]
     },
@@ -38,8 +38,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

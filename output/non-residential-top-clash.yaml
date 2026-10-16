@@ -5,11 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 52.128.241.109
+  server: 52.128.241.108
   port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  server: 188.137.250.114
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
@@ -20,13 +25,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
 rules:
 - MATCH,PROXIES

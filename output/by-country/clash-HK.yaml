@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: socks5
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 220.168.79.59
+  server: 45.149.92.160
   port: 1080
   udp: true
   type: socks5

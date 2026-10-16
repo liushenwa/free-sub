@@ -5,24 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "58.89.82.209",
+      "server": "217.14.192.183",
       "server_port": 1080,
+      "version": "4",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.129.107.119",
+      "server_port": 443,
       "version": "5",
-      "tag": "🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

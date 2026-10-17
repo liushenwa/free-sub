@@ -4,22 +4,42 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  server: 83.237.82.146
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   server: 14.32.24.79
   port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 93.99.104.47
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 79.134.4.225
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 31.129.107.119
+  port: 443
+  udp: true
+  type: socks5
+- name: 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
+  server: 31.56.117.71
+  port: 443
+  udp: true
+  type: socks5
+- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
+  server: 31.76.58.136
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
   server: 103.236.190.197
   port: 1080
   udp: true
@@ -29,18 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
 rules:
 - MATCH,PROXIES

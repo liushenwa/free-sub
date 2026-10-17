@@ -8,6 +8,11 @@ proxies:
   server: 183.106.215.208
   port: 1080
   udp: true
+  type: socks5
+- name: 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+  server: 93.115.174.1
+  port: 1080
+  udp: true
   type: socks4
 proxy-groups:
 - name: PROXIES
@@ -15,11 +20,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

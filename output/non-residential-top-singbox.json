@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "93.99.104.47",
-      "server_port": 1080,
+      "server": "130.93.99.225",
+      "server_port": 7080,
       "version": "5",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe"
+      "tag": "🇫🇷 法国 (France) 01 - xiaohe"
     },
     {
       "type": "socks",
@@ -22,7 +22,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
+        "🇫🇷 法国 (France) 01 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe"
       ]
     },
@@ -30,7 +30,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
+        "🇫🇷 法国 (France) 01 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "154.64.219.4",
-      "server_port": 5555,
-      "version": "4",
-      "tag": "🇵🇷 PR 01 - xiaohe"
+      "server": "93.99.104.47",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇷 PR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇷 PR 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

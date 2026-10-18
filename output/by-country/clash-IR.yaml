@@ -4,9 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 88.213.214.254
-  port: 4145
+- name: 🇮🇷 IR 01 - xiaohe
+  server: 94.184.47.148
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇷 IR 02 - xiaohe
+  server: 185.103.130.241
+  port: 1085
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
 rules:
 - MATCH,PROXIES

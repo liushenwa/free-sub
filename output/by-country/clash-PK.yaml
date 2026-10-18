@@ -15,8 +15,13 @@ proxies:
   udp: true
   type: socks4
 - name: 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
-  server: 101.53.238.37
+  server: 149.40.242.118
   port: 1080
+  udp: true
+  type: socks5
+- name: 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
+  server: 117.134.203.58
+  port: 10800
   udp: true
   type: socks5
 proxy-groups:
@@ -27,6 +32,7 @@ proxy-groups:
   - 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
   - 🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe
   - 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -35,5 +41,6 @@ proxy-groups:
   - 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
   - 🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe
   - 🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe
 rules:
 - MATCH,PROXIES

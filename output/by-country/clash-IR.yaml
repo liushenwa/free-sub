@@ -10,8 +10,8 @@ proxies:
   udp: true
   type: socks4
 - name: 🇮🇷 IR 02 - xiaohe
-  server: 185.103.130.241
-  port: 1085
+  server: 151.232.18.66
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:

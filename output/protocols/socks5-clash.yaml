@@ -9,39 +9,29 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
+- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  server: 212.103.116.73
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 116.104.251.199
-  port: 1085
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 31.148.136.107
+  port: 2080
   udp: true
   type: socks5
-- name: 🇫🇷 法国 (France) 04 - xiaohe
-  server: 130.93.99.225
-  port: 7080
-  udp: true
-  type: socks5
-- name: 🇨🇿 捷克 (Czech) 05 - xiaohe
-  server: 93.99.104.47
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  server: 103.236.190.197
+- name: 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
+  server: 149.40.242.118
   port: 1080
   udp: true
   type: socks5
-- name: 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
-  server: 101.53.238.37
-  port: 1080
+- name: 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
+  server: 117.134.203.58
+  port: 10800
   udp: true
   type: socks5
 proxy-groups:
@@ -50,25 +40,21 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇨🇿 捷克 (Czech) 05 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇨🇿 捷克 (Czech) 05 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 05 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 06 - xiaohe
 rules:
 - MATCH,PROXIES

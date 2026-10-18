@@ -19,10 +19,17 @@
     },
     {
       "type": "socks",
-      "server": "101.53.238.37",
+      "server": "149.40.242.118",
       "server_port": 1080,
       "version": "5",
       "tag": "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "117.134.203.58",
+      "server_port": 10800,
+      "version": "5",
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +38,8 @@
         "auto",
         "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
         "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe",
+        "🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "outbounds": [
         "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
         "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe",
+        "🇵🇰 巴基斯坦 (Pakistan) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

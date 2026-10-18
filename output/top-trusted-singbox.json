@@ -5,33 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
+      "server": "12.154.48.194",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
       "server": "52.128.241.109",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "181.205.207.66",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "93.99.104.47",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe"
+      "tag": "🇨🇿 捷克 (Czech) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

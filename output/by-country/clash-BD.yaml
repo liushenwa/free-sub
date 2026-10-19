@@ -15,10 +15,10 @@ proxies:
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 157.10.243.18
+  server: 165.99.90.2
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

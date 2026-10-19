@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "195.13.182.211",
-      "server_port": 8080,
-      "version": "5",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "195.13.169.219",
+      "server": "180.191.22.50",
       "server_port": 4153,
       "version": "4",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe"
+        "🇵🇭 菲律宾 (Philippines) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

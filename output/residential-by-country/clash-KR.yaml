@@ -13,7 +13,7 @@ proxies:
   server: 14.36.232.55
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

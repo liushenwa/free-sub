@@ -5,23 +5,23 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.39.135.194",
+      "server": "58.27.200.225",
       "server_port": 1080,
       "version": "4",
       "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "58.27.200.225",
+      "server": "113.197.55.155",
       "server_port": 1080,
       "version": "4",
       "tag": "🇵🇰 巴基斯坦 (Pakistan) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "110.39.151.50",
+      "server": "103.178.120.53",
       "server_port": 1080,
-      "version": "5",
+      "version": "4",
       "tag": "🇵🇰 巴基斯坦 (Pakistan) 03 - xiaohe"
     },
     {

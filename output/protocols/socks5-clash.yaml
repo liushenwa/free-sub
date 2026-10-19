@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
-  server: 83.237.92.106
+  server: 83.237.82.146
   port: 1080
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
+- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
+  server: 90.150.52.50
   port: 1080
   udp: true
   type: socks5
@@ -19,14 +19,34 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 84.19.3.107
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  server: 172.105.149.160
+  port: 5000
+  udp: true
+  type: socks5
+- name: 🇨🇳 CN 06 - xiaohe
+  server: 140.207.114.166
+  port: 10080
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 42.115.12.96
+- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  server: 42.115.12.228
   port: 20001
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 157.10.243.18
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -35,19 +55,27 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  - 🇨🇳 CN 06 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 03 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  - 🇨🇳 CN 06 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
 rules:
 - MATCH,PROXIES

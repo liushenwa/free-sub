@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇵 尼泊尔 (Nepal) 01 - xiaohe
-  server: 103.154.47.205
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 149.86.146.205
   port: 1080
   udp: true
   type: socks4
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇳🇵 尼泊尔 (Nepal) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇵 尼泊尔 (Nepal) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES

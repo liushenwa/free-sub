@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "42.115.12.86",
+      "server": "42.115.12.228",
       "server_port": 20001,
-      "version": "4",
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe"
     },
     {

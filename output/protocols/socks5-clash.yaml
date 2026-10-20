@@ -4,39 +4,64 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
-  server: 172.105.149.160
-  port: 5000
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 52.128.241.109
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  server: 212.103.116.73
   port: 1080
   udp: true
   type: socks5
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 31.58.144.19
+- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  server: 183.106.215.208
   port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  server: 83.237.92.106
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  server: 79.135.226.14
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 82.202.130.176
-  port: 1010
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 62.183.30.20
+  port: 1080
   udp: true
   type: socks5
-- name: 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  server: 195.13.182.211
-  port: 8080
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 42.115.12.228
+  port: 20001
   udp: true
   type: socks5
-- name: 🇿🇦 南非 (South Africa) 07 - xiaohe
-  server: 148.251.68.232
-  port: 8888
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  server: 87.255.30.130
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 157.10.243.18
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  server: 93.153.222.83
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  server: 95.170.122.80
+  port: 2080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
+  server: 82.142.130.102
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -44,24 +69,34 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  - 🇿🇦 南非 (South Africa) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
-  - 🇿🇦 南非 (South Africa) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -9,17 +9,31 @@ proxies:
   port: 4153
   udp: true
   type: socks4
+- name: 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
+  server: 195.13.182.211
+  port: 8080
+  udp: true
+  type: socks5
+- name: 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  server: 195.13.182.212
+  port: 8080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

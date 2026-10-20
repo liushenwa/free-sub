@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "43.245.199.34",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

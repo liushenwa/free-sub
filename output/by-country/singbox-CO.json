@@ -5,14 +5,14 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "181.143.45.218",
+      "server": "181.205.207.66",
       "server_port": 1080,
       "version": "4",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "181.205.207.66",
+      "server": "181.143.45.218",
       "server_port": 1080,
       "version": "4",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"

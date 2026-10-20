@@ -4,29 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 212.103.116.73
+- name: 🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe
+  server: 58.89.82.209
   port: 1080
   udp: true
   type: socks5
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 143.255.109.76
+- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  server: 183.106.215.208
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

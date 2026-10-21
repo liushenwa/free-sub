@@ -5,21 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 45.74.31.41
+  port: 15517
+  udp: true
+  type: socks5
+- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 149.86.146.205
   port: 1080
   udp: true
   type: socks4
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  server: 45.74.31.46
+  port: 9328
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
 rules:
 - MATCH,PROXIES

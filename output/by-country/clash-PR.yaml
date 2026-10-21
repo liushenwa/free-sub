@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇿🇦 南非 (South Africa) 01 - xiaohe
-  server: 148.251.68.232
-  port: 8888
+- name: 🇵🇷 PR 01 - xiaohe
+  server: 154.64.219.4
+  port: 5555
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇵🇷 PR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇿🇦 南非 (South Africa) 01 - xiaohe
+  - 🇵🇷 PR 01 - xiaohe
 rules:
 - MATCH,PROXIES

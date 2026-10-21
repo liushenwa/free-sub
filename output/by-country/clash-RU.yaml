@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 193.233.84.18
+  server: 185.9.73.44
   port: 1080
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 89.113.5.120
+  server: 93.100.82.163
   port: 1080
   udp: true
   type: socks5

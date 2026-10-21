@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "38.255.17.95",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "205.209.66.105",
-      "server_port": 1080,
+      "server": "154.64.219.4",
+      "server_port": 5555,
       "version": "4",
-      "tag": "🇸🇾 SY 02 - xiaohe"
+      "tag": "🇵🇷 PR 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇸🇾 SY 02 - xiaohe"
+        "🇵🇷 PR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇸🇾 SY 02 - xiaohe"
+        "🇵🇷 PR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

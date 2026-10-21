@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 118.71.99.233
-  port: 5678
+  server: 42.114.56.4
+  port: 20001
   udp: true
   type: socks4
 - name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 42.114.69.91
-  port: 20001
+  server: 103.182.22.57
+  port: 9000
   udp: true
   type: socks4
 proxy-groups:

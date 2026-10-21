@@ -5,14 +5,14 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "185.9.73.44",
+      "server": "217.14.192.183",
       "server_port": 1080,
-      "version": "5",
+      "version": "4",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "93.100.82.163",
+      "server": "185.9.73.44",
       "server_port": 1080,
       "version": "5",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"

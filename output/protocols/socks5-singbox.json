@@ -5,87 +5,96 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "171.245.71.144",
-      "server_port": 1083,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.245.71.194",
-      "server_port": 1097,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.245.71.236",
-      "server_port": 1093,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "52.128.241.108",
+      "server": "183.106.215.208",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 04 - xiaohe"
+      "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "64.90.0.60",
-      "server_port": 12345,
+      "server": "83.237.82.146",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe"
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 移动家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "120.220.197.200",
-      "server_port": 59999,
+      "server": "193.218.118.128",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇨🇳 CN 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "95.170.122.80",
-      "server_port": 2080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+      "tag": "🇫🇷 法国 (France) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "43.245.199.34",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe"
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "120.220.197.200",
+      "server_port": 59999,
+      "version": "5",
+      "tag": "🇨🇳 CN 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "42.114.56.61",
+      "server_port": 20001,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "109.110.51.153",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "68.233.8.123",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "130.255.95.177",
+      "server_port": 4080,
+      "version": "5",
+      "tag": "🇮🇶 IQ 09 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 04 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 移动家宽 - xiaohe",
+        "🇫🇷 法国 (France) 03 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+        "🇨🇳 CN 05 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe"
+        "🇺🇸 美国 (United States) 08 - xiaohe",
+        "🇮🇶 IQ 09 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 04 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 移动家宽 - xiaohe",
+        "🇫🇷 法国 (France) 03 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+        "🇨🇳 CN 05 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 06 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe"
+        "🇺🇸 美国 (United States) 08 - xiaohe",
+        "🇮🇶 IQ 09 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

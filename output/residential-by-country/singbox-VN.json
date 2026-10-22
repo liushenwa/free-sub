@@ -5,57 +5,57 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "125.234.94.150",
-      "server_port": 1080,
+      "server": "171.245.71.144",
+      "server_port": 1086,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.245.71.144",
-      "server_port": 1039,
-      "version": "5",
+      "server": "171.245.71.217",
+      "server_port": 1090,
+      "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.245.71.194",
-      "server_port": 1081,
-      "version": "4",
+      "server": "171.245.71.236",
+      "server_port": 1082,
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.245.71.144",
-      "server_port": 1090,
+      "server": "171.245.71.194",
+      "server_port": 1086,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "171.245.71.144",
-      "server_port": 1083,
+      "server_port": 1039,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.245.71.236",
-      "server_port": 1090,
-      "version": "4",
+      "server": "171.245.71.144",
+      "server_port": 1081,
+      "version": "5",
       "tag": "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "116.98.117.15",
-      "server_port": 5001,
-      "version": "5",
+      "server": "171.245.71.144",
+      "server_port": 1090,
+      "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.245.71.217",
-      "server_port": 1081,
+      "server": "171.245.71.194",
+      "server_port": 1080,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe"
     },
@@ -64,7 +64,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
@@ -78,7 +78,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",

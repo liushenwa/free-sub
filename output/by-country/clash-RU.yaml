@@ -10,10 +10,10 @@ proxies:
   udp: true
   type: socks4
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 185.9.73.44
-  port: 1080
+  server: 91.193.238.172
+  port: 10808
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

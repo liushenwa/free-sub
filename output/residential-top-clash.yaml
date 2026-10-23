@@ -9,59 +9,38 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  server: 79.135.226.14
+- name: 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+  server: 93.115.174.1
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  server: 125.24.156.113
-  port: 7080
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 ★★★★★ 家宽 - xiaohe
-  server: 103.18.47.79
-  port: 4145
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  server: 109.194.174.104
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
+  server: 103.157.116.179
+  port: 10810
   udp: true
-  type: socks5
-- name: 🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe
+  type: socks4
+- name: 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
   server: 103.4.95.90
   port: 1080
   udp: true
   type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe
-  server: 200.16.211.68
-  port: 4153
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 家宽 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 07 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

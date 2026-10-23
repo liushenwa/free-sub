@@ -9,24 +9,45 @@ proxies:
   port: 44499
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  server: 178.173.254.14
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  server: 181.205.207.66
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5
+- name: 🇨🇱 智利 (Chile) 05 - xiaohe
+  server: 152.231.81.19
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇨🇱 智利 (Chile) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇨🇱 智利 (Chile) 05 - xiaohe
 rules:
 - MATCH,PROXIES

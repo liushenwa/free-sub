@@ -9,38 +9,52 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  server: 49.12.188.170
+  port: 3001
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  server: 103.18.47.79
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇷🇴 罗马尼亚 (Romania) 04 ★★★★★ 家宽 - xiaohe
   server: 93.115.174.1
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
+  server: 116.101.102.233
+  port: 5000
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 06 ★★★★☆ 家宽 - xiaohe
   server: 103.157.116.179
   port: 10810
   udp: true
   type: socks4
-- name: 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
-  server: 103.4.95.90
-  port: 1080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇵🇰 巴基斯坦 (Pakistan) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  server: 103.157.116.179
-  port: 10810
-  udp: true
-  type: socks4
-- name: 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
   server: 93.115.174.1
   port: 1080
   udp: true
   type: socks4
-- name: 🇨🇱 智利 (Chile) 03 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe
+  server: 103.157.116.179
+  port: 10810
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  server: 103.18.47.79
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  server: 181.205.207.66
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇱 智利 (Chile) 05 - xiaohe
   server: 152.231.81.19
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇩🇪 德国 (Germany) 04 - xiaohe
-  server: 178.83.46.167
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 36.89.109.82
   port: 1080
   udp: true
   type: socks4
@@ -34,18 +34,38 @@ proxies:
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  server: 170.80.221.192
-  port: 4153
+- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  server: 31.57.178.174
+  port: 1080
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 08 - xiaohe
-  server: 103.224.54.233
-  port: 31433
+- name: 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
+  server: 150.107.107.152
+  port: 1080
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe
-  server: 181.205.207.66
+- name: 🇮🇷 IR 09 - xiaohe
+  server: 151.232.18.66
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  server: 103.159.225.30
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 11 - xiaohe
+  server: 105.214.95.149
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇿🇦 南非 (South Africa) 12 - xiaohe
+  server: 105.214.90.100
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
+  server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
@@ -54,28 +74,36 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇱 智利 (Chile) 03 - xiaohe
-  - 🇩🇪 德国 (Germany) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇨🇱 智利 (Chile) 05 - xiaohe
   - 🇭🇺 匈牙利 (Hungary) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇮🇳 印度 (India) 08 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
+  - 🇮🇷 IR 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇿🇦 南非 (South Africa) 11 - xiaohe
+  - 🇿🇦 南非 (South Africa) 12 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe
-  - 🇨🇱 智利 (Chile) 03 - xiaohe
-  - 🇩🇪 德国 (Germany) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇨🇱 智利 (Chile) 05 - xiaohe
   - 🇭🇺 匈牙利 (Hungary) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇮🇳 印度 (India) 08 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
+  - 🇮🇷 IR 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇿🇦 南非 (South Africa) 11 - xiaohe
+  - 🇿🇦 南非 (South Africa) 12 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 13 - xiaohe
 rules:
 - MATCH,PROXIES

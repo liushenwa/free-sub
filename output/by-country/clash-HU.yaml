@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  server: 171.236.130.227
-  port: 44627
+- name: 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  server: 109.61.117.11
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
 rules:
 - MATCH,PROXIES

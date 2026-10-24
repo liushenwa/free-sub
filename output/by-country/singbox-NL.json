@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "150.107.107.152",
+      "server": "82.115.6.216",
       "server_port": 1080,
-      "version": "4",
-      "tag": "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe"
+      "version": "5",
+      "tag": "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

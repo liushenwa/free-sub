@@ -5,33 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "131.0.245.82",
-      "server_port": 60606,
+      "server": "181.205.207.66",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "87.229.236.151",
+      "server": "31.58.144.19",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "165.16.99.209",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇱🇾 LY 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+        "🇱🇾 LY 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+        "🇱🇾 LY 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

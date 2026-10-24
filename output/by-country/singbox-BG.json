@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "105.214.95.149",
-      "server_port": 5678,
+      "server": "88.213.214.254",
+      "server_port": 4145,
       "version": "4",
-      "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe"
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

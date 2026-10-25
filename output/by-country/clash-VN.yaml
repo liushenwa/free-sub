@@ -10,13 +10,8 @@ proxies:
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 103.182.22.245
-  port: 9000
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 103.182.22.197
-  port: 9000
+  server: 116.97.117.27
+  port: 4153
   udp: true
   type: socks4
 proxy-groups:
@@ -26,7 +21,6 @@ proxy-groups:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,6 +28,5 @@ proxy-groups:
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -9,14 +9,14 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
-  server: 78.187.157.235
-  port: 1080
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 38.246.236.143
+  port: 20001
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 171.245.71.236
-  port: 1064
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  server: 64.90.10.49
+  port: 1080
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
@@ -30,8 +30,8 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
 - name: AUTO
   type: url-test
@@ -39,8 +39,8 @@ proxy-groups:
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
 rules:
 - MATCH,PROXIES

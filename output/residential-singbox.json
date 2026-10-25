@@ -7,78 +7,43 @@
       "type": "socks",
       "server": "183.106.215.208",
       "server_port": 1080,
-      "version": "4",
+      "version": "5",
       "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.18.47.79",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "93.115.174.1",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "42.115.72.47",
-      "server_port": 1078,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "111.125.154.22",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.245.71.194",
-      "server_port": 1048,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "42.115.72.47",
-      "server_port": 1116,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 7246,
+      "server": "171.245.71.236",
+      "server_port": 1064,
       "version": "5",
-      "tag": "🇩🇪 德国 (Germany) 07 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "78.187.157.235",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "103.4.94.124",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇵🇰 巴基斯坦 (Pakistan) 08 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "42.115.72.47",
-      "server_port": 1094,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "200.16.211.68",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "116.105.72.146",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 11 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -86,16 +51,11 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 07 ★★★★☆ 家宽 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 08 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 11 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -103,16 +63,11 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 07 ★★★★☆ 家宽 - xiaohe",
-        "🇵🇰 巴基斯坦 (Pakistan) 08 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 11 ★★★★☆ 家宽 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 ★★★★☆ 家宽 - xiaohe",
+        "🇵🇰 巴基斯坦 (Pakistan) 06 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

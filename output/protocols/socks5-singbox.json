@@ -5,51 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.42",
-      "server_port": 7246,
+      "server": "183.106.215.208",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "116.105.72.146",
+      "server": "78.187.157.235",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "171.245.71.236",
+      "server_port": 1064,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "140.245.36.86",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "95.170.122.80",
-      "server_port": 2080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

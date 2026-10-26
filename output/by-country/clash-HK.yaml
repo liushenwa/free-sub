@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  server: 64.90.10.49
+  server: 43.245.199.34
   port: 1080
   udp: true
   type: socks5

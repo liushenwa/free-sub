@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 178.57.106.43
-  port: 4145
+  server: 217.14.192.183
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:

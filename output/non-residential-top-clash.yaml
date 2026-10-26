@@ -4,18 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  server: 181.205.207.66
+- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  server: 176.65.132.138
   port: 1080
   udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  server: 45.230.174.21
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇱🇾 LY 03 - xiaohe
-  server: 165.16.99.209
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  server: 181.205.207.66
   port: 1080
   udp: true
   type: socks4
@@ -24,16 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇱🇾 LY 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇱🇾 LY 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
 rules:
 - MATCH,PROXIES

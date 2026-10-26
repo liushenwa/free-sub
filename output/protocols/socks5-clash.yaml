@@ -4,23 +4,53 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  server: 90.150.52.50
+- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  server: 183.106.215.208
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
+- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  server: 193.218.118.128
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
   server: 78.187.157.235
   port: 1080
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
-  server: 185.148.146.218
-  port: 38746
+- name: 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
+  server: 176.65.132.138
+  port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  server: 43.245.199.34
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 116.101.84.186
+  port: 1037
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  server: 202.4.116.146
+  port: 9090
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 140.245.36.86
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  server: 123.0.24.154
+  port: 9090
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  server: 157.10.243.18
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
+  server: 91.210.174.17
   port: 1080
   udp: true
   type: socks5
@@ -29,18 +59,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 10 - xiaohe
 rules:
 - MATCH,PROXIES

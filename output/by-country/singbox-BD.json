@@ -5,24 +5,45 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.167.40.54",
-      "server_port": 1080,
-      "version": "4",
+      "server": "202.4.116.146",
+      "server_port": 9090,
+      "version": "5",
       "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "202.40.179.18",
-      "server_port": 4145,
-      "version": "4",
+      "server": "123.0.24.154",
+      "server_port": 9090,
+      "version": "5",
       "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.167.40.54",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "165.99.90.2",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "157.10.243.18",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "202.4.107.33",
+      "server_port": 9090,
+      "version": "4",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +52,10 @@
         "auto",
         "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
       ]
     },
     {
@@ -40,7 +64,10 @@
       "outbounds": [
         "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

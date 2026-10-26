@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
-  server: 2.179.71.54
-  port: 1080
+  server: 151.232.18.66
+  port: 5678
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

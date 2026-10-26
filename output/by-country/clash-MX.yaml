@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 130.255.95.177
-  port: 4080
+- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  server: 45.230.174.21
+  port: 4153
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
 rules:
 - MATCH,PROXIES

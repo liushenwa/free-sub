@@ -10,8 +10,8 @@ proxies:
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 103.159.225.30
-  port: 1080
+  server: 103.157.116.179
+  port: 10810
   udp: true
   type: socks4
 proxy-groups:

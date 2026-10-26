@@ -9,54 +9,69 @@ proxies:
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.84.186
-  port: 1034
+- name: 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  server: 12.154.48.194
+  port: 5678
   udp: true
   type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 88.213.214.254
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 103.167.156.34
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
   server: 103.167.156.88
   port: 1080
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  server: 27.69.71.250
+  port: 1050
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
   server: 181.205.207.66
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  server: 203.190.8.59
-  port: 1088
+- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  server: 202.4.107.33
+  port: 9090
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  server: 171.238.101.122
-  port: 1116
+- name: 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  server: 113.203.237.210
+  port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  server: 116.97.117.27
-  port: 4153
+- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  server: 103.182.22.174
+  port: 9000
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 10 - xiaohe
-  server: 170.80.221.192
-  port: 4153
+- name: 🇦🇷 阿根廷 (Argentina) 09 - xiaohe
+  server: 181.209.98.106
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
+  server: 103.125.243.142
+  port: 1080
   udp: true
   type: socks4
 - name: 🇿🇦 南非 (South Africa) 11 - xiaohe
-  server: 105.214.95.149
+  server: 105.214.90.100
   port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 12 - xiaohe
+  server: 165.99.90.2
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  server: 103.159.225.30
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 14 - xiaohe
+  server: 103.182.22.245
+  port: 9000
   udp: true
   type: socks4
 proxy-groups:
@@ -65,31 +80,37 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 10 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 09 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
   - 🇿🇦 南非 (South Africa) 11 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 12 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 10 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 09 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 10 - xiaohe
   - 🇿🇦 南非 (South Africa) 11 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 12 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 14 - xiaohe
 rules:
 - MATCH,PROXIES

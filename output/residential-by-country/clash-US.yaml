@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
-  server: 104.161.23.122
-  port: 5061
+  server: 12.154.48.194
+  port: 5678
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

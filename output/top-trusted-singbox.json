@@ -5,24 +5,60 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "176.65.132.138",
+      "server": "183.106.215.208",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
+      "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "156.246.16.88",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.61.188.134",
+      "server_port": 44499,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.58.144.19",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "181.205.207.66",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇺🇸 美国 (United States) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

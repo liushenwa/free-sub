@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 109.95.175.64
-  port: 1080
+  server: 212.244.235.217
+  port: 4153
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

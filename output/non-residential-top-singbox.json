@@ -5,28 +5,28 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "156.246.16.88",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.61.188.134",
-      "server_port": 44499,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "31.58.144.19",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe"
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "181.205.207.66",
+      "server": "185.14.149.33",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "81.7.112.174",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "181.143.45.218",
       "server_port": 1080,
       "version": "4",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
@@ -36,9 +36,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
       ]
     },
@@ -46,9 +46,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
+        "🇵🇱 波兰 (Poland) 02 - xiaohe",
+        "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"

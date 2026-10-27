@@ -9,38 +9,17 @@ proxies:
   port: 4153
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 131.0.245.82
-  port: 60606
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 186.194.127.41
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  server: 170.80.221.192
-  port: 4153
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
 rules:
 - MATCH,PROXIES

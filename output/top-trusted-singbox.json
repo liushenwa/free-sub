@@ -7,29 +7,15 @@
       "type": "socks",
       "server": "183.106.215.208",
       "server_port": 1080,
-      "version": "4",
+      "version": "5",
       "tag": "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "200.16.211.78",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "181.205.207.66",
+      "server": "181.143.45.218",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "176.65.132.138",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {
       "type": "selector",
@@ -37,9 +23,7 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
-        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
       ]
     },
     {
@@ -47,9 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
-        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,33 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "212.244.235.217",
-      "server_port": 4153,
+      "server": "181.205.207.66",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe"
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "31.58.144.19",
+      "server": "176.65.132.138",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
+      "tag": "🇳🇱 荷兰 (Netherlands) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "131.0.245.82",
+      "server_port": 60606,
+      "version": "4",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

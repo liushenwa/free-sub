@@ -4,22 +4,43 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 212.244.235.217
+- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  server: 183.106.215.208
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
+  server: 200.16.211.78
   port: 4153
   udp: true
   type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  server: 181.205.207.66
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
+  server: 176.65.132.138
+  port: 1080
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 04 - xiaohe
 rules:
 - MATCH,PROXIES

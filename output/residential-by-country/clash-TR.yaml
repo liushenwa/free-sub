@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 103.208.101.17
+- name: 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 家宽 - xiaohe
+  server: 78.187.157.235
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

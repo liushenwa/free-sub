@@ -4,43 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 212.244.235.217
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   server: 31.58.144.19
   port: 1080
   udp: true
   type: socks5
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 185.14.149.33
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
-  server: 81.7.112.174
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  server: 181.143.45.218
-  port: 1080
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
 rules:
 - MATCH,PROXIES

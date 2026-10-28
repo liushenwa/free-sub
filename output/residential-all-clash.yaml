@@ -4,36 +4,57 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
+- name: 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
+  server: 218.103.246.223
   port: 1080
   udp: true
   type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
-  server: 66.154.112.131
+- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  server: 193.218.118.128
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
+- name: 🇯🇵 日本 (Japan) 03 ★★★★☆ 家宽 - xiaohe
+  server: 58.89.82.209
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  server: 176.195.204.221
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
   server: 125.27.147.150
   port: 9999
   udp: true
   type: socks5
+- name: 🇵🇭 菲律宾 (Philippines) 06 ★★★★☆ 家宽 - xiaohe
+  server: 119.93.82.236
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 06 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇵🇭 菲律宾 (Philippines) 06 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

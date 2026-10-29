@@ -12,10 +12,10 @@
     },
     {
       "type": "socks",
-      "server": "181.143.45.218",
-      "server_port": 1080,
+      "server": "185.190.154.121",
+      "server_port": 4145,
       "version": "4",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +23,7 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

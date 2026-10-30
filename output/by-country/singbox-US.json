@@ -5,16 +5,16 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "80.65.211.149",
-      "server_port": 8888,
+      "server": "68.233.8.123",
+      "server_port": 1080,
       "version": "5",
       "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "162.255.108.5",
-      "server_port": 5678,
-      "version": "4",
+      "server": "45.61.188.134",
+      "server_port": 44499,
+      "version": "5",
       "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
     },
     {

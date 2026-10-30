@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 149.86.146.205
-  port: 1080
+  server: 92.42.37.152
+  port: 587
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

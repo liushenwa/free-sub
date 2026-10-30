@@ -4,19 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
+- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  server: 176.65.132.138
   port: 1080
   udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 185.14.149.33
-  port: 4145
+  type: socks5
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 188.127.247.6
+  port: 1080
   udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  server: 45.230.174.21
-  port: 4153
+  type: socks5
+- name: 🇸🇲 SM 03 - xiaohe
+  server: 157.90.113.23
+  port: 9052
   udp: true
   type: socks4
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
@@ -29,18 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇸🇲 SM 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇵🇱 波兰 (Poland) 02 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇸🇲 SM 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

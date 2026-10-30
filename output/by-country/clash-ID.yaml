@@ -5,38 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 103.159.224.90
+  server: 103.167.156.88
   port: 1080
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 45.74.31.47
-  port: 5032
+  server: 45.74.31.41
+  port: 4389
   udp: true
   type: socks5
 - name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 45.74.31.47
-  port: 9196
+  server: 122.102.41.226
+  port: 4153
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 103.167.156.34
-  port: 1080
+  server: 202.46.78.82
+  port: 4145
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 45.74.31.47
-  port: 5853
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 103.208.101.17
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 07 - xiaohe
-  server: 103.146.185.168
-  port: 1083
+  server: 103.166.32.130
+  port: 11080
   udp: true
   type: socks4
 proxy-groups:
@@ -49,8 +39,6 @@ proxy-groups:
   - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,7 +49,5 @@ proxy-groups:
   - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 - xiaohe
 rules:
 - MATCH,PROXIES

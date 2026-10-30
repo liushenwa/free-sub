@@ -5,51 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "172.86.84.97",
-      "server_port": 1085,
-      "version": "4",
-      "tag": "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "1.168.186.112",
-      "server_port": 10808,
-      "version": "5",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "68.233.8.123",
+      "server": "72.223.15.182",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 03 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.61.188.134",
-      "server_port": 44499,
+      "server": "172.99.187.33",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇵🇷 PR 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "181.143.45.218",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "176.65.132.138",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 04 - xiaohe"
+      "tag": "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 03 - xiaohe",
-        "🇺🇸 美国 (United States) 04 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇵🇷 PR 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 ★★★★★ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 03 - xiaohe",
-        "🇺🇸 美国 (United States) 04 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇵🇷 PR 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

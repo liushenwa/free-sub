@@ -9,52 +9,17 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 188.127.247.6
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇸🇲 SM 03 - xiaohe
-  server: 157.90.113.23
-  port: 9052
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 217.14.192.183
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
-  server: 81.7.112.174
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 42.115.72.145
-  port: 1080
-  udp: true
-  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇸🇲 SM 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇸🇲 SM 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

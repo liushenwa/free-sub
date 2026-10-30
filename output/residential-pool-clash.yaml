@@ -14,24 +14,14 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe
-  server: 93.115.174.1
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  server: 109.194.174.104
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  server: 83.237.82.146
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
-  server: 83.237.92.106
+- name: 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
+  server: 111.125.154.22
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇦🇲 亚美尼亚 (Armenia) 06 ★★★★★ 移动家宽 - xiaohe
-  server: 212.34.230.102
-  port: 4153
   udp: true
   type: socks4
 proxy-groups:
@@ -41,10 +31,8 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -52,9 +40,7 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 03 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
+  - 🇦🇫 AF 04 ★★★★★ 移动家宽 - xiaohe
 rules:
 - MATCH,PROXIES

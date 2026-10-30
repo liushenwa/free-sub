@@ -11,63 +11,18 @@
       "tag": "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
     },
     {
-      "type": "socks",
-      "server": "188.127.247.6",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "157.90.113.23",
-      "server_port": 9052,
-      "version": "4",
-      "tag": "🇸🇲 SM 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "217.14.192.183",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "81.7.112.174",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "42.115.72.145",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇸🇲 SM 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇸🇲 SM 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

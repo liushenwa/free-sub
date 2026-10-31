@@ -10,33 +10,23 @@ proxies:
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  server: 212.103.116.73
+  server: 90.188.250.169
   port: 1080
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
-  server: 83.237.92.106
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇦🇲 亚美尼亚 (Armenia) 04 ★★★★★ 移动家宽 - xiaohe
-  server: 212.34.230.102
-  port: 4153
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  server: 42.115.72.145
+  port: 1111
   udp: true
   type: socks4
+- name: 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
+  server: 138.128.193.193
+  port: 11080
+  udp: true
+  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
   server: 42.115.72.145
-  port: 1040
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 42.115.72.145
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇦 加拿大 (Canada) 07 ★★★★☆ 家宽 - xiaohe
-  server: 95.217.119.215
-  port: 60001
   udp: true
   type: socks4
 proxy-groups:
@@ -46,11 +36,9 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇨🇦 加拿大 (Canada) 07 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,10 +46,8 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 移动家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 04 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇨🇦 加拿大 (Canada) 07 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

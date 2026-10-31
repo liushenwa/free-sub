@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇦 加拿大 (Canada) 01 ★★★★☆ 家宽 - xiaohe
-  server: 95.217.119.215
-  port: 60001
+- name: 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
+  server: 138.128.193.193
+  port: 11080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇦 加拿大 (Canada) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇦 加拿大 (Canada) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

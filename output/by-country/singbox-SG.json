@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "193.218.118.128",
+      "server": "163.128.140.43",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+      "tag": "🇸🇬 新加坡 (Singapore) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+        "🇸🇬 新加坡 (Singapore) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
+        "🇸🇬 新加坡 (Singapore) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

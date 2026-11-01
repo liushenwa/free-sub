@@ -8,7 +8,7 @@ proxies:
   server: 183.106.215.208
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

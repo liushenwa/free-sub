@@ -8,30 +8,21 @@
       "server": "193.218.118.128",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "80.65.211.149",
-      "server_port": 8888,
-      "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+      "tag": "🇫🇷 法国 (France) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+        "🇫🇷 法国 (France) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-        "🇬🇧 英国 (United Kingdom) 02 - xiaohe"
+        "🇫🇷 法国 (France) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

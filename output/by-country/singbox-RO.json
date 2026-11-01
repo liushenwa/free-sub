@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "212.34.230.102",
-      "server_port": 4153,
+      "server": "57.128.249.250",
+      "server_port": 9052,
       "version": "4",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+      "tag": "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇷🇴 罗马尼亚 (Romania) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

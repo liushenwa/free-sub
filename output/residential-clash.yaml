@@ -3,79 +3,16 @@ socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
-proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 183.106.215.208
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇬🇧 英国 (United Kingdom) 02 ★★★★★ 家宽 - xiaohe
-  server: 2.102.71.177
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇦🇲 亚美尼亚 (Armenia) 03 ★★★★☆ 移动家宽 - xiaohe
-  server: 212.34.230.102
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  server: 42.115.72.145
-  port: 1076
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  server: 42.115.72.145
-  port: 1103
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 42.115.72.145
-  port: 1110
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 07 ★★★★☆ 家宽 - xiaohe
-  server: 12.154.48.194
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
-  server: 95.83.154.186
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇱 智利 (Chile) 09 ★★★★☆ 家宽 - xiaohe
-  server: 179.57.254.39
-  port: 4145
-  udp: true
-  type: socks4
+proxies: []
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 ★★★★★ 家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 03 ★★★★☆ 移动家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇨🇱 智利 (Chile) 09 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 02 ★★★★★ 家宽 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 03 ★★★★☆ 移动家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇨🇱 智利 (Chile) 09 ★★★★☆ 家宽 - xiaohe
+  proxies: []
 rules:
 - MATCH,PROXIES

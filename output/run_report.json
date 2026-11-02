@@ -1,46 +1,47 @@
 {
-  "generated_at": "2026-11-02T12:08:30.613989+00:00",
-  "raw_sources_nodes": 6173,
-  "parsed_candidates": 5885,
-  "tested_candidates": 4437,
-  "test_results": 905,
+  "generated_at": "2026-11-02T21:20:10.879871+00:00",
+  "raw_sources_nodes": 5925,
+  "parsed_candidates": 5687,
+  "tested_candidates": 3046,
+  "test_results": 567,
   "final_nodes": 8,
-  "residential_nodes": 0,
-  "non_residential_nodes": 8,
+  "residential_nodes": 1,
+  "non_residential_nodes": 7,
   "precheck_stats": {
-    "passed": 1937,
-    "deferred": 2500,
-    "deferred_to_residential": 0,
-    "deferred_to_nonresidential": 2,
-    "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.08,
+    "passed": 1172,
+    "deferred": 1874,
+    "deferred_to_residential": 1,
+    "deferred_to_nonresidential": 1,
+    "deferred_residential_selection_rate": 0.05,
+    "deferred_nonresidential_selection_rate": 0.05,
     "deferred_to_final_selection": 2,
-    "deferred_final_selection_rate": 0.08,
-    "residential_share_of_final": 0,
-    "nonresidential_share_of_final": 25.0
+    "deferred_final_selection_rate": 0.11,
+    "residential_share_of_final": 100.0,
+    "nonresidential_share_of_final": 14.29
   },
-  "new_nodes": 7,
-  "disappeared_nodes": 4,
+  "new_nodes": 6,
+  "disappeared_nodes": 6,
   "protocol_stats": {
     "socks": {
-      "tested": 905,
-      "success": 272,
-      "success_rate": 30.1
+      "tested": 567,
+      "success": 182,
+      "success_rate": 32.1
     }
   },
   "new_node_ids": [
+    "0438e40a31e67fa3bc8cd6d285337d35b0e97385",
+    "3b81ee3e1273bdd6f58e11b38a79dcc74156b577",
+    "4d7e9719f30e7269e8f2eeebffd4eca2c642e0bf",
+    "b1bbc397de5874e33287ae0fac2c8fbefa54a259",
+    "b326fa996f83737042dba5e57700c0e289966075",
+    "d6c998a7f322e3dadb69ecd719619b804193c64f"
+  ],
+  "disappeared_node_ids": [
     "13786513fc54f373a703690eb2bc71d830f57f42",
     "672a604415904ce9e535893d19b5b368ed69915f",
-    "a5469d21b73d6bb7b85e58c8236e824a8e491ca6",
     "a82941920cac4d5a2dbf035ed2f033550525d835",
     "de5aa59e8fdbb4e55fb6bb222453ce821ace8826",
     "f2366b0dd155369314828e2eaa32a23cf8a49e55",
     "feb0ab36fb1bfcdc0eb1152cb6a622ff4557ddd6"
-  ],
-  "disappeared_node_ids": [
-    "765d79865349b31073c0c15f84ee2b419d685af8",
-    "e1fec7cfe894cd851996ad0f5394bede644f6f44",
-    "f940fcfb712fbf02c4e739b9613b7e5beb6478a7",
-    "fc0d8728ca216ef46ec27c08a4a88b47c4d6b3c6"
   ]
 }

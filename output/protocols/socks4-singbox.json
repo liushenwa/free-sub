@@ -5,42 +5,69 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "165.99.90.3",
-      "server_port": 1080,
+      "server": "180.222.187.50",
+      "server_port": 10800,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
+      "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "165.99.90.2",
+      "server": "165.99.90.3",
       "server_port": 1080,
       "version": "4",
       "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "103.154.47.205",
+      "server": "103.157.116.179",
+      "server_port": 10810,
+      "version": "4",
+      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.167.40.54",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.14.149.33",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "213.150.221.198",
+      "server_port": 4153,
+      "version": "4",
+      "tag": "🇿🇦 南非 (South Africa) 06 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇿🇦 南非 (South Africa) 06 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇿🇦 南非 (South Africa) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

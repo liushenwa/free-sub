@@ -1,44 +1,46 @@
 {
-  "generated_at": "2026-11-02T03:43:53.635522+00:00",
-  "raw_sources_nodes": 6429,
-  "parsed_candidates": 6052,
-  "tested_candidates": 2773,
-  "test_results": 592,
-  "final_nodes": 5,
-  "residential_nodes": 1,
-  "non_residential_nodes": 4,
+  "generated_at": "2026-11-02T12:08:30.613989+00:00",
+  "raw_sources_nodes": 6173,
+  "parsed_candidates": 5885,
+  "tested_candidates": 4437,
+  "test_results": 905,
+  "final_nodes": 8,
+  "residential_nodes": 0,
+  "non_residential_nodes": 8,
   "precheck_stats": {
-    "passed": 1188,
-    "deferred": 1585,
+    "passed": 1937,
+    "deferred": 2500,
     "deferred_to_residential": 0,
-    "deferred_to_nonresidential": 1,
+    "deferred_to_nonresidential": 2,
     "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.06,
-    "deferred_to_final_selection": 1,
-    "deferred_final_selection_rate": 0.06,
-    "residential_share_of_final": 0.0,
+    "deferred_nonresidential_selection_rate": 0.08,
+    "deferred_to_final_selection": 2,
+    "deferred_final_selection_rate": 0.08,
+    "residential_share_of_final": 0,
     "nonresidential_share_of_final": 25.0
   },
-  "new_nodes": 3,
-  "disappeared_nodes": 6,
+  "new_nodes": 7,
+  "disappeared_nodes": 4,
   "protocol_stats": {
     "socks": {
-      "tested": 592,
-      "success": 187,
-      "success_rate": 31.6
+      "tested": 905,
+      "success": 272,
+      "success_rate": 30.1
     }
   },
   "new_node_ids": [
-    "765d79865349b31073c0c15f84ee2b419d685af8",
-    "e1fec7cfe894cd851996ad0f5394bede644f6f44",
-    "f940fcfb712fbf02c4e739b9613b7e5beb6478a7"
+    "13786513fc54f373a703690eb2bc71d830f57f42",
+    "672a604415904ce9e535893d19b5b368ed69915f",
+    "a5469d21b73d6bb7b85e58c8236e824a8e491ca6",
+    "a82941920cac4d5a2dbf035ed2f033550525d835",
+    "de5aa59e8fdbb4e55fb6bb222453ce821ace8826",
+    "f2366b0dd155369314828e2eaa32a23cf8a49e55",
+    "feb0ab36fb1bfcdc0eb1152cb6a622ff4557ddd6"
   ],
   "disappeared_node_ids": [
-    "0baa5e499f16e1425929c09548d71c50a1df417a",
-    "1d1ee36b62db7e550e8dea1fdac7fcd80152f7d6",
-    "545ce21a3d6f95b079ea3a37e84203b4c963a7ee",
-    "a5469d21b73d6bb7b85e58c8236e824a8e491ca6",
-    "b1bbc397de5874e33287ae0fac2c8fbefa54a259",
-    "fc79eb74f2ec04b6b107385bc585b5bc25b6c88b"
+    "765d79865349b31073c0c15f84ee2b419d685af8",
+    "e1fec7cfe894cd851996ad0f5394bede644f6f44",
+    "f940fcfb712fbf02c4e739b9613b7e5beb6478a7",
+    "fc0d8728ca216ef46ec27c08a4a88b47c4d6b3c6"
   ]
 }

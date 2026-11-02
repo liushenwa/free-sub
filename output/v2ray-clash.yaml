@@ -4,29 +4,44 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 7291
+- name: 🇯🇵 日本 (Japan) 01 - xiaohe
+  server: 180.222.187.50
+  port: 10800
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 165.99.90.2
+- name: 🇭🇷 克罗地亚 (Croatia) 03 - xiaohe
+  server: 45.74.31.42
+  port: 4489
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  server: 103.157.116.179
+  port: 10810
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 103.167.40.54
   port: 1080
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
-  server: 103.154.47.205
-  port: 1080
+- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+  server: 185.14.149.33
+  port: 4145
   udp: true
   type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  server: 178.239.115.128
-  port: 1080
+- name: 🇿🇦 南非 (South Africa) 07 - xiaohe
+  server: 213.150.221.198
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇭🇷 克罗地亚 (Croatia) 08 - xiaohe
+  server: 45.74.31.46
+  port: 4787
   udp: true
   type: socks5
 proxy-groups:
@@ -34,20 +49,26 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇿🇦 南非 (South Africa) 07 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇯🇵 日本 (Japan) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇿🇦 南非 (South Africa) 07 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 08 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,78 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "69.36.63.128",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "165.99.90.3",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "165.99.90.2",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "193.218.118.128",
+      "server": "103.154.47.205",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "178.239.115.128",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "190.108.57.211",
-      "server_port": 1085,
-      "version": "4",
-      "tag": "🇦🇷 阿根廷 (Argentina) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "57.128.249.250",
-      "server_port": 9052,
-      "version": "4",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.159.224.90",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇫🇷 法国 (France) 04 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 05 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇫🇷 法国 (France) 04 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 05 - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 06 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 07 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 03 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

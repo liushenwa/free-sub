@@ -1,45 +1,44 @@
 {
-  "generated_at": "2026-11-01T23:25:58.733617+00:00",
-  "raw_sources_nodes": 6034,
-  "parsed_candidates": 5801,
-  "tested_candidates": 3103,
-  "test_results": 580,
-  "final_nodes": 8,
+  "generated_at": "2026-11-02T03:43:53.635522+00:00",
+  "raw_sources_nodes": 6429,
+  "parsed_candidates": 6052,
+  "tested_candidates": 2773,
+  "test_results": 592,
+  "final_nodes": 5,
   "residential_nodes": 1,
-  "non_residential_nodes": 7,
+  "non_residential_nodes": 4,
   "precheck_stats": {
-    "passed": 973,
-    "deferred": 2130,
+    "passed": 1188,
+    "deferred": 1585,
     "deferred_to_residential": 0,
-    "deferred_to_nonresidential": 3,
+    "deferred_to_nonresidential": 1,
     "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.14,
-    "deferred_to_final_selection": 3,
-    "deferred_final_selection_rate": 0.14,
+    "deferred_nonresidential_selection_rate": 0.06,
+    "deferred_to_final_selection": 1,
+    "deferred_final_selection_rate": 0.06,
     "residential_share_of_final": 0.0,
-    "nonresidential_share_of_final": 42.86
+    "nonresidential_share_of_final": 25.0
   },
-  "new_nodes": 5,
-  "disappeared_nodes": 5,
+  "new_nodes": 3,
+  "disappeared_nodes": 6,
   "protocol_stats": {
     "socks": {
-      "tested": 580,
-      "success": 235,
-      "success_rate": 40.5
+      "tested": 592,
+      "success": 187,
+      "success_rate": 31.6
     }
   },
   "new_node_ids": [
+    "765d79865349b31073c0c15f84ee2b419d685af8",
+    "e1fec7cfe894cd851996ad0f5394bede644f6f44",
+    "f940fcfb712fbf02c4e739b9613b7e5beb6478a7"
+  ],
+  "disappeared_node_ids": [
     "0baa5e499f16e1425929c09548d71c50a1df417a",
     "1d1ee36b62db7e550e8dea1fdac7fcd80152f7d6",
     "545ce21a3d6f95b079ea3a37e84203b4c963a7ee",
     "a5469d21b73d6bb7b85e58c8236e824a8e491ca6",
-    "b1bbc397de5874e33287ae0fac2c8fbefa54a259"
-  ],
-  "disappeared_node_ids": [
-    "402c0464c1d0ceddb1818fb0ee81cd7b67d0fc15",
-    "8ef1c233590f0ec20780610ea4b6e1829a936801",
-    "9e20b44e912b8ab36d2872745c1ff775b64eac53",
-    "b326fa996f83737042dba5e57700c0e289966075",
-    "de5aa59e8fdbb4e55fb6bb222453ce821ace8826"
+    "b1bbc397de5874e33287ae0fac2c8fbefa54a259",
+    "fc79eb74f2ec04b6b107385bc585b5bc25b6c88b"
   ]
 }

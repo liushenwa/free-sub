@@ -5,17 +5,17 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "172.86.84.97",
-      "server_port": 1085,
+      "server": "131.0.245.82",
+      "server_port": 60606,
       "version": "4",
-      "tag": "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "101.255.119.68",
-      "server_port": 1081,
+      "server": "45.172.177.1",
+      "server_port": 59341,
       "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
+      "tag": "🇦🇷 阿根廷 (Argentina) 02 - xiaohe"
     },
     {
       "type": "socks",
@@ -26,39 +26,57 @@
     },
     {
       "type": "socks",
-      "server": "103.154.47.205",
+      "server": "205.209.66.105",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇳🇵 尼泊尔 (Nepal) 04 - xiaohe"
+      "tag": "🇸🇾 SY 04 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "165.99.90.2",
+      "server": "45.71.115.17",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
+      "tag": "🇪🇨 EC 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.154.47.205",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "180.222.187.50",
+      "server_port": 10800,
+      "version": "4",
+      "tag": "🇯🇵 日本 (Japan) 07 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 04 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
+        "🇸🇾 SY 04 - xiaohe",
+        "🇪🇨 EC 05 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 06 - xiaohe",
+        "🇯🇵 日本 (Japan) 07 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+        "🇦🇷 阿根廷 (Argentina) 02 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 04 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
+        "🇸🇾 SY 04 - xiaohe",
+        "🇪🇨 EC 05 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 06 - xiaohe",
+        "🇯🇵 日本 (Japan) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

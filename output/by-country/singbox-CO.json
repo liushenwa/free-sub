@@ -6,23 +6,30 @@
     {
       "type": "socks",
       "server": "45.74.31.46",
-      "server_port": 5062,
+      "server_port": 6218,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 10830,
+      "server": "45.74.31.46",
+      "server_port": 8393,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 10491,
+      "server": "45.74.31.46",
+      "server_port": 8241,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5061,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +38,8 @@
         "auto",
         "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "outbounds": [
         "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

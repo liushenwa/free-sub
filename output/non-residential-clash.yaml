@@ -9,34 +9,104 @@ proxies:
   port: 10800
   udp: true
   type: socks5
-- name: 🇮🇷 IR 02 - xiaohe
-  server: 80.191.46.62
-  port: 1099
+- name: 🇩🇪 德国 (Germany) 02 - xiaohe
+  server: 46.249.102.207
+  port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  server: 94.72.158.129
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 103.157.116.179
-  port: 10810
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 202.40.179.18
+  port: 4145
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  server: 45.74.31.47
-  port: 9414
+- name: 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+  server: 45.74.31.46
+  port: 12176
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 06 - xiaohe
+- name: 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
+  server: 45.74.31.46
+  port: 4837
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  server: 165.99.90.2
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  server: 131.0.245.82
+  port: 60606
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe
+  server: 45.74.31.46
+  port: 5038
+  udp: true
+  type: socks5
+- name: 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
+  server: 103.154.47.205
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe
+  server: 45.74.31.47
+  port: 10015
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 13 - xiaohe
+  server: 45.74.31.46
+  port: 4959
+  udp: true
+  type: socks5
+- name: 🇦🇲 亚美尼亚 (Armenia) 14 - xiaohe
+  server: 212.34.230.102
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 15 - xiaohe
   server: 69.36.63.128
   port: 1080
   udp: true
   type: socks4
-- name: 🇺🇸 美国 (United States) 07 - xiaohe
-  server: 80.65.211.149
-  port: 8888
+- name: 🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe
+  server: 103.167.40.54
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 17 - xiaohe
+  server: 45.74.31.46
+  port: 5061
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 18 - xiaohe
+  server: 45.74.31.47
+  port: 8940
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 19 - xiaohe
+  server: 45.74.31.46
+  port: 5050
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
+  server: 45.74.31.46
+  port: 5071
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 21 - xiaohe
+  server: 45.74.31.47
+  port: 5194
   udp: true
   type: socks5
 proxy-groups:
@@ -45,23 +115,51 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇯🇵 日本 (Japan) 01 - xiaohe
-  - 🇮🇷 IR 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
+  - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 13 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 14 - xiaohe
+  - 🇺🇸 美国 (United States) 15 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 17 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 18 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 19 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 21 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇯🇵 日本 (Japan) 01 - xiaohe
-  - 🇮🇷 IR 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
+  - 🇩🇪 德国 (Germany) 02 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 08 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 11 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 13 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 14 - xiaohe
+  - 🇺🇸 美国 (United States) 15 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 16 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 17 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 18 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 19 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 21 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,24 +5,105 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 9414,
+      "server": "45.74.31.46",
+      "server_port": 12176,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 4837,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5038,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 10015,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 4959,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5061,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 8940,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5050,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5071,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 5194,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 09 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

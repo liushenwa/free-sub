@@ -4,58 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
-  server: 118.174.14.65
-  port: 44336
+- name: 🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe
+  server: 172.86.84.97
+  port: 1085
   udp: true
   type: socks4
-- name: 🇩🇪 德国 (Germany) 02 - xiaohe
-  server: 46.249.102.207
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  server: 101.255.119.68
+  port: 1081
   udp: true
   type: socks4
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  server: 94.72.158.129
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 202.40.179.18
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  server: 165.99.90.2
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  server: 131.0.245.82
-  port: 60606
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
+- name: 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
   server: 103.154.47.205
   port: 1080
   udp: true
   type: socks4
-- name: 🇦🇲 亚美尼亚 (Armenia) 09 - xiaohe
-  server: 212.34.230.102
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇺🇸 美国 (United States) 10 - xiaohe
-  server: 69.36.63.128
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
-  server: 103.167.40.54
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
@@ -64,32 +34,20 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 09 - xiaohe
-  - 🇺🇸 美国 (United States) 10 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇭 泰国 (Thailand) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇩🇪 德国 (Germany) 02 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 08 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 09 - xiaohe
-  - 🇺🇸 美国 (United States) 10 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -1,34 +1,42 @@
 {
-  "generated_at": "2026-11-03T04:53:46.757885+00:00",
-  "raw_sources_nodes": 6353,
-  "parsed_candidates": 5958,
-  "tested_candidates": 3479,
-  "test_results": 682,
-  "final_nodes": 22,
+  "generated_at": "2026-11-03T15:54:12.930757+00:00",
+  "raw_sources_nodes": 5738,
+  "parsed_candidates": 5496,
+  "tested_candidates": 4249,
+  "test_results": 722,
+  "final_nodes": 9,
   "residential_nodes": 1,
-  "non_residential_nodes": 21,
+  "non_residential_nodes": 8,
   "precheck_stats": {
-    "passed": 1434,
-    "deferred": 2045,
-    "deferred_to_residential": 0,
+    "passed": 1569,
+    "deferred": 2680,
+    "deferred_to_residential": 1,
     "deferred_to_nonresidential": 4,
-    "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.2,
-    "deferred_to_final_selection": 4,
-    "deferred_final_selection_rate": 0.2,
-    "residential_share_of_final": 0.0,
-    "nonresidential_share_of_final": 19.05
+    "deferred_residential_selection_rate": 0.04,
+    "deferred_nonresidential_selection_rate": 0.15,
+    "deferred_to_final_selection": 5,
+    "deferred_final_selection_rate": 0.19,
+    "residential_share_of_final": 100.0,
+    "nonresidential_share_of_final": 50.0
   },
-  "new_nodes": 19,
-  "disappeared_nodes": 5,
+  "new_nodes": 6,
+  "disappeared_nodes": 19,
   "protocol_stats": {
     "socks": {
-      "tested": 682,
-      "success": 189,
-      "success_rate": 27.7
+      "tested": 722,
+      "success": 152,
+      "success_rate": 21.1
     }
   },
   "new_node_ids": [
+    "01703d18e701eeb1f44845784d650ff83c7eced8",
+    "2a7245577b9ea5fc75013a70cbb8a611f94da497",
+    "42d13a0bcd6baf2660d0d79ba01d22382f2d2a85",
+    "f87c47e11519f461cfe9a6fbf7dcba96be79a4f3",
+    "fc1533bd0412e70297de9b06a5c75c11d8315f9d",
+    "fdf671474793a0ee3de9fcf7c4131d6c713fcd7e"
+  ],
+  "disappeared_node_ids": [
     "03a6045fb191702e67174e0b3e61ce047eae3b11",
     "187918a85cfcf33e5a0b20567d571c3eaa54399a",
     "1aeddb7d4bb103bb2799721257a7e3a1be62f6d9",
@@ -36,6 +44,7 @@
     "2e1bc2db44249f87fe8b67e0658a05a04a79646f",
     "47bec1ccd9542e08d4fccda22fef0869626a412e",
     "48fe73fb82602474720e825c50011cab433289ff",
+    "4d7e9719f30e7269e8f2eeebffd4eca2c642e0bf",
     "88871aea9d2066a17bcb1fa349b509d7ff6cf007",
     "939daf04b11ca0593b3a79f1fa9a84c78da33260",
     "9514c05e42e3f4e03d33d42875cadf10b2352859",
@@ -43,17 +52,9 @@
     "9e20b44e912b8ab36d2872745c1ff775b64eac53",
     "a6a3d69e7597031c37458a55ebf85d6aa9b7f07d",
     "a82941920cac4d5a2dbf035ed2f033550525d835",
+    "b1bbc397de5874e33287ae0fac2c8fbefa54a259",
     "d52173eec3c33c3ddea982d8d1f1ace1bb3ab2bd",
     "da79cd59edf54fbb6d864320f30c44e2bfcc9da7",
-    "e1fec7cfe894cd851996ad0f5394bede644f6f44",
-    "ebc5fa9950d2b3da89dbdb25b01c7a1df36f2ccf",
-    "fc0d8728ca216ef46ec27c08a4a88b47c4d6b3c6"
-  ],
-  "disappeared_node_ids": [
-    "0438e40a31e67fa3bc8cd6d285337d35b0e97385",
-    "3b81ee3e1273bdd6f58e11b38a79dcc74156b577",
-    "a5469d21b73d6bb7b85e58c8236e824a8e491ca6",
-    "b326fa996f83737042dba5e57700c0e289966075",
-    "d6c998a7f322e3dadb69ecd719619b804193c64f"
+    "ebc5fa9950d2b3da89dbdb25b01c7a1df36f2ccf"
   ]
 }

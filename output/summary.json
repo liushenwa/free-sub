@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T21:33:23.382034+00:00",
-  "total": 12,
+  "generated_at": "2026-11-04T04:10:59.710765+00:00",
+  "total": 8,
   "residential": 0,
-  "non_residential": 12,
+  "non_residential": 8,
   "top_trusted": 0,
   "stable": 0,
   "residential_premium": 0,
@@ -12,31 +12,28 @@
     "5": 0
   },
   "protocols": {
-    "socks5": 5,
-    "socks4": 7
+    "socks4": 6,
+    "socks5": 2
   },
   "anonymity": {
-    "unknown": 12
+    "unknown": 8
   },
   "net_types": {
-    "unknown": 12
+    "unknown": 8
   },
   "risk_buckets": {
     "0-20": 0,
-    "21-40": 12,
+    "21-40": 8,
     "41-60": 0,
     "61-75": 0,
     "76-100": 0
   },
   "countries": {
     "RU": 1,
-    "BR": 1,
-    "AR": 1,
-    "BD": 1,
-    "SY": 1,
-    "CO": 4,
-    "EC": 1,
-    "NP": 1,
-    "JP": 1
+    "MX": 1,
+    "BD": 3,
+    "CO": 1,
+    "US": 1,
+    "EC": 1
   }
 }

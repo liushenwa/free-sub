@@ -5,52 +5,52 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "178.158.52.196",
+      "server": "217.14.192.183",
       "server_port": 1080,
-      "version": "5",
+      "version": "4",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "131.0.245.82",
-      "server_port": 60606,
+      "server": "45.230.174.21",
+      "server_port": 4153,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.172.177.1",
-      "server_port": 59341,
-      "version": "4",
-      "tag": "🇦🇷 阿根廷 (Argentina) 03 - xiaohe"
+      "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "165.99.90.3",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "205.209.66.105",
+      "server": "45.74.31.46",
+      "server_port": 5154,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "165.99.90.2",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇸🇾 SY 05 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 6218,
+      "server": "206.246.26.65",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 06 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 8393,
-      "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe"
+      "server": "202.40.179.18",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe"
     },
     {
       "type": "socks",
@@ -60,50 +60,18 @@
       "tag": "🇪🇨 EC 08 - xiaohe"
     },
     {
-      "type": "socks",
-      "server": "103.154.47.205",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇳🇵 尼泊尔 (Nepal) 09 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 8241,
-      "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "180.222.187.50",
-      "server_port": 10800,
-      "version": "4",
-      "tag": "🇯🇵 日本 (Japan) 11 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 5061,
-      "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 03 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
-        "🇸🇾 SY 05 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe",
-        "🇪🇨 EC 08 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 09 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe",
-        "🇯🇵 日本 (Japan) 11 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
+        "🇺🇸 美国 (United States) 06 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe",
+        "🇪🇨 EC 08 - xiaohe"
       ]
     },
     {
@@ -111,17 +79,13 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇦🇷 阿根廷 (Argentina) 03 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
-        "🇸🇾 SY 05 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe",
-        "🇪🇨 EC 08 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 09 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 10 - xiaohe",
-        "🇯🇵 日本 (Japan) 11 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 12 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
+        "🇺🇸 美国 (United States) 06 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe",
+        "🇪🇨 EC 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

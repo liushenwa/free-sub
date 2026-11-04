@@ -4,14 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 131.0.245.82
-  port: 60606
+- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  server: 217.14.192.183
+  port: 1080
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
-  server: 45.172.177.1
-  port: 59341
+- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  server: 45.230.174.21
+  port: 4153
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
@@ -19,24 +19,19 @@ proxies:
   port: 1080
   udp: true
   type: socks4
-- name: 🇸🇾 SY 04 - xiaohe
-  server: 205.209.66.105
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
-- name: 🇪🇨 EC 05 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 202.40.179.18
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇪🇨 EC 06 - xiaohe
   server: 45.71.115.17
   port: 1080
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
-  server: 103.154.47.205
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇯🇵 日本 (Japan) 07 - xiaohe
-  server: 180.222.187.50
-  port: 10800
   udp: true
   type: socks4
 proxy-groups:
@@ -44,24 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇸🇾 SY 04 - xiaohe
-  - 🇪🇨 EC 05 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
-  - 🇯🇵 日本 (Japan) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇪🇨 EC 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 02 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇸🇾 SY 04 - xiaohe
-  - 🇪🇨 EC 05 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 06 - xiaohe
-  - 🇯🇵 日本 (Japan) 07 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  - 🇪🇨 EC 06 - xiaohe
 rules:
 - MATCH,PROXIES

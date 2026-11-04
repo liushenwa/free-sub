@@ -9,17 +9,31 @@ proxies:
   port: 4153
   udp: true
   type: socks4
+- name: 🇯🇵 日本 (Japan) 02 - xiaohe
+  server: 180.222.187.50
+  port: 10800
+  udp: true
+  type: socks5
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
+  server: 185.14.149.33
+  port: 4145
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇯🇵 日本 (Japan) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
 rules:
 - MATCH,PROXIES

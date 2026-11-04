@@ -5,42 +5,69 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 8905,
+      "server": "180.222.187.50",
+      "server_port": 10800,
       "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+      "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 22203,
+      "server": "45.74.31.47",
+      "server_port": 7853,
       "version": "5",
-      "tag": "🇮🇩 印尼 (Indonesia) 02 - xiaohe"
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 10897,
+      "server": "45.74.31.47",
+      "server_port": 13112,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 8215,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 5174,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "95.80.120.246",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,34 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 217.14.192.183
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   server: 45.230.174.21
   port: 4153
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  server: 165.99.90.2
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 202.40.179.18
   port: 4145
   udp: true
   type: socks4
-- name: 🇪🇨 EC 06 - xiaohe
-  server: 45.71.115.17
-  port: 1080
+- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  server: 131.0.245.82
+  port: 60606
   udp: true
   type: socks4
 proxy-groups:
@@ -39,22 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇪🇨 EC 06 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇪🇨 EC 06 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
 rules:
 - MATCH,PROXIES

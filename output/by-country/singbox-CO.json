@@ -6,23 +6,32 @@
     {
       "type": "socks",
       "server": "45.74.31.46",
-      "server_port": 5154,
+      "server_port": 8905,
       "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.40",
+      "server_port": 10897,
+      "version": "5",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
+        "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,69 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "217.14.192.183",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "45.230.174.21",
       "server_port": 4153,
       "version": "4",
-      "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe"
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
     },
     {
       "type": "socks",
       "server": "165.99.90.3",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "165.99.90.2",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "202.40.179.18",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe"
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.71.115.17",
-      "server_port": 1080,
+      "server": "131.0.245.82",
+      "server_port": 60606,
       "version": "4",
-      "tag": "🇪🇨 EC 06 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 04 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
-        "🇪🇨 EC 06 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+        "🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe",
         "🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe",
-        "🇪🇨 EC 06 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

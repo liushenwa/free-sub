@@ -4,71 +4,64 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 217.14.192.183
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   server: 45.230.174.21
   port: 4153
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
   server: 45.74.31.46
-  port: 5154
+  port: 8905
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 165.99.90.2
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇺🇸 美国 (United States) 06 - xiaohe
-  server: 206.246.26.65
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
   server: 202.40.179.18
   port: 4145
   udp: true
   type: socks4
-- name: 🇪🇨 EC 08 - xiaohe
-  server: 45.71.115.17
-  port: 1080
+- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  server: 131.0.245.82
+  port: 60606
   udp: true
   type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  server: 45.74.31.40
+  port: 22203
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
+  server: 45.74.31.40
+  port: 10897
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇪🇨 EC 08 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇪🇨 EC 08 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 07 - xiaohe
 rules:
 - MATCH,PROXIES

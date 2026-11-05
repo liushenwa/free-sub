@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   server: 45.74.31.41
-  port: 12295
+  port: 12405
   udp: true
   type: socks5
 proxy-groups:

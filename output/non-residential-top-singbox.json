@@ -5,42 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.230.174.21",
+      "server": "172.109.168.65",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇺🇸 美国 (United States) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "170.80.221.192",
       "server_port": 4153,
       "version": "4",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "180.222.187.50",
-      "server_port": 10800,
-      "version": "5",
-      "tag": "🇯🇵 日本 (Japan) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "185.14.149.33",
-      "server_port": 4145,
+      "server": "131.0.245.82",
+      "server_port": 60606,
       "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe"
+      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 6469,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇯🇵 日本 (Japan) 02 - xiaohe",
-        "🇵🇱 波兰 (Poland) 03 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇯🇵 日本 (Japan) 02 - xiaohe",
-        "🇵🇱 波兰 (Poland) 03 - xiaohe"
+        "🇺🇸 美国 (United States) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

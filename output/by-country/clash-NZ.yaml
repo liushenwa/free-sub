@@ -1,0 +1,53 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇳🇿 新西兰 (New Zealand) 01 - xiaohe
+  server: 45.74.31.46
+  port: 8884
+  udp: true
+  type: socks5
+- name: 🇳🇿 新西兰 (New Zealand) 02 - xiaohe
+  server: 45.74.31.46
+  port: 8941
+  udp: true
+  type: socks5
+- name: 🇳🇿 新西兰 (New Zealand) 03 - xiaohe
+  server: 45.74.31.47
+  port: 4172
+  udp: true
+  type: socks5
+- name: 🇳🇿 新西兰 (New Zealand) 04 - xiaohe
+  server: 45.74.31.42
+  port: 6313
+  udp: true
+  type: socks5
+- name: 🇳🇿 新西兰 (New Zealand) 05 - xiaohe
+  server: 45.74.31.47
+  port: 8183
+  udp: true
+  type: socks5
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇳🇿 新西兰 (New Zealand) 01 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 02 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 03 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 04 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 05 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇳🇿 新西兰 (New Zealand) 01 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 02 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 03 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 04 - xiaohe
+  - 🇳🇿 新西兰 (New Zealand) 05 - xiaohe
+rules:
+- MATCH,PROXIES

@@ -6,7 +6,12 @@ log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   server: 45.74.31.42
-  port: 7639
+  port: 13119
+  udp: true
+  type: socks5
+- name: 🇹🇼 中国台湾 (Taiwan) 02 ★★★★☆ 家宽 - xiaohe
+  server: 210.61.97.16
+  port: 7071
   udp: true
   type: socks5
 proxy-groups:
@@ -15,11 +20,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

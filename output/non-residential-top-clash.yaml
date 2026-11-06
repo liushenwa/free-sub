@@ -4,9 +4,34 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 46.8.158.144
-  port: 10800
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 185.14.149.33
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.46
+  port: 13453
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 16009
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 8953
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 13021
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.40
+  port: 11551
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

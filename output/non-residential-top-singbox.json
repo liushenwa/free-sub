@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "45.74.31.47",
+      "server_port": 6469,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

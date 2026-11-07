@@ -1,43 +1,39 @@
 {
-  "generated_at": "2026-11-07T11:06:37.012664+00:00",
-  "total": 12,
-  "residential": 4,
-  "non_residential": 8,
+  "generated_at": "2026-11-07T17:21:37.487937+00:00",
+  "total": 8,
+  "residential": 2,
+  "non_residential": 6,
   "top_trusted": 0,
   "stable": 0,
   "residential_premium": 0,
   "residential_stars": {
     "3": 0,
-    "4": 3,
-    "5": 1
+    "4": 1,
+    "5": 2
   },
   "protocols": {
-    "socks4": 10,
-    "socks5": 2
+    "socks5": 4,
+    "socks4": 4
   },
   "anonymity": {
-    "unknown": 12
+    "unknown": 8
   },
   "net_types": {
-    "residential": 4,
-    "unknown": 7,
+    "residential": 3,
+    "unknown": 4,
     "datacenter": 1
   },
   "risk_buckets": {
-    "0-20": 4,
-    "21-40": 8,
+    "0-20": 3,
+    "21-40": 5,
     "41-60": 0,
     "61-75": 0,
     "76-100": 0
   },
   "countries": {
-    "VN": 2,
-    "US": 2,
-    "ID": 2,
-    "AR": 1,
-    "PL": 1,
-    "BD": 2,
-    "BR": 1,
-    "DE": 1
+    "VN": 3,
+    "US": 1,
+    "RU": 1,
+    "BD": 3
   }
 }

@@ -4,35 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "socks",
-      "server": "46.161.49.174",
-      "server_port": 10808,
-      "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "138.124.66.203",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇩🇪 德国 (Germany) 02 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [
-        "🇵🇱 波兰 (Poland) 01 - xiaohe",
-        "🇩🇪 德国 (Germany) 02 - xiaohe"
-      ],
+      "outbounds": [],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "2.102.71.177",
+      "server": "72.201.137.8",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇬🇧 英国 (United Kingdom) 01 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -18,38 +18,20 @@
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe"
     },
     {
-      "type": "socks",
-      "server": "46.8.158.144",
-      "server_port": 10800,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "163.128.140.36",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇧 英国 (United Kingdom) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 04 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 04 - xiaohe"
+        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
+        "🇩🇪 德国 (Germany) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,43 +4,57 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 103.157.116.179
-  port: 10810
+- name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  server: 45.93.28.167
+  port: 5555
   udp: true
-  type: socks4
-- name: 🇸🇾 SY 02 - xiaohe
-  server: 205.209.66.105
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  server: 163.128.137.239
   port: 1080
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  server: 202.40.179.18
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 165.99.90.2
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  server: 94.242.50.113
+  port: 2080
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 103.13.234.12
-  port: 1080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇸🇾 SY 02 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇸🇾 SY 02 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 06 - xiaohe
 rules:
 - MATCH,PROXIES

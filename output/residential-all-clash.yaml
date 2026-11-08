@@ -4,50 +4,36 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 72.201.137.8
+- name: 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
+  server: 203.189.136.174
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 18312
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  server: 107.175.130.24
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 04 ★★★★☆ 家宽 - xiaohe
-  server: 190.111.243.150
-  port: 1085
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
-  server: 176.193.183.36
-  port: 1080
+- name: 🇨🇱 智利 (Chile) 02 ★★★★☆ 家宽 - xiaohe
+  server: 179.57.254.39
+  port: 4145
   udp: true
-  type: socks5
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 ★★★★☆ 家宽 - xiaohe
+  server: 45.115.115.37
+  port: 9090
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇨🇱 智利 (Chile) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
+  - 🇨🇱 智利 (Chile) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

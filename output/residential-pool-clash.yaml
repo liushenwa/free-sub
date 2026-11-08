@@ -4,36 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 72.201.137.8
+- name: 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
+  server: 203.189.136.174
   port: 1080
   udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.42
-  port: 18312
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  server: 107.175.130.24
-  port: 1080
-  udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

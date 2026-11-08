@@ -4,9 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
-  server: 45.93.28.167
-  port: 5555
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.47
+  port: 4270
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  server: 45.74.31.41
+  port: 5288
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
+  server: 161.248.206.61
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 03 - xiaohe
 rules:
 - MATCH,PROXIES

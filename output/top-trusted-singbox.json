@@ -4,16 +4,26 @@
   },
   "outbounds": [
     {
+      "type": "socks",
+      "server": "94.242.50.113",
+      "server_port": 2080,
+      "version": "4",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto"
+        "auto",
+        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [],
+      "outbounds": [
+        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+      ],
       "url": "https://www.gstatic.com/generate_204"
     },
     {

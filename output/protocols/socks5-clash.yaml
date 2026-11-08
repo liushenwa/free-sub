@@ -5,38 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 72.201.137.8
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
   server: 107.175.130.24
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 6469
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 45.74.31.40
-  port: 4634
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 45.74.31.40
-  port: 4859
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 06 - xiaohe
-  server: 206.246.26.65
+- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
-  server: 45.169.106.140
-  port: 1086
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  server: 45.74.31.42
+  port: 18312
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
+  server: 176.193.183.36
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  server: 103.13.234.12
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -47,10 +37,8 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,9 +47,7 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★☆ 家宽 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇺🇸 美国 (United States) 06 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 07 - xiaohe
 rules:
 - MATCH,PROXIES

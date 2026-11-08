@@ -10,8 +10,8 @@ proxies:
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.47
-  port: 6469
+  server: 45.74.31.42
+  port: 18312
   udp: true
   type: socks5
 - name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe

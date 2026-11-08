@@ -4,44 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  server: 165.99.90.2
+- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  server: 103.157.116.179
+  port: 10810
+  udp: true
+  type: socks4
+- name: 🇸🇾 SY 02 - xiaohe
+  server: 205.209.66.105
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  server: 203.190.8.59
-  port: 1088
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 116.97.117.27
-  port: 4153
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  server: 165.99.90.3
+  port: 1080
   udp: true
   type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 45.74.31.40
-  port: 4634
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 45.74.31.40
-  port: 4859
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 163.128.137.239
+  server: 103.13.234.12
   port: 1080
-  udp: true
-  type: socks4
-- name: 🇺🇸 美国 (United States) 07 - xiaohe
-  server: 206.246.26.65
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
-  server: 45.169.106.140
-  port: 1086
   udp: true
   type: socks5
 proxy-groups:
@@ -49,26 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇸🇾 SY 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇸🇾 SY 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇺🇸 美国 (United States) 07 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
 rules:
 - MATCH,PROXIES

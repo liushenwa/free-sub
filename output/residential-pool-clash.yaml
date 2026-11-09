@@ -5,22 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 69.206.61.125
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.40
-  port: 4459
+  server: 45.74.31.41
+  port: 6942
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
-  server: 107.175.130.24
+- name: 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
+  server: 203.189.136.174
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
+  server: 107.175.130.24
   port: 1080
   udp: true
   type: socks5
@@ -31,7 +31,7 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
@@ -40,7 +40,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

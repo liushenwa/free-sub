@@ -5,45 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 69.206.61.125
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  server: 45.74.31.40
-  port: 4459
+  server: 45.74.31.41
+  port: 6942
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
+  server: 203.189.136.174
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
   server: 107.175.130.24
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
+- name: 🇳🇪 NE 05 ★★★★☆ 家宽 - xiaohe
+  server: 129.222.104.125
   port: 1080
   udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 移动家宽 - xiaohe
-  server: 180.93.102.159
-  port: 40038
-  udp: true
-  type: socks5
-- name: 🇦🇷 阿根廷 (Argentina) 06 ★★★★☆ 家宽 - xiaohe
-  server: 190.111.243.150
-  port: 1085
-  udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 07 ★★★★☆ 家宽 - xiaohe
-  server: 103.157.116.179
-  port: 10810
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
-  server: 176.193.183.36
+- name: 🇳🇪 NE 06 ★★★★☆ 家宽 - xiaohe
+  server: 143.105.74.75
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,12 +41,10 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 移动家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇪 NE 05 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇪 NE 06 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,11 +52,9 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
   - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 ★★★★☆ 移动家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇪 NE 05 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇪 NE 06 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

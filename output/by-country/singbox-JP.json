@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "105.214.42.69",
-      "server_port": 5678,
+      "server": "180.222.187.50",
+      "server_port": 10800,
       "version": "4",
-      "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe"
+      "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 南非 (South Africa) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,38 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
-  server: 203.189.136.174
+- name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  server: 203.150.113.95
+  port: 14153
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  server: 190.61.32.163
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇯🇵 日本 (Japan) 03 - xiaohe
-  server: 180.222.187.50
-  port: 10800
-  udp: true
-  type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
   server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  server: 185.215.54.66
-  port: 3629
+- name: 🇮🇳 印度 (India) 04 - xiaohe
+  server: 202.179.83.169
+  port: 51951
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 06 - xiaohe
+- name: 🇮🇳 印度 (India) 05 - xiaohe
   server: 103.137.148.253
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  server: 165.99.90.2
+- name: 🇧🇮 BI 06 - xiaohe
+  server: 197.157.194.10
   port: 1080
   udp: true
   type: socks4
@@ -44,24 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇯🇵 日本 (Japan) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇧🇮 BI 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇭 柬埔寨 (Cambodia) 01 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇯🇵 日本 (Japan) 03 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇧🇮 BI 06 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: 185.215.54.66
-  port: 3629
+- name: 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 移动家宽 - xiaohe
+  server: 206.1.100.125
+  port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 移动家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 ★★★★☆ 移动家宽 - xiaohe
 rules:
 - MATCH,PROXIES

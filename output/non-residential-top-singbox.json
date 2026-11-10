@@ -5,69 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "190.61.32.163",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "176.62.237.51",
+      "server": "45.71.115.17",
       "server_port": 1080,
-      "version": "5",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe"
+      "version": "4",
+      "tag": "🇪🇨 EC 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 9792,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe"
+      "server": "88.213.214.254",
+      "server_port": 4145,
+      "version": "4",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 16320,
+      "server": "180.222.187.50",
+      "server_port": 10800,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 4570,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.46",
-      "server_port": 4451,
-      "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
+        "🇪🇨 EC 01 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇯🇵 日本 (Japan) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 06 ★★★★★ 家宽 - xiaohe"
+        "🇪🇨 EC 01 - xiaohe",
+        "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
+        "🇯🇵 日本 (Japan) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

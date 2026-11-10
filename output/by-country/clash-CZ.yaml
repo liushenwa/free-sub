@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 176.62.237.51
+  server: 78.80.157.35
   port: 1080
   udp: true
   type: socks5

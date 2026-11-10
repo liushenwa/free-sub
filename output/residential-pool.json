@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T00:12:34.940245+00:00",
+  "updated_at": "2026-11-10T05:34:40.681765+00:00",
   "description": "动态五星家宽候选池；下次运行会优先读取并重新测活。连续失败达到阈值自动移除。",
   "max_failures": 6,
   "nodes": [
@@ -499,7 +499,7 @@
       "source": "",
       "last_verified": "2026-11-09T03:58:24.636517+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-11-10T00:12:34.939693+00:00"
+      "last_checked": "2026-11-10T05:34:40.681460+00:00"
     },
     {
       "raw": "socks5://103.213.217.91:1080",
@@ -664,7 +664,7 @@
       "source": "",
       "last_verified": "2026-10-31T23:08:52.360292+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939713+00:00"
+      "last_checked": "2026-11-10T05:34:40.681469+00:00"
     },
     {
       "raw": "socks4://181.233.94.101:1080",
@@ -854,7 +854,7 @@
       "source": "",
       "last_verified": "2026-10-30T03:54:30.862374+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939719+00:00"
+      "last_checked": "2026-11-10T05:34:40.681474+00:00"
     },
     {
       "raw": "socks5://209.160.241.5:1080",
@@ -879,6 +879,29 @@
       "last_verified": "2026-11-01T03:39:05.399528+00:00",
       "consecutive_failures": 1,
       "last_checked": "2026-11-09T03:58:24.641582+00:00"
+    },
+    {
+      "raw": "socks5://74.131.237.22:1080",
+      "server": "74.131.237.22",
+      "port": 1080,
+      "proto": "socks",
+      "exit_ip": "74.131.237.22",
+      "country": "US",
+      "net_type": "residential",
+      "residential_score": 96,
+      "residential_stars": 5,
+      "anonymity": "unknown",
+      "anonymity_score": 48,
+      "risk_score": 10,
+      "fraud_score": 13,
+      "stability_rate": 1.0,
+      "survival_streak": 0,
+      "latency_ms": 12980,
+      "speed_bps": 1522583,
+      "overall_score": 69,
+      "source": "",
+      "last_verified": "2026-11-10T05:34:40.674949+00:00",
+      "consecutive_failures": 0
     },
     {
       "raw": "socks5://45.74.31.42:13649",
@@ -1303,7 +1326,7 @@
       "source": "",
       "last_verified": "2026-10-31T03:43:32.779192+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939727+00:00"
+      "last_checked": "2026-11-10T05:34:40.681479+00:00"
     },
     {
       "raw": "socks5://90.150.21.88:1080",
@@ -1469,7 +1492,7 @@
       "source": "",
       "last_verified": "2026-10-11T23:34:17.007472+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939738+00:00"
+      "last_checked": "2026-11-10T05:34:40.681482+00:00"
     },
     {
       "raw": "socks5://201.165.172.14:1080",
@@ -1564,7 +1587,7 @@
       "source": "",
       "last_verified": "2026-10-30T10:48:43.118936+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-09T03:58:24.641598+00:00"
+      "last_checked": "2026-11-10T05:34:40.681485+00:00"
     },
     {
       "raw": "socks5://45.74.31.41:6580",
@@ -1848,7 +1871,7 @@
       "source": "",
       "last_verified": "2026-11-05T16:08:18.525726+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-11-10T00:12:34.939750+00:00"
+      "last_checked": "2026-11-10T05:34:40.681489+00:00"
     },
     {
       "raw": "socks4://90.151.38.60:1080",
@@ -2036,7 +2059,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.623001+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939754+00:00"
+      "last_checked": "2026-11-10T05:34:40.681493+00:00"
     },
     {
       "raw": "socks5://45.74.31.47:5181",
@@ -2535,7 +2558,7 @@
       "source": "",
       "last_verified": "2026-09-20T09:10:36.503043+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-08T11:07:41.329130+00:00"
+      "last_checked": "2026-11-10T05:34:40.681498+00:00"
     },
     {
       "raw": "socks5://83.237.214.70:1080",
@@ -2559,7 +2582,7 @@
       "source": "",
       "last_verified": "2026-09-23T19:37:13.340576+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939767+00:00"
+      "last_checked": "2026-11-10T05:34:40.681500+00:00"
     },
     {
       "raw": "socks5://121.133.16.56:1080",
@@ -2631,7 +2654,7 @@
       "source": "",
       "last_verified": "2026-11-01T11:16:44.869142+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939771+00:00"
+      "last_checked": "2026-11-10T05:34:40.681503+00:00"
     },
     {
       "raw": "socks4://177.125.162.186:4145",
@@ -3081,7 +3104,7 @@
       "source": "",
       "last_verified": "2026-09-24T09:08:41.622992+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-07T04:07:07.528890+00:00"
+      "last_checked": "2026-11-10T05:34:40.681507+00:00"
     },
     {
       "raw": "socks5://125.24.156.113:7080",
@@ -3439,7 +3462,7 @@
       "source": "",
       "last_verified": "2026-11-09T12:32:41.398369+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-11-10T00:12:34.939784+00:00"
+      "last_checked": "2026-11-10T05:34:40.681511+00:00"
     },
     {
       "raw": "socks5://45.74.31.50:5339",
@@ -3557,7 +3580,7 @@
       "source": "",
       "last_verified": "2026-10-18T08:43:06.593398+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-11-09T12:32:41.402305+00:00"
+      "last_checked": "2026-11-10T05:34:40.681514+00:00"
     },
     {
       "raw": "socks5://42.115.72.47:1078",
@@ -3866,7 +3889,7 @@
       "source": "",
       "last_verified": "2026-10-31T16:45:57.591609+00:00",
       "consecutive_failures": 1,
-      "last_checked": "2026-11-10T00:12:34.939789+00:00"
+      "last_checked": "2026-11-10T05:34:40.681517+00:00"
     },
     {
       "raw": "socks5://45.74.31.42:5668",
@@ -5025,7 +5048,7 @@
       "source": "",
       "last_verified": "2026-11-08T23:27:07.765276+00:00",
       "consecutive_failures": 0,
-      "last_checked": "2026-11-10T00:12:34.939812+00:00"
+      "last_checked": "2026-11-10T05:34:40.681526+00:00"
     },
     {
       "raw": "socks5://104.161.23.122:5037",

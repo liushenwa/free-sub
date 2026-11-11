@@ -5,17 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 移动家宽 - xiaohe
-  server: 206.1.100.125
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 03 ★★★★☆ 家宽 R50 - xiaohe
-  server: 107.175.130.24
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
@@ -25,15 +15,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 移动家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★☆ 家宽 R50 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 ★★★★☆ 移动家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 03 ★★★★☆ 家宽 R50 - xiaohe
 rules:
 - MATCH,PROXIES

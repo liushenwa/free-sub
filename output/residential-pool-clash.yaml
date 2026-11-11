@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5

@@ -4,29 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 R50 - xiaohe
-  server: 107.175.130.24
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 119.18.52.156
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 移动家宽 - xiaohe
-  server: 206.1.100.125
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇯🇵 日本 (Japan) 04 - xiaohe
+- name: 🇯🇵 日本 (Japan) 03 - xiaohe
   server: 180.222.187.50
   port: 10800
-  udp: true
-  type: socks5
-- name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
-  server: 138.124.66.203
-  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -34,20 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 R50 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 移动家宽 - xiaohe
-  - 🇯🇵 日本 (Japan) 04 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★☆ 家宽 R50 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 03 ★★★★☆ 移动家宽 - xiaohe
-  - 🇯🇵 日本 (Japan) 04 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇯🇵 日本 (Japan) 03 - xiaohe
 rules:
 - MATCH,PROXIES

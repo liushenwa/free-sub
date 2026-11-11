@@ -4,42 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇧 英国 (United Kingdom) 01 ★★★★★ 家宽 - xiaohe
-  server: 2.102.71.177
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 72.201.137.8
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 R50 - xiaohe
-  server: 107.175.130.24
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇭🇰 中国香港 (Hong Kong) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
   server: 112.118.58.33
   port: 5001
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  server: 193.218.118.128
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  server: 69.206.61.125
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 176.99.67.30
-  port: 10808
-  udp: true
-  type: socks5
-- name: 🇯🇵 日本 (Japan) 07 - xiaohe
-  server: 180.222.187.50
-  port: 10800
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 08 - xiaohe
+- name: 🇺🇸 美国 (United States) 03 - xiaohe
   server: 45.61.188.134
   port: 44499
   udp: true
@@ -49,26 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇬🇧 英国 (United Kingdom) 01 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 R50 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇯🇵 日本 (Japan) 07 - xiaohe
-  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇧 英国 (United Kingdom) 01 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 ★★★★☆ 家宽 R50 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 04 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇯🇵 日本 (Japan) 07 - xiaohe
-  - 🇺🇸 美国 (United States) 08 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 - xiaohe
 rules:
 - MATCH,PROXIES

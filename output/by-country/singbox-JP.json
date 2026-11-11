@@ -11,18 +11,27 @@
       "tag": "🇯🇵 日本 (Japan) 01 - xiaohe"
     },
     {
+      "type": "socks",
+      "server": "182.18.83.37",
+      "server_port": 7890,
+      "version": "4",
+      "tag": "🇯🇵 日本 (Japan) 02 - xiaohe"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 - xiaohe",
+        "🇯🇵 日本 (Japan) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

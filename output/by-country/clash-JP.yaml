@@ -8,7 +8,7 @@ proxies:
   server: 180.222.187.50
   port: 10800
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

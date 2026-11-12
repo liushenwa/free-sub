@@ -4,54 +4,49 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  server: 116.101.73.161
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
+  server: 124.41.226.10
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  server: 165.99.90.3
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
+  server: 124.41.196.3
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  server: 103.167.156.35
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇯🇵 日本 (Japan) 06 - xiaohe
+  server: 180.222.187.50
+  port: 10800
+  udp: true
+  type: socks4
+- name: 🇸🇪 瑞典 (Sweden) 07 - xiaohe
   server: 188.150.229.60
   port: 5678
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
-  server: 122.102.41.226
-  port: 4153
+- name: 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
+  server: 103.31.103.71
+  port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 118.179.135.69
-  port: 9090
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  server: 168.232.213.9
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  server: 212.34.230.102
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 103.51.44.253
+- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  server: 177.66.43.189
   port: 4145
-  udp: true
-  type: socks4
-- name: 🇿🇦 南非 (South Africa) 07 - xiaohe
-  server: 213.150.221.198
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
-  server: 103.167.156.34
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 09 - xiaohe
-  server: 31.42.2.113
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇮🇳 印度 (India) 10 - xiaohe
-  server: 103.137.148.253
-  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -59,30 +54,28 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇿🇦 南非 (South Africa) 07 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇮🇳 印度 (India) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇯🇵 日本 (Japan) 06 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇿🇦 南非 (South Africa) 07 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇮🇳 印度 (India) 10 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 04 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 05 - xiaohe
+  - 🇯🇵 日本 (Japan) 06 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
+  - 🇵🇰 巴基斯坦 (Pakistan) 08 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
 rules:
 - MATCH,PROXIES

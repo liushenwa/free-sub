@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  server: 118.179.135.69
-  port: 9090
+  server: 165.99.90.3
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:

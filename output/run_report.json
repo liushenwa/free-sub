@@ -1,34 +1,49 @@
 {
-  "generated_at": "2026-11-12T12:16:13.125904+00:00",
-  "raw_sources_nodes": 5610,
-  "parsed_candidates": 5391,
-  "tested_candidates": 4349,
-  "test_results": 747,
-  "final_nodes": 11,
-  "residential_nodes": 0,
-  "non_residential_nodes": 11,
+  "generated_at": "2026-11-12T19:52:55.400607+00:00",
+  "raw_sources_nodes": 5454,
+  "parsed_candidates": 5277,
+  "tested_candidates": 2950,
+  "test_results": 561,
+  "final_nodes": 14,
+  "residential_nodes": 4,
+  "non_residential_nodes": 10,
   "precheck_stats": {
-    "passed": 1632,
-    "deferred": 2717,
-    "deferred_to_residential": 0,
-    "deferred_to_nonresidential": 5,
-    "deferred_residential_selection_rate": 0.0,
-    "deferred_nonresidential_selection_rate": 0.18,
-    "deferred_to_final_selection": 5,
-    "deferred_final_selection_rate": 0.18,
-    "residential_share_of_final": 0,
-    "nonresidential_share_of_final": 45.45
+    "passed": 1185,
+    "deferred": 1765,
+    "deferred_to_residential": 2,
+    "deferred_to_nonresidential": 6,
+    "deferred_residential_selection_rate": 0.11,
+    "deferred_nonresidential_selection_rate": 0.34,
+    "deferred_to_final_selection": 8,
+    "deferred_final_selection_rate": 0.45,
+    "residential_share_of_final": 50.0,
+    "nonresidential_share_of_final": 60.0
   },
-  "new_nodes": 9,
-  "disappeared_nodes": 16,
+  "new_nodes": 13,
+  "disappeared_nodes": 10,
   "protocol_stats": {
     "socks": {
-      "tested": 747,
-      "success": 198,
-      "success_rate": 26.5
+      "tested": 561,
+      "success": 160,
+      "success_rate": 28.5
     }
   },
   "new_node_ids": [
+    "1575a14400b2aa855cfe2dcb044a717ff0b0fa21",
+    "402c0464c1d0ceddb1818fb0ee81cd7b67d0fc15",
+    "77e4c871b6e01392dd1893a3c3299661a5f12deb",
+    "ac696346d2998bb96b54f640d12d0c41274a674d",
+    "acc55592e3a81c985e2b23578d4a65da63f831fd",
+    "b609b0e06264258fe52ff181c31a731234652fb9",
+    "bb5f21648a804e3d198c3c8d7d2f60e81adb30cc",
+    "cb2fb0cbccb3f8941532475513041c3c0cc33cf1",
+    "cda605fe3008f536eef1c7794cc97262dce40360",
+    "cf57f04d3b588799f8376e85fc927191015a4a61",
+    "d0c9f7fb4dbb9773ee4cc6a16f7f2aa4111877c6",
+    "f2366b0dd155369314828e2eaa32a23cf8a49e55",
+    "f65e74c09034f93b0697cddd80e34b51412299ea"
+  ],
+  "disappeared_node_ids": [
     "46cb719bd3963efdeff3f432a88e797441e624e7",
     "4d7e9719f30e7269e8f2eeebffd4eca2c642e0bf",
     "6ae8cf62a1e1916a09e02cf1b10de6d7e1375771",
@@ -37,24 +52,7 @@
     "9e20b44e912b8ab36d2872745c1ff775b64eac53",
     "cc934dd7022b649c7a1bf2d60e38f75c7e637aa5",
     "d18f1d24c5cc917caf9c62fa482305d846ada3c7",
+    "d94d94a4dfac1c2b7625ec5e4e9b8ba11573ac8d",
     "feb0ab36fb1bfcdc0eb1152cb6a622ff4557ddd6"
-  ],
-  "disappeared_node_ids": [
-    "3a4bdbcbfd9fab6cb44a8e4b8a89cfe5d21dd4e6",
-    "471915974558088b63ea21e85acab2a4771e3edd",
-    "4ecbb1283f916898808e7ee2890a3b45591c2724",
-    "58d300ff4d3b683ef309115e30c91d128eaba544",
-    "641e02bfefb1c9d18b0f930e1bbbbc7ea20e8f0d",
-    "77e4c871b6e01392dd1893a3c3299661a5f12deb",
-    "802e90a513efaf924e4535b76069019917c70ebe",
-    "9627b5a0b573077fa0f91221a7e74b69d16e75c0",
-    "9c3ae048078a7a33bde47ba958e696af946a55bc",
-    "a5abf1cd307a59dc3f66b45eddb963b9d4505b9b",
-    "bb5f21648a804e3d198c3c8d7d2f60e81adb30cc",
-    "ca56e0470af94a7db8467c4403e9061564d47108",
-    "dbf983a9d8338dd4379f87125ad378ad5c603f56",
-    "de5aa59e8fdbb4e55fb6bb222453ce821ace8826",
-    "f2366b0dd155369314828e2eaa32a23cf8a49e55",
-    "f65e74c09034f93b0697cddd80e34b51412299ea"
   ]
 }

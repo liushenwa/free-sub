@@ -5,24 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "165.99.90.2",
+      "server": "124.41.196.3",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
+      "tag": "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.154.47.205",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 01 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

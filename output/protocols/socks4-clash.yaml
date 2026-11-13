@@ -4,63 +4,73 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 168.232.213.9
+- name: 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
+  server: 200.0.227.220
   port: 4153
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 177.66.43.189
-  port: 4145
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  server: 116.101.73.52
+  port: 1083
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 217.14.192.183
+- name: 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
+  server: 203.189.136.174
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 103.80.168.13
-  port: 1080
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: 31.42.2.113
+  port: 5678
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  server: 165.99.90.3
-  port: 1080
+- name: 🇸🇲 SM 05 - xiaohe
+  server: 157.90.113.23
+  port: 9052
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  server: 122.102.41.226
-  port: 4153
+- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
+  server: 188.150.229.60
+  port: 5678
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
-  server: 124.41.196.3
-  port: 1080
+- name: 🇮🇷 IR 07 - xiaohe
+  server: 80.191.46.62
+  port: 1099
   udp: true
   type: socks4
 - name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
   server: 116.101.73.161
-  port: 1088
+  port: 1057
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
+  server: 177.66.43.189
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 10 - xiaohe
   server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 10 - xiaohe
-  server: 103.120.165.132
-  port: 1080
+- name: 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  server: 168.232.213.9
+  port: 4153
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 11 - xiaohe
-  server: 103.210.31.49
-  port: 31433
+- name: 🇳🇬 尼日利亚 (Nigeria) 12 - xiaohe
+  server: 41.216.232.213
+  port: 4153
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 12 - xiaohe
-  server: 103.167.156.35
+- name: 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  server: 36.90.223.75
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇮🇳 印度 (India) 14 - xiaohe
+  server: 103.137.148.253
   port: 1080
   udp: true
   type: socks4
@@ -69,34 +79,38 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇮🇳 印度 (India) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇸🇲 SM 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
+  - 🇮🇷 IR 07 - xiaohe
   - 🇻🇳 越南 (Vietnam) 08 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 10 - xiaohe
-  - 🇮🇳 印度 (India) 11 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 12 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇮🇳 印度 (India) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇮🇳 印度 (India) 04 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇸🇲 SM 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
+  - 🇮🇷 IR 07 - xiaohe
   - 🇻🇳 越南 (Vietnam) 08 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 09 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 10 - xiaohe
-  - 🇮🇳 印度 (India) 11 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 12 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇮🇳 印度 (India) 14 - xiaohe
 rules:
 - MATCH,PROXIES

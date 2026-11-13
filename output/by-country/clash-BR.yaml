@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 168.232.213.9
-  port: 4153
+  server: 177.66.43.189
+  port: 4145
   udp: true
   type: socks4
 - name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 177.66.43.189
-  port: 4145
+  server: 168.232.213.9
+  port: 4153
   udp: true
   type: socks4
 proxy-groups:

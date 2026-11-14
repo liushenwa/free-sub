@@ -5,51 +5,51 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "69.206.61.125",
-      "server_port": 1080,
+      "server": "27.74.14.60",
+      "server_port": 5000,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "203.189.136.174",
-      "server_port": 1080,
+      "server": "103.157.116.179",
+      "server_port": 10810,
       "version": "4",
-      "tag": "🇰🇭 柬埔寨 (Cambodia) 02 ★★★★★ 家宽 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
       "server": "116.101.73.52",
-      "server_port": 1081,
-      "version": "5",
+      "server_port": 1082,
+      "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.115.115.37",
-      "server_port": 9090,
+      "server": "116.101.73.52",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇩 孟加拉 (Bangladesh) 04 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 02 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 02 ★★★★☆ 家宽 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇧🇩 孟加拉 (Bangladesh) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

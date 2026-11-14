@@ -5,33 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.137.148.253",
-      "server_port": 1080,
+      "server": "80.191.46.62",
+      "server_port": 1099,
       "version": "4",
-      "tag": "🇮🇳 印度 (India) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.210.29.193",
-      "server_port": 31433,
-      "version": "4",
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe"
+      "tag": "🇮🇷 IR 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

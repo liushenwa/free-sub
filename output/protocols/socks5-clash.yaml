@@ -4,19 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
-  server: 201.34.153.217
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 24.121.176.155
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇮🇶 IQ 03 - xiaohe
-  server: 85.31.41.9
-  port: 1080
+- name: 🇸🇲 SM 01 - xiaohe
+  server: 5.78.181.0
+  port: 9052
   udp: true
   type: socks5
 proxy-groups:
@@ -24,16 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇮🇶 IQ 03 - xiaohe
+  - 🇸🇲 SM 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇮🇶 IQ 03 - xiaohe
+  - 🇸🇲 SM 01 - xiaohe
 rules:
 - MATCH,PROXIES

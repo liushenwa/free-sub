@@ -5,51 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.203.234.5",
-      "server_port": 1083,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "171.238.62.144",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.230.174.21",
-      "server_port": 4153,
-      "version": "4",
-      "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "31.42.2.113",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe"
+      "server": "116.202.32.250",
+      "server_port": 1085,
+      "version": "5",
+      "tag": "🇩🇪 德国 (Germany) 01 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

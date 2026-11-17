@@ -4,43 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  server: 103.203.234.5
-  port: 1083
+- name: 🇩🇪 德国 (Germany) 01 - xiaohe
+  server: 116.202.32.250
+  port: 1085
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  server: 171.238.62.144
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  server: 45.230.174.21
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
-  server: 31.42.2.113
-  port: 5678
-  udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 - xiaohe
 rules:
 - MATCH,PROXIES

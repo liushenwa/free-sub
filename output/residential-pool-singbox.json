@@ -5,38 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.34.28.67",
+      "server": "110.34.1.212",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "110.34.1.212",
+      "server": "110.34.1.156",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "110.34.8.100",
+      "server": "110.34.2.225",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "116.101.73.52",
-      "server_port": 1054,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "203.189.136.174",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇰🇭 柬埔寨 (Cambodia) 05 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -45,9 +31,7 @@
         "auto",
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
         "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 05 ★★★★★ 家宽 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -56,9 +40,7 @@
       "outbounds": [
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
         "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 05 ★★★★★ 家宽 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

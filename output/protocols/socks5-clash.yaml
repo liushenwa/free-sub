@@ -4,9 +4,19 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇲 SM 01 - xiaohe
-  server: 5.78.181.0
-  port: 9052
+- name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  server: 61.110.3.202
+  port: 5555
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 91.143.161.163
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  server: 195.201.246.53
+  port: 1093
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +24,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇲 SM 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇲 SM 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
 rules:
 - MATCH,PROXIES

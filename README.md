@@ -10,9 +10,9 @@
 
 | 客户端 / 格式类型 | 节点总数 | 免翻 CDN 订阅直链 (国内直连) | 官方原生 Raw 直链 (开启代理) |
 | :--- | :---: | :--- | :--- |
-| 🚀 **Clash (YAML 格式)** | `14` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/clash.yaml) |
-| ⚡ **V2RayN (Base64 格式)** | `14` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/v2ray.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/v2ray.txt) |
-| 📦 **sing-box (JSON 格式)** | `14` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/singbox.json) |
+| 🚀 **Clash (YAML 格式)** | `15` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/clash.yaml) |
+| ⚡ **V2RayN (Base64 格式)** | `15` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/v2ray.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/v2ray.txt) |
+| 📦 **sing-box (JSON 格式)** | `15` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/singbox.json) |
 
 ### 🖥️ 非家宽 / 原生 IP + 低欺诈独立总订阅
 
@@ -20,9 +20,9 @@
 
 | 客户端 / 格式 | 节点数 | 免翻 CDN 订阅直链 | 官方 Raw 直链 |
 | :--- | :---: | :--- | :--- |
-| ⚡ **V2RayN** | `8` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential.txt) |
-| 🚀 **Clash** | `8` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential-clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential-clash.yaml) |
-| 📦 **sing-box** | `8` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential-singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential-singbox.json) |
+| ⚡ **V2RayN** | `11` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential.txt) |
+| 🚀 **Clash** | `11` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential-clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential-clash.yaml) |
+| 📦 **sing-box** | `11` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/non-residential-singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/non-residential-singbox.json) |
 
 ---
 
@@ -32,9 +32,9 @@
 
 | 客户端 / 格式 | 节点数 | 免翻 CDN 订阅直链 | 官方 Raw 直链 |
 | :--- | :---: | :--- | :--- |
-| ⚡ **V2RayN** | `6` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential.txt) |
-| 🚀 **Clash** | `6` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-clash.yaml) |
-| 📦 **sing-box** | `6` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-singbox.json) |
+| ⚡ **V2RayN** | `4` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential.txt) |
+| 🚀 **Clash** | `4` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-clash.yaml) |
+| 📦 **sing-box** | `4` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-singbox.json) |
 
 ---
 
@@ -44,9 +44,9 @@
 
 | 指标 | 数量 | 占预检未过 | 占最终该专区 |
 | :--- | ---: | ---: | ---: |
-| 预检未过 → 家宽总订阅 | `2` | `0.11%` | `33.33%` |
-| 预检未过 → 非家宽总订阅 | `3` | `0.16%` | `37.5%` |
-| 预检未过 → 最终任一总订阅 | `5` | `0.26%` | - |
+| 预检未过 → 家宽总订阅 | `2` | `0.11%` | `50.0%` |
+| 预检未过 → 非家宽总订阅 | `0` | `0.0%` | `0.0%` |
+| 预检未过 → 最终任一总订阅 | `2` | `0.11%` | - |
 
 > 💡 如果连续多轮数据显示“预检未过 → 家宽总订阅”的入选率长期极低，可以考虑将预检未过节点直接跳过，从而显著减少后续 sing-box 测活时间。建议至少观察 **3–5 轮** 再决定是否关闭，以免偶发的本地 TCP 误判导致漏掉可用家宽。
 
@@ -56,9 +56,8 @@
 
 | 家宽地区 | 节点数 | V2RayN 专属订阅 | Clash 专属订阅 | sing-box 专属订阅 |
 | :--- | :---: | :---: | :---: | :---: |
-| 🇳🇵 尼泊尔 (Nepal) | 4 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/NP.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/NP.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/clash-NP.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/clash-NP.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/singbox-NP.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/singbox-NP.json) |
-| 🇻🇳 越南 (Vietnam) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/VN.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/VN.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/clash-VN.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/clash-VN.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/singbox-VN.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/singbox-VN.json) |
-| 🇹🇭 泰国 (Thailand) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/TH.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/TH.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/clash-TH.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/clash-TH.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/singbox-TH.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/singbox-TH.json) |
+| 🇳🇵 尼泊尔 (Nepal) | 3 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/NP.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/NP.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/clash-NP.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/clash-NP.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/singbox-NP.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/singbox-NP.json) |
+| 🇮🇩 印尼 (Indonesia) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/ID.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/ID.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/clash-ID.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/clash-ID.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/residential-by-country/singbox-ID.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/residential-by-country/singbox-ID.json) |
 
 ---
 
@@ -66,13 +65,13 @@
 
 | 地区/国家 | 节点数 | V2RayN 专属订阅 | Clash 专属订阅 | sing-box 专属订阅 |
 | :--- | :---: | :---: | :---: | :---: |
-| 🇧🇷 巴西 (Brazil) | 2 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/BR.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/BR.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-BR.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-BR.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-BR.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-BR.json) |
-| 🇧🇩 孟加拉 (Bangladesh) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/BD.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/BD.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-BD.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-BD.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-BD.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-BD.json) |
-| 🇵🇰 巴基斯坦 (Pakistan) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/PK.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/PK.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-PK.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-PK.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-PK.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-PK.json) |
-| 🇧🇬 保加利亚 (Bulgaria) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/BG.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/BG.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-BG.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-BG.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-BG.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-BG.json) |
-| 🇰🇪 肯尼亚 (Kenya) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/KE.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/KE.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-KE.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-KE.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-KE.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-KE.json) |
+| 🇧🇩 孟加拉 (Bangladesh) | 3 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/BD.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/BD.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-BD.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-BD.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-BD.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-BD.json) |
+| 🇧🇷 巴西 (Brazil) | 3 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/BR.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/BR.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-BR.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-BR.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-BR.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-BR.json) |
+| 🇰🇷 韩国 (South Korea) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/KR.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/KR.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-KR.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-KR.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-KR.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-KR.json) |
+| 🇮🇩 印尼 (Indonesia) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/ID.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/ID.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-ID.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-ID.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-ID.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-ID.json) |
+| 🇷🇺 俄罗斯 (Russia) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/RU.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/RU.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-RU.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-RU.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-RU.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-RU.json) |
 | 🇸🇪 瑞典 (Sweden) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/SE.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/SE.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-SE.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-SE.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-SE.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-SE.json) |
-| 🇸🇲 SM | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/SM.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/SM.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-SM.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-SM.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-SM.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-SM.json) |
+| 🇳🇵 尼泊尔 (Nepal) | 1 | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/NP.txt) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/NP.txt) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/clash-NP.yaml) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/clash-NP.yaml) | [CDN 直链](https://cdn.jsdelivr.net/gh/liushenwa/free-sub@main/output/by-country/singbox-NP.json) · [Raw 直链](https://raw.githubusercontent.com/liushenwa/free-sub/main/output/by-country/singbox-NP.json) |
 
 ---
 

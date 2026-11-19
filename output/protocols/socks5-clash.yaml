@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  server: 116.101.73.52
-  port: 1055
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 142.190.95.154
+  port: 1080
   udp: true
   type: socks5
 - name: 🇮🇳 印度 (India) 02 - xiaohe
@@ -14,23 +14,23 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇳 CN 03 - xiaohe
-  server: 58.19.233.33
+- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
+  server: 151.158.134.29
   port: 1080
   udp: true
   type: socks5
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: 188.132.150.241
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 195.19.56.209
   port: 1080
   udp: true
   type: socks5
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 81.23.182.162
+  server: 93.92.204.208
   port: 1080
   udp: true
   type: socks5
-- name: 🇿🇦 南非 (South Africa) 06 - xiaohe
-  server: 102.36.127.231
+- name: 🇨🇳 CN 06 - xiaohe
+  server: 58.19.233.33
   port: 1080
   udp: true
   type: socks5
@@ -39,22 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇨🇳 CN 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 03 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇿🇦 南非 (South Africa) 06 - xiaohe
+  - 🇨🇳 CN 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
   - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇨🇳 CN 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 03 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇿🇦 南非 (South Africa) 06 - xiaohe
+  - 🇨🇳 CN 06 - xiaohe
 rules:
 - MATCH,PROXIES

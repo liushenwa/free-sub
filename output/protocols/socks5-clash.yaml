@@ -9,13 +9,28 @@ proxies:
   port: 1055
   udp: true
   type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  server: 61.110.3.202
-  port: 5555
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 103.124.172.134
+  port: 1080
   udp: true
   type: socks5
-- name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 103.124.172.134
+- name: 🇨🇳 CN 03 - xiaohe
+  server: 58.19.233.33
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: 188.132.150.241
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 81.23.182.162
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇿🇦 南非 (South Africa) 06 - xiaohe
+  server: 102.36.127.231
   port: 1080
   udp: true
   type: socks5
@@ -25,15 +40,21 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇿🇦 南非 (South Africa) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇿🇦 南非 (South Africa) 06 - xiaohe
 rules:
 - MATCH,PROXIES

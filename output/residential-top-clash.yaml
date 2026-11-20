@@ -5,23 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
-  server: 110.34.1.212
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
   server: 110.34.28.67
   port: 1080
   udp: true
   type: socks4
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
-  server: 118.175.225.95
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇹🇭 泰国 (Thailand) 04 ★★★★☆ 家宽 - xiaohe
-  server: 183.88.240.139
-  port: 4153
+- name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
+  server: 124.41.226.10
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -31,8 +21,6 @@ proxy-groups:
   - AUTO
   - 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 04 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,7 +28,5 @@ proxy-groups:
   proxies:
   - 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 04 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

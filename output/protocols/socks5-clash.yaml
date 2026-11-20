@@ -4,34 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 142.190.95.154
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇮🇳 印度 (India) 02 - xiaohe
+- name: 🇮🇳 印度 (India) 01 - xiaohe
   server: 103.124.172.134
   port: 1080
   udp: true
   type: socks5
-- name: 🇸🇬 新加坡 (Singapore) 03 - xiaohe
-  server: 151.158.134.29
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 195.19.56.209
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 93.92.204.208
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇳 CN 06 - xiaohe
-  server: 58.19.233.33
-  port: 1080
+- name: 🇺🇸 美国 (United States) 02 - xiaohe
+  server: 104.161.23.122
+  port: 5009
   udp: true
   type: socks5
 proxy-groups:
@@ -39,22 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
+  - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 02 - xiaohe
 rules:
 - MATCH,PROXIES

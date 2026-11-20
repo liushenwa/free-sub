@@ -5,69 +5,33 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "142.190.95.154",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "103.124.172.134",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe"
+      "tag": "🇮🇳 印度 (India) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "151.158.134.29",
-      "server_port": 1080,
+      "server": "104.161.23.122",
+      "server_port": 5009,
       "version": "5",
-      "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "195.19.56.209",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "93.92.204.208",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "58.19.233.33",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇨🇳 CN 06 - xiaohe"
+      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe"
+        "🇮🇳 印度 (India) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe"
+        "🇮🇳 印度 (India) 01 - xiaohe",
+        "🇺🇸 美国 (United States) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

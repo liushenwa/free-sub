@@ -12,17 +12,47 @@
     },
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 4037,
+      "server": "103.124.172.134",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "176.62.237.51",
+      "server": "45.74.31.42",
+      "server_port": 22848,
+      "version": "5",
+      "username": "Colombia",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "45.74.31.46",
+      "server_port": 17847,
+      "version": "5",
+      "username": "Colombia",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "58.19.233.33",
       "server_port": 1080,
       "version": "5",
-      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe"
+      "tag": "🇨🇳 CN 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.100.85.64",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "94.242.50.113",
+      "server_port": 2080,
+      "version": "5",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe"
     },
     {
       "type": "selector",
@@ -30,8 +60,12 @@
       "outbounds": [
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇳 CN 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe"
       ]
     },
     {
@@ -39,8 +73,12 @@
       "tag": "auto",
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇨🇳 CN 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

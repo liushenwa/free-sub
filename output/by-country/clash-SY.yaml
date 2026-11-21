@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇾 SY 01 - xiaohe
-  server: 205.209.66.105
+  server: 188.132.150.252
   port: 1080
   udp: true
   type: socks4

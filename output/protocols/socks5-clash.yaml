@@ -9,36 +9,39 @@ proxies:
   port: 5001
   udp: true
   type: socks5
-- name: 🇮🇳 印度 (India) 02 - xiaohe
-  server: 103.124.172.134
+- name: 🇬🇷 希腊 (Greece) 02 ★★★★★ 移动家宽 - xiaohe
+  server: 149.210.44.175
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  server: 45.74.31.42
-  port: 22848
-  udp: true
-  type: socks5
-  username: Colombia
-- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  server: 45.74.31.46
-  port: 17847
-  udp: true
-  type: socks5
-  username: Colombia
-- name: 🇨🇳 CN 05 - xiaohe
-  server: 58.19.233.33
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 185.100.85.64
   port: 1080
   udp: true
   type: socks5
-- name: 🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe
-  server: 94.242.50.113
-  port: 2080
+- name: 🇮🇳 印度 (India) 04 - xiaohe
+  server: 103.124.172.134
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  server: 45.74.31.40
+  port: 23241
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  server: 45.198.11.115
+  port: 1082
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 45.74.31.41
+  port: 4154
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 08 - xiaohe
+  server: 45.74.31.41
+  port: 4170
   udp: true
   type: socks5
 proxy-groups:
@@ -47,23 +50,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  - 🇨🇳 CN 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe
+  - 🇬🇷 希腊 (Greece) 02 ★★★★★ 移动家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
-  - 🇨🇳 CN 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe
+  - 🇬🇷 希腊 (Greece) 02 ★★★★★ 移动家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 - xiaohe
 rules:
 - MATCH,PROXIES

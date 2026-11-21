@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
-  server: 110.34.1.156
+  server: 110.34.1.212
   port: 1080
   udp: true
   type: socks4
 - name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  server: 110.34.2.186
+  server: 124.41.226.10
   port: 1080
   udp: true
   type: socks4

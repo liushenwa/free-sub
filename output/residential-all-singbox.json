@@ -5,45 +5,24 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.34.1.156",
+      "server": "110.34.1.212",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "110.34.2.186",
+      "server": "124.41.226.10",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "203.189.136.174",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "149.210.44.175",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇬🇷 希腊 (Greece) 04 ★★★★★ 移动家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "27.72.80.145",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "219.78.223.199",
       "server_port": 5001,
       "version": "5",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -52,10 +31,7 @@
         "auto",
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
         "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe",
-        "🇬🇷 希腊 (Greece) 04 ★★★★★ 移动家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 03 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -64,10 +40,7 @@
       "outbounds": [
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
         "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
-        "🇰🇭 柬埔寨 (Cambodia) 03 ★★★★★ 家宽 - xiaohe",
-        "🇬🇷 希腊 (Greece) 04 ★★★★★ 移动家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 ★★★★☆ 家宽 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 03 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

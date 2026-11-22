@@ -9,9 +9,9 @@ proxies:
   port: 5001
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 45.61.188.134
-  port: 44499
+- name: 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
+  server: 216.234.216.76
+  port: 1080
   udp: true
   type: socks5
 - name: 🇮🇳 印度 (India) 03 - xiaohe
@@ -20,43 +20,23 @@ proxies:
   udp: true
   type: socks5
 - name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 203.89.25.35
+  server: 103.119.237.60
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  server: 45.74.31.40
-  port: 40505
+- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  server: 45.74.31.47
+  port: 4014
   udp: true
   type: socks5
-- name: 🇨🇳 CN 06 - xiaohe
-  server: 58.19.233.33
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇫🇷 法国 (France) 07 - xiaohe
-  server: 57.128.249.250
-  port: 9052
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  server: 45.74.31.41
-  port: 37377
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
+- name: 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
   server: 45.74.31.42
-  port: 4137
+  port: 23452
   udp: true
   type: socks5
-- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  server: 93.90.107.50
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
-  server: 45.74.31.40
-  port: 40531
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 45.74.31.46
+  port: 4076
   udp: true
   type: socks5
 proxy-groups:
@@ -65,31 +45,23 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
-  - 🇫🇷 法国 (France) 07 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
+  - 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇨🇳 CN 06 - xiaohe
-  - 🇫🇷 法国 (France) 07 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
 rules:
 - MATCH,PROXIES

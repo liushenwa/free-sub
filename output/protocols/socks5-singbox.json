@@ -12,10 +12,10 @@
     },
     {
       "type": "socks",
-      "server": "45.61.188.134",
-      "server_port": 44499,
+      "server": "216.234.216.76",
+      "server_port": 1080,
       "version": "5",
-      "tag": "🇺🇸 美国 (United States) 02 - xiaohe"
+      "tag": "🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -26,59 +26,31 @@
     },
     {
       "type": "socks",
-      "server": "203.89.25.35",
+      "server": "103.119.237.60",
       "server_port": 1080,
       "version": "5",
       "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 40505,
+      "server": "45.74.31.47",
+      "server_port": 4014,
       "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "58.19.233.33",
-      "server_port": 1080,
-      "version": "5",
-      "tag": "🇨🇳 CN 06 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "57.128.249.250",
-      "server_port": 9052,
-      "version": "5",
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.41",
-      "server_port": 37377,
-      "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 05 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.74.31.42",
-      "server_port": 4137,
+      "server_port": 23452,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 09 - xiaohe"
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "93.90.107.50",
-      "server_port": 1080,
+      "server": "45.74.31.46",
+      "server_port": 4076,
       "version": "5",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "45.74.31.40",
-      "server_port": 40531,
-      "version": "5",
-      "tag": "🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 07 - xiaohe"
     },
     {
       "type": "selector",
@@ -86,16 +58,12 @@
       "outbounds": [
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe",
-        "🇫🇷 法国 (France) 07 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 07 - xiaohe"
       ]
     },
     {
@@ -103,16 +71,12 @@
       "tag": "auto",
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe",
-        "🇺🇸 美国 (United States) 02 - xiaohe",
+        "🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe",
-        "🇨🇳 CN 06 - xiaohe",
-        "🇫🇷 法国 (France) 07 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-        "🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 05 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

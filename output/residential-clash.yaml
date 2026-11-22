@@ -10,7 +10,7 @@ proxies:
   udp: true
   type: socks4
 - name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  server: 124.41.226.10
+  server: 110.34.3.194
   port: 1080
   udp: true
   type: socks4
@@ -19,6 +19,26 @@ proxies:
   port: 5001
   udp: true
   type: socks5
+- name: 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  server: 27.72.80.145
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇲🇼 MW 05 ★★★★☆ 家宽 - xiaohe
+  server: 216.234.216.76
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇬🇪 格鲁吉亚 (Georgia) 06 ★★★★☆ 家宽 - xiaohe
+  server: 85.117.60.118
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
+  server: 45.115.115.37
+  port: 9090
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -27,6 +47,10 @@ proxy-groups:
   - 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇲🇼 MW 05 ★★★★☆ 家宽 - xiaohe
+  - 🇬🇪 格鲁吉亚 (Georgia) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -35,5 +59,9 @@ proxy-groups:
   - 🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 03 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe
+  - 🇲🇼 MW 05 ★★★★☆ 家宽 - xiaohe
+  - 🇬🇪 格鲁吉亚 (Georgia) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 07 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

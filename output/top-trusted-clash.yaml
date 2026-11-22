@@ -4,24 +4,14 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 69.36.63.128
+- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  server: 201.184.179.198
   port: 1080
   udp: true
   type: socks4
-- name: 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
-  server: 219.78.223.199
-  port: 5001
-  udp: true
-  type: socks5
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   server: 188.150.229.60
   port: 5678
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  server: 177.92.78.138
-  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -29,18 +19,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,39 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  server: 219.78.223.199
-  port: 5001
-  udp: true
-  type: socks5
-- name: 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
-  server: 216.234.216.76
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 74.131.237.22
   port: 1080
   udp: true
   type: socks5
-- name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 103.124.172.134
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  server: 103.119.237.60
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
+- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
   server: 45.74.31.47
-  port: 4014
+  port: 4010
   udp: true
   type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
-  server: 45.74.31.42
-  port: 23452
+- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  server: 45.74.31.47
+  port: 4220
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
-  server: 45.74.31.46
-  port: 4076
+- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  server: 45.74.31.47
+  port: 4057
   udp: true
   type: socks5
 proxy-groups:
@@ -44,24 +29,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇼 MW 02 ★★★★☆ 家宽 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,14 +4,54 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 31.42.2.113
+- name: 🇺🇸 美国 (United States) 01 - xiaohe
+  server: 69.36.63.128
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇦🇺 澳大利亚 (Australia) 02 ★★★★★ 家宽 - xiaohe
+  server: 159.196.104.26
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+  server: 59.11.209.162
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: 188.150.229.60
   port: 5678
   udp: true
   type: socks4
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  server: 177.92.78.138
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+  server: 185.14.149.33
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 07 - xiaohe
+  server: 83.219.248.46
+  port: 20420
+  udp: true
+  type: socks5
+- name: 🇸🇾 SY 08 - xiaohe
   server: 188.132.150.252
   port: 1080
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  server: 217.14.192.183
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 10 - xiaohe
+  server: 31.42.2.113
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -19,14 +59,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇵🇱 波兰 (Poland) 07 - xiaohe
+  - 🇸🇾 SY 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  - 🇵🇱 波兰 (Poland) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 波兰 (Poland) 01 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  - 🇺🇸 美国 (United States) 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 02 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 ★★★★★ 家宽 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
+  - 🇵🇱 波兰 (Poland) 07 - xiaohe
+  - 🇸🇾 SY 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  - 🇵🇱 波兰 (Poland) 10 - xiaohe
 rules:
 - MATCH,PROXIES

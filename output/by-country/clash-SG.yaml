@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇪 格鲁吉亚 (Georgia) 01 ★★★★☆ 家宽 - xiaohe
-  server: 85.117.60.118
-  port: 1080
+- name: 🇸🇬 新加坡 (Singapore) 01 - xiaohe
+  server: 162.4.172.157
+  port: 5555
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇬🇪 格鲁吉亚 (Georgia) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇪 格鲁吉亚 (Georgia) 01 ★★★★☆ 家宽 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 01 - xiaohe
 rules:
 - MATCH,PROXIES

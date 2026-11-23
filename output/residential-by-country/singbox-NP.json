@@ -5,17 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "110.34.1.156",
+      "server": "110.34.2.186",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "124.41.226.10",
+      "server": "110.34.1.156",
       "server_port": 1080,
       "version": "4",
       "tag": "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "110.34.10.226",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "110.34.2.225",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -23,7 +37,9 @@
       "outbounds": [
         "auto",
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe"
       ]
     },
     {
@@ -31,7 +47,9 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇵 尼泊尔 (Nepal) 01 ★★★★★ 家宽 - xiaohe",
-        "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe"
+        "🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe",
+        "🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

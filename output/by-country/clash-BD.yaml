@@ -5,17 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
-  server: 165.99.90.3
+  server: 43.231.22.146
   port: 1080
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
-  server: 165.99.90.2
+  server: 165.99.90.3
   port: 1080
   udp: true
   type: socks4
 - name: 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
-  server: 103.69.59.38
+  server: 103.115.255.225
+  port: 36331
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  server: 103.205.134.188
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
+  server: 165.99.90.2
   port: 1080
   udp: true
   type: socks4
@@ -27,6 +37,8 @@ proxy-groups:
   - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -35,5 +47,7 @@ proxy-groups:
   - 🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 02 - xiaohe
   - 🇧🇩 孟加拉 (Bangladesh) 03 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 04 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 05 - xiaohe
 rules:
 - MATCH,PROXIES

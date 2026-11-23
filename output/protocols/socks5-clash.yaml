@@ -4,19 +4,64 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 - xiaohe
-  server: 23.191.176.193
+- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  server: 59.11.209.162
   port: 1080
   udp: true
   type: socks5
-- name: 🇺🇸 美国 (United States) 02 - xiaohe
-  server: 45.61.188.134
-  port: 44499
+- name: 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
+  server: 219.78.223.199
+  port: 5001
   udp: true
   type: socks5
-- name: 🇮🇳 印度 (India) 03 - xiaohe
+- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  server: 193.218.118.128
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  server: 176.119.168.162
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+  server: 83.219.248.46
+  port: 20420
+  udp: true
+  type: socks5
+- name: 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  server: 162.4.172.157
+  port: 5555
+  udp: true
+  type: socks5
+- name: 🇮🇳 印度 (India) 07 - xiaohe
   server: 103.124.172.134
   port: 1080
+  udp: true
+  type: socks5
+- name: 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
+  server: 45.169.106.140
+  port: 1086
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  server: 45.74.31.40
+  port: 4092
+  udp: true
+  type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  server: 103.126.174.223
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
+  server: 45.74.31.41
+  port: 23239
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 12 - xiaohe
+  server: 45.74.31.47
+  port: 4237
   udp: true
   type: socks5
 proxy-groups:
@@ -24,16 +69,34 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  - 🇮🇳 印度 (India) 07 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 - xiaohe
-  - 🇺🇸 美国 (United States) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 ★★★★☆ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 04 ★★★★★ 移动家宽 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 06 - xiaohe
+  - 🇮🇳 印度 (India) 07 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 08 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 11 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 12 - xiaohe
 rules:
 - MATCH,PROXIES

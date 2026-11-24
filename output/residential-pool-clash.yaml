@@ -4,32 +4,62 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  server: 176.119.168.162
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   server: 59.11.209.162
   port: 1080
   udp: true
   type: socks5
-- name: 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
+  server: 24.240.201.212
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
   server: 110.34.8.100
   port: 1080
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
-  server: 110.34.1.156
+- name: 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
+  server: 110.34.10.226
   port: 1080
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
+- name: 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  server: 110.34.2.225
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  server: 110.34.3.194
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇳🇵 尼泊尔 (Nepal) 08 ★★★★★ 家宽 - xiaohe
   server: 110.34.28.67
   port: 1080
   udp: true
   type: socks4
-- name: 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  server: 142.190.95.154
+- name: 🇳🇵 尼泊尔 (Nepal) 09 ★★★★★ 家宽 - xiaohe
+  server: 110.34.1.156
   port: 1080
   udp: true
-  type: socks5
-- name: 🇰🇭 柬埔寨 (Cambodia) 06 ★★★★★ 家宽 - xiaohe
+  type: socks4
+- name: 🇳🇵 尼泊尔 (Nepal) 10 ★★★★★ 家宽 - xiaohe
+  server: 110.34.1.212
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇦 加拿大 (Canada) 11 ★★★★★ 家宽 - xiaohe
+  server: 172.86.84.97
+  port: 1085
+  udp: true
+  type: socks4
+- name: 🇰🇭 柬埔寨 (Cambodia) 12 ★★★★★ 家宽 - xiaohe
   server: 203.189.136.174
   port: 1080
   udp: true
@@ -39,22 +69,34 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 08 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 09 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 10 ★★★★★ 家宽 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 11 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 12 ★★★★★ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 02 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 03 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
-  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 08 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 09 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 10 ★★★★★ 家宽 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 11 ★★★★★ 家宽 - xiaohe
+  - 🇰🇭 柬埔寨 (Cambodia) 12 ★★★★★ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

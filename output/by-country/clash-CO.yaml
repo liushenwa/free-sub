@@ -5,15 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  server: 45.74.31.47
-  port: 4348
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
   server: 201.184.179.198
   port: 1080
   udp: true
   type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  server: 45.74.31.46
+  port: 4111
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

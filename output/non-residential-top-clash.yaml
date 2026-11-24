@@ -4,24 +4,34 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+- name: 🇩🇴 DO 01 - xiaohe
+  server: 38.51.48.179
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   server: 188.150.229.60
   port: 5678
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 177.92.78.138
+- name: 🇩🇪 德国 (Germany) 03 - xiaohe
+  server: 185.110.124.76
   port: 1080
   udp: true
   type: socks4
-- name: 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
-  server: 5.58.97.86
-  port: 41641
+- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  server: 201.184.179.198
+  port: 1080
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
-  server: 185.14.149.33
-  port: 4145
+- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+  server: 31.42.2.113
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
+  server: 5.58.97.86
+  port: 41641
   udp: true
   type: socks4
 proxy-groups:
@@ -29,18 +39,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇩🇴 DO 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  - 🇩🇪 德国 (Germany) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇩🇴 DO 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  - 🇩🇪 德国 (Germany) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
 rules:
 - MATCH,PROXIES

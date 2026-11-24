@@ -5,16 +5,16 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "45.74.31.47",
-      "server_port": 4348,
-      "version": "5",
+      "server": "201.184.179.198",
+      "server_port": 1080,
+      "version": "4",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "201.184.179.198",
-      "server_port": 1080,
-      "version": "4",
+      "server": "45.74.31.46",
+      "server_port": 4111,
+      "version": "5",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {

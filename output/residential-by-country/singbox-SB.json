@@ -1,0 +1,38 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "server": "150.228.196.110",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇸🇧 SB 01 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇧 SB 01 ★★★★☆ 家宽 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇧 SB 01 ★★★★☆ 家宽 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

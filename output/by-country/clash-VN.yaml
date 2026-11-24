@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 113.163.156.8
-  port: 1080
+  server: 45.74.31.40
+  port: 4092
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

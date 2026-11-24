@@ -5,51 +5,69 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "188.150.229.60",
+      "server": "38.51.48.179",
       "server_port": 5678,
       "version": "4",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+      "tag": "🇩🇴 DO 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "177.92.78.138",
+      "server": "188.150.229.60",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "185.110.124.76",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+      "tag": "🇩🇪 德国 (Germany) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "201.184.179.198",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.42.2.113",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe"
     },
     {
       "type": "socks",
       "server": "5.58.97.86",
       "server_port": 41641,
       "version": "4",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "185.14.149.33",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe"
+      "tag": "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe"
+        "🇩🇴 DO 01 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe"
+        "🇩🇴 DO 01 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
+        "🇩🇪 德国 (Germany) 03 - xiaohe",
+        "🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe",
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

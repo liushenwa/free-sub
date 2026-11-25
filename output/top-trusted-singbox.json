@@ -12,24 +12,45 @@
     },
     {
       "type": "socks",
-      "server": "116.100.219.205",
-      "server_port": 1080,
+      "server": "38.51.48.179",
+      "server_port": 5678,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇩🇴 DO 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "183.88.240.139",
-      "server_port": 4153,
+      "server": "188.150.229.60",
+      "server_port": 5678,
       "version": "4",
-      "tag": "🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "185.110.124.76",
+      "server": "185.110.124.79",
       "server_port": 1080,
       "version": "4",
       "tag": "🇩🇪 德国 (Germany) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "177.92.78.138",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇧🇷 巴西 (Brazil) 05 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "31.42.2.113",
+      "server_port": 5678,
+      "version": "4",
+      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "200.106.124.169",
+      "server_port": 1080,
+      "version": "4",
+      "tag": "🇵🇪 秘鲁 (Peru) 07 - xiaohe"
     },
     {
       "type": "selector",
@@ -37,9 +58,12 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 04 - xiaohe"
+        "🇩🇴 DO 02 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇵🇪 秘鲁 (Peru) 07 - xiaohe"
       ]
     },
     {
@@ -47,9 +71,12 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇩🇪 德国 (Germany) 04 - xiaohe"
+        "🇩🇴 DO 02 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+        "🇩🇪 德国 (Germany) 04 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇵🇪 秘鲁 (Peru) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

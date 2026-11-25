@@ -5,24 +5,31 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "103.105.41.209",
-      "server_port": 4145,
+      "server": "103.137.148.253",
+      "server_port": 1080,
       "version": "4",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.124.172.134",
+      "server_port": 1080,
+      "version": "5",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe"
     },
     {
       "type": "socks",
       "server": "45.117.29.137",
       "server_port": 10888,
       "version": "4",
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe"
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe"
     },
     {
       "type": "socks",
       "server": "103.155.131.38",
       "server_port": 1080,
       "version": "4",
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe"
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe"
     },
     {
       "type": "selector",
@@ -31,7 +38,8 @@
         "auto",
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe"
+        "🇮🇳 印度 (India) 03 - xiaohe",
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe"
+        "🇮🇳 印度 (India) 03 - xiaohe",
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

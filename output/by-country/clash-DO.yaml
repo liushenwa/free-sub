@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇴 DO 01 - xiaohe
-  server: 154.88.189.130
+  server: 38.51.48.179
   port: 5678
   udp: true
   type: socks4

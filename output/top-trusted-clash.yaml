@@ -9,34 +9,19 @@ proxies:
   port: 1080
   udp: true
   type: socks5
-- name: 🇩🇴 DO 02 - xiaohe
-  server: 38.51.48.179
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   server: 188.150.229.60
   port: 5678
   udp: true
   type: socks4
-- name: 🇩🇪 德国 (Germany) 04 - xiaohe
-  server: 185.110.124.79
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  server: 177.92.78.138
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 31.42.2.113
   port: 5678
   udp: true
   type: socks4
-- name: 🇵🇪 秘鲁 (Peru) 07 - xiaohe
-  server: 200.106.124.169
-  port: 1080
+- name: 🇩🇴 DO 04 - xiaohe
+  server: 38.51.48.181
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -45,23 +30,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇩🇴 DO 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇩🇪 德国 (Germany) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇪 秘鲁 (Peru) 07 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇩🇴 DO 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇩🇴 DO 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇩🇪 德国 (Germany) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇪 秘鲁 (Peru) 07 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇩🇴 DO 04 - xiaohe
 rules:
 - MATCH,PROXIES

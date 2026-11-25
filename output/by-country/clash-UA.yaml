@@ -5,10 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
-  server: 46.174.120.163
-  port: 8090
+  server: 5.58.97.86
+  port: 41641
   udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select

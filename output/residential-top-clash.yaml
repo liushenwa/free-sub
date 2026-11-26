@@ -4,20 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  server: 59.11.209.162
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   server: 103.184.113.190
   port: 62000
   udp: true
   type: socks5
   username: qT46DZLv
   password: jHsK2gqs
-- name: 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
-  server: 110.34.28.67
+- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+  server: 103.184.113.236
+  port: 62000
+  udp: true
+  type: socks5
+  username: qT46DZLv
+  password: jHsK2gqs
+- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
+  server: 49.0.85.207
   port: 1080
   udp: true
   type: socks4
@@ -27,78 +29,71 @@ proxies:
   udp: true
   type: socks4
 - name: 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  server: 110.34.1.156
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
   server: 110.34.1.212
   port: 1080
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
-  server: 110.34.2.186
+- name: 🇰🇪 肯尼亚 (Kenya) 06 ★★★★★ 移动家宽 - xiaohe
+  server: 102.0.42.244
   port: 1080
   udp: true
   type: socks4
-- name: 🇰🇭 柬埔寨 (Cambodia) 08 ★★★★☆ 家宽 - xiaohe
-  server: 203.189.136.174
+- name: 🇻🇳 越南 (Vietnam) 07 ★★★★★ 移动家宽 - xiaohe
+  server: 171.253.90.204
+  port: 1083
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 08 ★★★★★ 移动家宽 - xiaohe
+  server: 171.253.90.204
+  port: 1065
+  udp: true
+  type: socks5
+- name: 🇰🇪 肯尼亚 (Kenya) 09 ★★★★☆ 移动家宽 - xiaohe
+  server: 102.0.42.178
   port: 1080
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  server: 171.244.188.50
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 10 ★★★★☆ 家宽 - xiaohe
+  server: 103.157.116.179
+  port: 10810
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
+- name: 🇦🇷 阿根廷 (Argentina) 11 ★★★★☆ 家宽 - xiaohe
   server: 200.0.227.220
   port: 4153
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 11 ★★★★☆ 家宽 - xiaohe
-  server: 45.115.115.37
-  port: 9090
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 12 ★★★★☆ 家宽 - xiaohe
-  server: 95.31.181.126
-  port: 1080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 11 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 09 ★★★★☆ 移动家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 11 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
   - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 10 ★★★★☆ 家宽 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 11 ★★★★☆ 家宽 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 ★★★★☆ 家宽 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 08 ★★★★★ 移动家宽 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 09 ★★★★☆ 移动家宽 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 11 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

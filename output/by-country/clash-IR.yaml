@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
-  server: 80.191.46.61
+  server: 80.191.46.62
   port: 1099
   udp: true
   type: socks4

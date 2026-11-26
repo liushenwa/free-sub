@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 188.150.229.60
-  port: 5678
+- name: 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
+  server: 49.0.85.207
+  port: 1080
   udp: true
   type: socks4
 - name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
@@ -16,19 +16,26 @@ proxies:
   type: socks5
   username: userLRgK
   password: KsPAxZGn
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 170.80.221.192
-  port: 4153
+- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  server: 94.194.164.203
+  port: 62000
+  udp: true
+  type: socks5
+  username: rVkkraqT
+  password: 2j7CCZQb
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: 188.150.229.60
+  port: 5678
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 193.233.90.71
+  port: 40000
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
   server: 185.14.149.33
   port: 4145
-  udp: true
-  type: socks4
-- name: 🇪🇬 埃及 (Egypt) 05 - xiaohe
-  server: 154.236.176.51
-  port: 1080
   udp: true
   type: socks4
 proxy-groups:
@@ -36,20 +43,22 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇪🇬 埃及 (Egypt) 05 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇪🇬 埃及 (Egypt) 05 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 rules:
 - MATCH,PROXIES

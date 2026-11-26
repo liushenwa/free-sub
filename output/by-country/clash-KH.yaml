@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe
-  server: 122.252.183.18
+  server: 122.252.183.21
   port: 4153
   udp: true
   type: socks4

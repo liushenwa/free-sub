@@ -11,17 +11,26 @@ proxies:
   type: socks5
   username: userLRgK
   password: KsPAxZGn
+- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  server: 94.194.164.203
+  port: 62000
+  udp: true
+  type: socks5
+  username: rVkkraqT
+  password: 2j7CCZQb
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
 rules:
 - MATCH,PROXIES

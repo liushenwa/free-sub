@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "188.150.229.60",
-      "server_port": 5678,
+      "server": "49.0.85.207",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
@@ -21,46 +21,57 @@
     },
     {
       "type": "socks",
-      "server": "170.80.221.192",
-      "server_port": 4153,
+      "server": "94.194.164.203",
+      "server_port": 62000,
+      "version": "5",
+      "username": "rVkkraqT",
+      "password": "2j7CCZQb",
+      "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "188.150.229.60",
+      "server_port": 5678,
       "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe"
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "193.233.90.71",
+      "server_port": 40000,
+      "version": "4",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
     },
     {
       "type": "socks",
       "server": "185.14.149.33",
       "server_port": 4145,
       "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "154.236.176.51",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇪🇬 埃及 (Egypt) 05 - xiaohe"
+      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
         "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇪🇬 埃及 (Egypt) 05 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 01 ★★★★★ 家宽 - xiaohe",
         "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 03 - xiaohe",
-        "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇪🇬 埃及 (Egypt) 05 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

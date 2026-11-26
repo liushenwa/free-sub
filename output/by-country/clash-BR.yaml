@@ -5,10 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 170.80.221.192
-  port: 4153
+  server: 191.7.129.133
+  port: 62000
   udp: true
-  type: socks4
+  type: socks5
+  username: uwrgfkwg
+  password: 0mvrt5jb
 - name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 168.232.213.9
   port: 4153

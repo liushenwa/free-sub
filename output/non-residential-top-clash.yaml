@@ -4,13 +4,11 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  server: 94.194.164.203
-  port: 62000
+- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  server: 188.150.229.60
+  port: 5678
   udp: true
-  type: socks5
-  username: rVkkraqT
-  password: 2j7CCZQb
+  type: socks4
 - name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
   server: 94.194.166.52
   port: 42000
@@ -18,49 +16,40 @@ proxies:
   type: socks5
   username: userLRgK
   password: KsPAxZGn
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 188.150.229.60
-  port: 5678
+- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  server: 170.80.221.192
+  port: 4153
   udp: true
   type: socks4
-- name: 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  server: 198.50.17.177
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: 185.14.149.33
   port: 4145
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  server: 191.7.129.133
-  port: 62000
+- name: 🇪🇬 埃及 (Egypt) 05 - xiaohe
+  server: 154.236.176.51
+  port: 1080
   udp: true
-  type: socks5
-  username: uwrgfkwg
-  password: 0mvrt5jb
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★★ 移动家宽 - xiaohe
-  server: 171.253.90.204
-  port: 1083
-  udp: true
-  type: socks5
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇪🇬 埃及 (Egypt) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇦🇷 阿根廷 (Argentina) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★★ 移动家宽 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇪🇬 埃及 (Egypt) 05 - xiaohe
 rules:
 - MATCH,PROXIES

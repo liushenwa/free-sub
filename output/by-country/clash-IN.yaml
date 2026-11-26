@@ -5,21 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
-  server: 103.124.172.134
+  server: 103.155.131.38
   port: 1080
   udp: true
-  type: socks5
+  type: socks4
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: 103.206.131.9
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: 103.137.148.253
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇮🇳 印度 (India) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇳 印度 (India) 01 - xiaohe
+  - 🇮🇳 印度 (India) 02 - xiaohe
+  - 🇮🇳 印度 (India) 03 - xiaohe
 rules:
 - MATCH,PROXIES

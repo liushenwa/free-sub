@@ -5,16 +5,14 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "202.155.99.212",
-      "server_port": 62000,
-      "version": "5",
-      "username": "gebHTLF6",
-      "password": "APJ7RmY9",
+      "server": "103.166.32.130",
+      "server_port": 11080,
+      "version": "4",
       "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "202.155.99.32",
+      "server": "202.155.99.212",
       "server_port": 62000,
       "version": "5",
       "username": "gebHTLF6",
@@ -23,17 +21,10 @@
     },
     {
       "type": "socks",
-      "server": "223.25.109.86",
-      "server_port": 1080,
-      "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "122.102.41.226",
       "server_port": 4153,
       "version": "4",
-      "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
     },
     {
       "type": "selector",
@@ -42,8 +33,7 @@
         "auto",
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
       ]
     },
     {
@@ -52,8 +42,7 @@
       "outbounds": [
         "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
         "🇮🇩 印尼 (Indonesia) 02 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 03 - xiaohe",
-        "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

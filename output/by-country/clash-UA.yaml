@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
-  server: 113.197.55.156
-  port: 1080
+- name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
+  server: 5.58.97.86
+  port: 41641
   udp: true
   type: socks4
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 rules:
 - MATCH,PROXIES

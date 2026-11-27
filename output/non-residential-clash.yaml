@@ -18,90 +18,86 @@ proxies:
   type: socks5
   username: rVkkraqT
   password: 2j7CCZQb
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 188.150.229.60
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 193.233.90.71
-  port: 40000
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 185.14.149.33
   port: 4145
   udp: true
   type: socks4
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
-  server: 31.42.2.113
+- name: 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  server: 212.34.230.101
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  server: 187.62.193.153
   port: 5678
   udp: true
   type: socks4
-- name: 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  server: 165.99.90.3
+- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  server: 116.97.117.27
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  server: 113.161.185.238
   port: 1080
   udp: true
   type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 109.235.188.171
-  port: 1080
+- name: 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  server: 103.157.116.179
+  port: 10810
   udp: true
   type: socks4
-- name: 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  server: 191.7.129.133
-  port: 62000
-  udp: true
-  type: socks5
-  username: uwrgfkwg
-  password: 0mvrt5jb
-- name: 🇳🇵 尼泊尔 (Nepal) 10 - xiaohe
+- name: 🇳🇵 尼泊尔 (Nepal) 09 - xiaohe
   server: 124.41.196.3
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 11 - xiaohe
-  server: 202.155.99.32
-  port: 62000
+- name: 🇮🇳 印度 (India) 10 - xiaohe
+  server: 103.225.205.78
+  port: 52195
   udp: true
-  type: socks5
-  username: gebHTLF6
-  password: APJ7RmY9
-- name: 🇹🇭 泰国 (Thailand) 12 - xiaohe
-  server: 168.222.8.119
-  port: 42000
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
+  server: 43.231.22.146
+  port: 1080
   udp: true
-  type: socks5
-  username: JPjarpW3
-  password: ao3W5ZML
-- name: 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 12 - xiaohe
   server: 202.155.99.212
   port: 62000
   udp: true
   type: socks5
   username: gebHTLF6
   password: APJ7RmY9
-- name: 🇹🇭 泰国 (Thailand) 14 - xiaohe
-  server: 109.66.136.234
-  port: 62000
-  udp: true
-  type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 15 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 13 - xiaohe
   server: 192.204.15.138
   port: 42000
   udp: true
   type: socks5
   username: X3s3JteD
   password: mpbK00Pl
-- name: 🇹🇭 泰国 (Thailand) 16 - xiaohe
-  server: 168.222.8.4
+- name: 🇹🇭 泰国 (Thailand) 14 - xiaohe
+  server: 103.14.164.202
   port: 42000
   udp: true
   type: socks5
-  username: JPjarpW3
-  password: ao3W5ZML
+  username: route164JIa2CBPxfy
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+- name: 🇹🇭 泰国 (Thailand) 15 - xiaohe
+  server: 109.66.136.234
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
+- name: 🇹🇭 泰国 (Thailand) 16 - xiaohe
+  server: 109.66.136.194
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
 - name: 🇹🇭 泰国 (Thailand) 17 - xiaohe
   server: 82.47.154.48
   port: 42000
@@ -109,189 +105,158 @@ proxies:
   type: socks5
   username: userMGEj
   password: KsySvCAP
-- name: 🇹🇭 泰国 (Thailand) 18 - xiaohe
+- name: 🇰🇪 肯尼亚 (Kenya) 18 - xiaohe
+  server: 102.0.43.4
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇹🇭 泰国 (Thailand) 19 - xiaohe
   server: 109.66.136.242
   port: 62000
   udp: true
   type: socks5
   username: r3ZzP8WW
   password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 19 - xiaohe
-  server: 103.14.164.30
-  port: 42000
-  udp: true
-  type: socks5
-  username: route164JIa2CBPxfy
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
 - name: 🇹🇭 泰国 (Thailand) 20 - xiaohe
-  server: 103.14.164.202
-  port: 42000
-  udp: true
-  type: socks5
-  username: route164JIa2CBPxfy
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-- name: 🇹🇭 泰国 (Thailand) 21 - xiaohe
-  server: 109.66.136.194
-  port: 62000
-  udp: true
-  type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 22 - xiaohe
-  server: 192.204.15.192
-  port: 42000
-  udp: true
-  type: socks5
-  username: X3s3JteD
-  password: mpbK00Pl
-- name: 🇹🇭 泰国 (Thailand) 23 - xiaohe
-  server: 151.246.109.158
-  port: 42000
-  udp: true
-  type: socks5
-  username: AJ3d9gJw
-  password: 1pB7HV6u
-- name: 🇹🇭 泰国 (Thailand) 24 - xiaohe
-  server: 192.204.15.135
-  port: 42000
-  udp: true
-  type: socks5
-  username: X3s3JteD
-  password: mpbK00Pl
-- name: 🇹🇭 泰国 (Thailand) 25 - xiaohe
-  server: 109.66.136.42
-  port: 62000
-  udp: true
-  type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇻🇳 越南 (Vietnam) 26 - xiaohe
-  server: 171.253.90.204
-  port: 1082
-  udp: true
-  type: socks4
-- name: 🇹🇭 泰国 (Thailand) 27 - xiaohe
   server: 82.47.152.151
   port: 42000
   udp: true
   type: socks5
   username: userLjVB
   password: Ks4Iab43
-- name: 🇰🇪 肯尼亚 (Kenya) 28 - xiaohe
-  server: 102.0.26.212
+- name: 🇹🇭 泰国 (Thailand) 21 - xiaohe
+  server: 103.14.164.30
+  port: 42000
+  udp: true
+  type: socks5
+  username: route164JIa2CBPxfy
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+- name: 🇹🇭 泰国 (Thailand) 22 - xiaohe
+  server: 168.222.8.4
+  port: 42000
+  udp: true
+  type: socks5
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: 🇹🇭 泰国 (Thailand) 23 - xiaohe
+  server: 109.66.136.42
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
+- name: 🇨🇴 哥伦比亚 (Colombia) 24 - xiaohe
+  server: 45.74.31.47
+  port: 4666
+  udp: true
+  type: socks5
+- name: 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
+  server: 198.50.17.177
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇹🇷 土耳其 (Turkey) 26 - xiaohe
+  server: 188.132.249.166
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 27 - xiaohe
+  server: 113.161.185.160
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 29 - xiaohe
-  server: 203.190.113.233
+- name: 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  server: 109.235.188.171
   port: 1080
   udp: true
   type: socks4
-- name: 🇰🇭 柬埔寨 (Cambodia) 30 - xiaohe
-  server: 122.252.183.21
-  port: 4153
+- name: 🇮🇳 印度 (India) 29 - xiaohe
+  server: 103.155.131.38
+  port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 31 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 30 - xiaohe
   server: 103.119.237.60
   port: 1080
   udp: true
   type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 32 - xiaohe
-  server: 201.184.179.198
-  port: 1080
+- name: 🇸🇪 瑞典 (Sweden) 31 - xiaohe
+  server: 188.150.229.60
+  port: 5678
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 33 - xiaohe
-  server: 45.74.31.47
-  port: 4683
+- name: 🇹🇭 泰国 (Thailand) 32 - xiaohe
+  server: 168.222.8.66
+  port: 42000
   udp: true
   type: socks5
-- name: 🇧🇷 巴西 (Brazil) 34 - xiaohe
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: 🇧🇷 巴西 (Brazil) 33 - xiaohe
   server: 168.232.213.9
   port: 4153
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 35 - xiaohe
-  server: 45.74.31.46
-  port: 4245
+- name: 🇧🇷 巴西 (Brazil) 34 - xiaohe
+  server: 187.87.34.82
+  port: 60606
+  udp: true
+  type: socks4
+- name: 🇧🇩 孟加拉 (Bangladesh) 35 - xiaohe
+  server: 202.40.179.18
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 36 - xiaohe
+  server: 45.6.13.4
+  port: 1080
   udp: true
   type: socks5
-- name: 🇧🇩 孟加拉 (Bangladesh) 36 - xiaohe
-  server: 43.231.22.146
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇵🇭 菲律宾 (Philippines) 37 - xiaohe
-  server: 180.190.80.200
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 38 - xiaohe
+- name: 🇨🇴 哥伦比亚 (Colombia) 37 - xiaohe
   server: 45.74.31.47
-  port: 4598
+  port: 5032
   udp: true
   type: socks5
-- name: 🇰🇪 肯尼亚 (Kenya) 39 - xiaohe
-  server: 102.0.41.14
+- name: 🇻🇪 VE 38 - xiaohe
+  server: 190.120.250.31
+  port: 4145
+  udp: true
+  type: socks4
+- name: 🇮🇩 印尼 (Indonesia) 39 - xiaohe
+  server: 163.128.137.239
   port: 1080
   udp: true
   type: socks4
 - name: 🇨🇴 哥伦比亚 (Colombia) 40 - xiaohe
-  server: 45.74.31.46
-  port: 4140
+  server: 45.74.31.47
+  port: 5017
   udp: true
   type: socks5
-- name: 🇧🇮 BI 41 - xiaohe
-  server: 197.157.194.10
+- name: 🇧🇷 巴西 (Brazil) 41 - xiaohe
+  server: 177.69.200.8
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 42 - xiaohe
-  server: 103.166.32.130
-  port: 11080
-  udp: true
-  type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 43 - xiaohe
-  server: 45.74.31.40
-  port: 43183
-  udp: true
-  type: socks5
-- name: 🇮🇷 IR 44 - xiaohe
-  server: 80.191.46.62
-  port: 1099
-  udp: true
-  type: socks4
-- name: 🇰🇪 肯尼亚 (Kenya) 45 - xiaohe
-  server: 102.0.41.84
+- name: 🇰🇪 肯尼亚 (Kenya) 42 - xiaohe
+  server: 102.0.43.20
   port: 1080
   udp: true
   type: socks4
-- name: 🇮🇳 印度 (India) 46 - xiaohe
-  server: 103.137.148.253
+- name: 🇮🇩 印尼 (Indonesia) 43 - xiaohe
+  server: 160.22.36.4
   port: 1080
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 47 - xiaohe
-  server: 181.143.31.242
+- name: 🇹🇷 土耳其 (Turkey) 44 - xiaohe
+  server: 87.76.138.49
   port: 1080
+  udp: true
+  type: socks5
+- name: 🇮🇳 印度 (India) 45 - xiaohe
+  server: 45.117.29.137
+  port: 10888
   udp: true
   type: socks4
-- name: 🇨🇴 哥伦比亚 (Colombia) 48 - xiaohe
-  server: 45.74.31.42
-  port: 25000
-  udp: true
-  type: socks5
-- name: 🇩🇪 德国 (Germany) 49 - xiaohe
-  server: 5.78.181.0
-  port: 9052
-  udp: true
-  type: socks5
-- name: 🇸🇾 SY 50 - xiaohe
-  server: 188.132.150.240
-  port: 1080
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -299,54 +264,49 @@ proxy-groups:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 10 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 12 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 09 - xiaohe
+  - 🇮🇳 印度 (India) 10 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 13 - xiaohe
   - 🇹🇭 泰国 (Thailand) 14 - xiaohe
   - 🇹🇭 泰国 (Thailand) 15 - xiaohe
   - 🇹🇭 泰国 (Thailand) 16 - xiaohe
   - 🇹🇭 泰国 (Thailand) 17 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 18 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 18 - xiaohe
   - 🇹🇭 泰国 (Thailand) 19 - xiaohe
   - 🇹🇭 泰国 (Thailand) 20 - xiaohe
   - 🇹🇭 泰国 (Thailand) 21 - xiaohe
   - 🇹🇭 泰国 (Thailand) 22 - xiaohe
   - 🇹🇭 泰国 (Thailand) 23 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 24 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 25 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 26 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 27 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 28 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 29 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 30 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 31 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 32 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 33 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 24 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 26 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 27 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  - 🇮🇳 印度 (India) 29 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 30 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 31 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 32 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 33 - xiaohe
   - 🇧🇷 巴西 (Brazil) 34 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 35 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 36 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 37 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 38 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 39 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 35 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 36 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 37 - xiaohe
+  - 🇻🇪 VE 38 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 39 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 40 - xiaohe
-  - 🇧🇮 BI 41 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 42 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 43 - xiaohe
-  - 🇮🇷 IR 44 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 45 - xiaohe
-  - 🇮🇳 印度 (India) 46 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 47 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 48 - xiaohe
-  - 🇩🇪 德国 (Germany) 49 - xiaohe
-  - 🇸🇾 SY 50 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 41 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 42 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 43 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 44 - xiaohe
+  - 🇮🇳 印度 (India) 45 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -354,53 +314,48 @@ proxy-groups:
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 09 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 10 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 12 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 13 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 08 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 09 - xiaohe
+  - 🇮🇳 印度 (India) 10 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 11 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 12 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 13 - xiaohe
   - 🇹🇭 泰国 (Thailand) 14 - xiaohe
   - 🇹🇭 泰国 (Thailand) 15 - xiaohe
   - 🇹🇭 泰国 (Thailand) 16 - xiaohe
   - 🇹🇭 泰国 (Thailand) 17 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 18 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 18 - xiaohe
   - 🇹🇭 泰国 (Thailand) 19 - xiaohe
   - 🇹🇭 泰国 (Thailand) 20 - xiaohe
   - 🇹🇭 泰国 (Thailand) 21 - xiaohe
   - 🇹🇭 泰国 (Thailand) 22 - xiaohe
   - 🇹🇭 泰国 (Thailand) 23 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 24 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 25 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 26 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 27 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 28 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 29 - xiaohe
-  - 🇰🇭 柬埔寨 (Cambodia) 30 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 31 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 32 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 33 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 24 - xiaohe
+  - 🇦🇷 阿根廷 (Argentina) 25 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 26 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 27 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  - 🇮🇳 印度 (India) 29 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 30 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 31 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 32 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 33 - xiaohe
   - 🇧🇷 巴西 (Brazil) 34 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 35 - xiaohe
-  - 🇧🇩 孟加拉 (Bangladesh) 36 - xiaohe
-  - 🇵🇭 菲律宾 (Philippines) 37 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 38 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 39 - xiaohe
+  - 🇧🇩 孟加拉 (Bangladesh) 35 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 36 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 37 - xiaohe
+  - 🇻🇪 VE 38 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 39 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 40 - xiaohe
-  - 🇧🇮 BI 41 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 42 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 43 - xiaohe
-  - 🇮🇷 IR 44 - xiaohe
-  - 🇰🇪 肯尼亚 (Kenya) 45 - xiaohe
-  - 🇮🇳 印度 (India) 46 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 47 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 48 - xiaohe
-  - 🇩🇪 德国 (Germany) 49 - xiaohe
-  - 🇸🇾 SY 50 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 41 - xiaohe
+  - 🇰🇪 肯尼亚 (Kenya) 42 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 43 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 44 - xiaohe
+  - 🇮🇳 印度 (India) 45 - xiaohe
 rules:
 - MATCH,PROXIES

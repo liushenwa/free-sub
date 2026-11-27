@@ -18,19 +18,14 @@ proxies:
   type: socks5
   username: rVkkraqT
   password: 2j7CCZQb
-- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 188.150.229.60
-  port: 5678
-  udp: true
-  type: socks4
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 193.233.90.71
-  port: 40000
-  udp: true
-  type: socks4
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 185.14.149.33
   port: 4145
+  udp: true
+  type: socks4
+- name: 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  server: 212.34.230.101
+  port: 4153
   udp: true
   type: socks4
 proxy-groups:
@@ -40,9 +35,8 @@ proxy-groups:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,8 +44,7 @@ proxy-groups:
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 03 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

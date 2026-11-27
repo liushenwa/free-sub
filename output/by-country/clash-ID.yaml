@@ -5,12 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 202.155.99.32
-  port: 62000
+  server: 103.157.116.179
+  port: 10810
   udp: true
-  type: socks5
-  username: gebHTLF6
-  password: APJ7RmY9
+  type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   server: 202.155.99.212
   port: 62000
@@ -19,18 +17,18 @@ proxies:
   username: gebHTLF6
   password: APJ7RmY9
 - name: 🇮🇩 印尼 (Indonesia) 03 - xiaohe
-  server: 203.190.113.233
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
   server: 103.119.237.60
   port: 1080
   udp: true
   type: socks5
+- name: 🇮🇩 印尼 (Indonesia) 04 - xiaohe
+  server: 163.128.137.239
+  port: 1080
+  udp: true
+  type: socks4
 - name: 🇮🇩 印尼 (Indonesia) 05 - xiaohe
-  server: 103.166.32.130
-  port: 11080
+  server: 160.22.36.4
+  port: 1080
   udp: true
   type: socks4
 proxy-groups:

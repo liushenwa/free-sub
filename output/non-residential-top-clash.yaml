@@ -11,21 +11,41 @@ proxies:
   type: socks5
   username: userLRgK
   password: KsPAxZGn
-- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  server: 94.194.164.203
-  port: 62000
+- name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  server: 201.184.179.198
+  port: 1080
   udp: true
-  type: socks5
-  username: rVkkraqT
-  password: 2j7CCZQb
-- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: 185.14.149.33
+  type: socks4
+- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  server: 188.150.229.60
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇺🇦 乌克兰 (Ukraine) 04 - xiaohe
+  server: 5.58.97.86
+  port: 41641
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  server: 177.66.43.189
   port: 4145
   udp: true
   type: socks4
-- name: 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
-  server: 212.34.230.101
-  port: 4153
+- name: 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
+  server: 46.174.120.163
+  port: 8090
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 07 - xiaohe
+  server: 191.7.129.133
+  port: 62000
+  udp: true
+  type: socks5
+  username: uwrgfkwg
+  password: 0mvrt5jb
+- name: 🇵🇱 波兰 (Poland) 08 - xiaohe
+  server: 31.42.2.113
+  port: 5678
   udp: true
   type: socks4
 proxy-groups:
@@ -34,17 +54,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
+  - 🇵🇱 波兰 (Poland) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
-  - 🇵🇱 波兰 (Poland) 03 - xiaohe
-  - 🇦🇲 亚美尼亚 (Armenia) 04 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 04 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 06 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 07 - xiaohe
+  - 🇵🇱 波兰 (Poland) 08 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇪 肯尼亚 (Kenya) 01 ★★★★★ 移动家宽 - xiaohe
-  server: 102.0.42.244
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 78.80.149.106
   port: 1080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇪 肯尼亚 (Kenya) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇪 肯尼亚 (Kenya) 01 ★★★★★ 移动家宽 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 rules:
 - MATCH,PROXIES

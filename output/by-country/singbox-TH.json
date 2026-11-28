@@ -5,12 +5,21 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "82.47.152.151",
+      "server": "109.66.136.242",
+      "server_port": 62000,
+      "version": "5",
+      "username": "r3ZzP8WW",
+      "password": "zdnivBaI",
+      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.14.164.202",
       "server_port": 42000,
       "version": "5",
-      "username": "userLjVB",
-      "password": "Ks4Iab43",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+      "username": "route164JIa2CBPxfy",
+      "password": "VAwyJQX0iKMJiyCw5UVK9wGH",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe"
     },
     {
       "type": "socks",
@@ -19,43 +28,7 @@
       "version": "5",
       "username": "JPjarpW3",
       "password": "ao3W5ZML",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "192.204.15.192",
-      "server_port": 42000,
-      "version": "5",
-      "username": "X3s3JteD",
-      "password": "mpbK00Pl",
       "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "109.66.136.242",
-      "server_port": 62000,
-      "version": "5",
-      "username": "r3ZzP8WW",
-      "password": "zdnivBaI",
-      "tag": "🇹🇭 泰国 (Thailand) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "168.222.8.119",
-      "server_port": 42000,
-      "version": "5",
-      "username": "JPjarpW3",
-      "password": "ao3W5ZML",
-      "tag": "🇹🇭 泰国 (Thailand) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "103.14.164.30",
-      "server_port": 42000,
-      "version": "5",
-      "username": "route164JIa2CBPxfy",
-      "password": "VAwyJQX0iKMJiyCw5UVK9wGH",
-      "tag": "🇹🇭 泰国 (Thailand) 06 - xiaohe"
     },
     {
       "type": "socks",
@@ -64,25 +37,25 @@
       "version": "5",
       "username": "userMGEj",
       "password": "KsySvCAP",
-      "tag": "🇹🇭 泰国 (Thailand) 07 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 04 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "109.66.136.42",
-      "server_port": 62000,
+      "server": "192.204.15.138",
+      "server_port": 42000,
       "version": "5",
-      "username": "r3ZzP8WW",
-      "password": "zdnivBaI",
-      "tag": "🇹🇭 泰国 (Thailand) 08 - xiaohe"
+      "username": "X3s3JteD",
+      "password": "mpbK00Pl",
+      "tag": "🇹🇭 泰国 (Thailand) 05 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "109.66.136.234",
-      "server_port": 62000,
+      "server": "192.204.15.192",
+      "server_port": 42000,
       "version": "5",
-      "username": "r3ZzP8WW",
-      "password": "zdnivBaI",
-      "tag": "🇹🇭 泰国 (Thailand) 09 - xiaohe"
+      "username": "X3s3JteD",
+      "password": "mpbK00Pl",
+      "tag": "🇹🇭 泰国 (Thailand) 06 - xiaohe"
     },
     {
       "type": "socks",
@@ -91,7 +64,7 @@
       "version": "5",
       "username": "r3ZzP8WW",
       "password": "zdnivBaI",
-      "tag": "🇹🇭 泰国 (Thailand) 10 - xiaohe"
+      "tag": "🇹🇭 泰国 (Thailand) 07 - xiaohe"
     },
     {
       "type": "socks",
@@ -100,7 +73,61 @@
       "version": "5",
       "username": "JPjarpW3",
       "password": "ao3W5ZML",
+      "tag": "🇹🇭 泰国 (Thailand) 08 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "192.204.15.135",
+      "server_port": 42000,
+      "version": "5",
+      "username": "X3s3JteD",
+      "password": "mpbK00Pl",
+      "tag": "🇹🇭 泰国 (Thailand) 09 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "168.222.8.119",
+      "server_port": 42000,
+      "version": "5",
+      "username": "JPjarpW3",
+      "password": "ao3W5ZML",
+      "tag": "🇹🇭 泰国 (Thailand) 10 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "151.246.109.158",
+      "server_port": 42000,
+      "version": "5",
+      "username": "AJ3d9gJw",
+      "password": "1pB7HV6u",
       "tag": "🇹🇭 泰国 (Thailand) 11 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "103.14.164.30",
+      "server_port": 42000,
+      "version": "5",
+      "username": "route164JIa2CBPxfy",
+      "password": "VAwyJQX0iKMJiyCw5UVK9wGH",
+      "tag": "🇹🇭 泰国 (Thailand) 12 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "109.66.136.42",
+      "server_port": 62000,
+      "version": "5",
+      "username": "r3ZzP8WW",
+      "password": "zdnivBaI",
+      "tag": "🇹🇭 泰国 (Thailand) 13 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "109.66.136.234",
+      "server_port": 62000,
+      "version": "5",
+      "username": "r3ZzP8WW",
+      "password": "zdnivBaI",
+      "tag": "🇹🇭 泰国 (Thailand) 14 - xiaohe"
     },
     {
       "type": "selector",
@@ -117,7 +144,10 @@
         "🇹🇭 泰国 (Thailand) 08 - xiaohe",
         "🇹🇭 泰国 (Thailand) 09 - xiaohe",
         "🇹🇭 泰国 (Thailand) 10 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 11 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 11 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 12 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 13 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 14 - xiaohe"
       ]
     },
     {
@@ -134,7 +164,10 @@
         "🇹🇭 泰国 (Thailand) 08 - xiaohe",
         "🇹🇭 泰国 (Thailand) 09 - xiaohe",
         "🇹🇭 泰国 (Thailand) 10 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 11 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 11 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 12 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 13 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 14 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

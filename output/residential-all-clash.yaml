@@ -16,41 +16,58 @@ proxies:
   type: socks5
   username: qT46DZLv
   password: jHsK2gqs
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  server: 103.184.113.236
+  port: 62000
+  udp: true
+  type: socks5
+  username: qT46DZLv
+  password: jHsK2gqs
+- name: 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
   server: 49.0.85.207
   port: 1080
   udp: true
   type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
-  server: 110.34.10.226
+- name: 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
+  server: 142.190.95.154
   port: 1080
-  udp: true
-  type: socks4
-- name: 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  server: 110.34.1.212
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  server: 171.253.90.204
-  port: 1086
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  server: 171.247.158.166
+- name: 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  server: 110.34.1.156
   port: 1080
   udp: true
   type: socks4
-- name: 🇹🇭 泰国 (Thailand) 08 ★★★★☆ 家宽 - xiaohe
+- name: 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  server: 110.34.28.67
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
+  server: 109.173.126.26
+  port: 2080
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 09 ★★★★★ 移动家宽 - xiaohe
+  server: 171.253.90.204
+  port: 1036
+  udp: true
+  type: socks4
+- name: 🇻🇳 越南 (Vietnam) 10 ★★★★☆ 家宽 - xiaohe
+  server: 116.104.52.124
+  port: 1092
+  udp: true
+  type: socks4
+- name: 🇹🇭 泰国 (Thailand) 11 ★★★★☆ 家宽 - xiaohe
   server: 183.88.240.139
   port: 4153
   udp: true
   type: socks4
-- name: 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
-  server: 171.248.217.119
-  port: 1080
+- name: 🇻🇳 越南 (Vietnam) 12 ★★★★☆ 家宽 - xiaohe
+  server: 171.253.91.148
+  port: 1100
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,13 +75,16 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 11 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 12 ★★★★☆ 家宽 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -72,12 +92,15 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 04 ★★★★★ 家宽 - xiaohe
-  - 🇳🇵 尼泊尔 (Nepal) 05 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 ★★★★☆ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★★ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 ★★★★★ 家宽 - xiaohe
+  - 🇺🇸 美国 (United States) 05 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 06 ★★★★★ 家宽 - xiaohe
+  - 🇳🇵 尼泊尔 (Nepal) 07 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 08 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 09 ★★★★★ 移动家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 10 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 11 ★★★★☆ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 12 ★★★★☆ 家宽 - xiaohe
 rules:
 - MATCH,PROXIES

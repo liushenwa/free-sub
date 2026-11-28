@@ -4,174 +4,196 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
+- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  server: 142.190.95.154
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
   server: 59.11.209.162
   port: 1080
   udp: true
   type: socks5
-- name: 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  server: 109.173.126.26
+  port: 2080
+  udp: true
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
   server: 103.184.113.190
   port: 62000
   udp: true
   type: socks5
   username: qT46DZLv
   password: jHsK2gqs
-- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  server: 171.253.90.204
-  port: 1086
+- name: 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  server: 103.184.113.236
+  port: 62000
   udp: true
   type: socks5
-- name: 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
+  username: qT46DZLv
+  password: jHsK2gqs
+- name: 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  server: 171.253.91.148
+  port: 1100
+  udp: true
+  type: socks5
+- name: 🇲🇽 墨西哥 (Mexico) 07 - xiaohe
+  server: 94.194.164.203
+  port: 62000
+  udp: true
+  type: socks5
+  username: rVkkraqT
+  password: 2j7CCZQb
+- name: 🇲🇽 墨西哥 (Mexico) 08 - xiaohe
   server: 94.194.166.52
   port: 42000
   udp: true
   type: socks5
   username: userLRgK
   password: KsPAxZGn
-- name: 🇺🇦 乌克兰 (Ukraine) 05 - xiaohe
-  server: 46.174.120.163
-  port: 8090
-  udp: true
-  type: socks5
-- name: 🇧🇷 巴西 (Brazil) 06 - xiaohe
-  server: 191.7.129.133
-  port: 62000
-  udp: true
-  type: socks5
-  username: uwrgfkwg
-  password: 0mvrt5jb
-- name: 🇵🇱 波兰 (Poland) 07 - xiaohe
-  server: 185.100.85.64
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  server: 45.74.31.47
-  port: 4827
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 09 - xiaohe
-  server: 82.47.152.151
-  port: 42000
-  udp: true
-  type: socks5
-  username: userLjVB
-  password: Ks4Iab43
-- name: 🇹🇭 泰国 (Thailand) 10 - xiaohe
-  server: 168.222.8.4
-  port: 42000
-  udp: true
-  type: socks5
-  username: JPjarpW3
-  password: ao3W5ZML
-- name: 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+- name: 🇮🇩 印尼 (Indonesia) 09 - xiaohe
   server: 202.155.99.212
   port: 62000
   udp: true
   type: socks5
   username: gebHTLF6
   password: APJ7RmY9
-- name: 🇹🇭 泰国 (Thailand) 12 - xiaohe
-  server: 192.204.15.192
-  port: 42000
+- name: 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  server: 202.155.99.32
+  port: 62000
   udp: true
   type: socks5
-  username: X3s3JteD
-  password: mpbK00Pl
-- name: 🇹🇭 泰国 (Thailand) 13 - xiaohe
+  username: gebHTLF6
+  password: APJ7RmY9
+- name: 🇧🇷 巴西 (Brazil) 11 - xiaohe
+  server: 191.7.129.133
+  port: 62000
+  udp: true
+  type: socks5
+  username: uwrgfkwg
+  password: 0mvrt5jb
+- name: 🇹🇭 泰国 (Thailand) 12 - xiaohe
   server: 109.66.136.242
   port: 62000
   udp: true
   type: socks5
   username: r3ZzP8WW
   password: zdnivBaI
+- name: 🇹🇭 泰国 (Thailand) 13 - xiaohe
+  server: 103.14.164.202
+  port: 42000
+  udp: true
+  type: socks5
+  username: route164JIa2CBPxfy
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
 - name: 🇹🇭 泰国 (Thailand) 14 - xiaohe
-  server: 168.222.8.119
+  server: 168.222.8.4
   port: 42000
   udp: true
   type: socks5
   username: JPjarpW3
   password: ao3W5ZML
 - name: 🇹🇭 泰国 (Thailand) 15 - xiaohe
-  server: 103.14.164.30
-  port: 42000
-  udp: true
-  type: socks5
-  username: route164JIa2CBPxfy
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-- name: 🇹🇭 泰国 (Thailand) 16 - xiaohe
   server: 82.47.154.48
   port: 42000
   udp: true
   type: socks5
   username: userMGEj
   password: KsySvCAP
+- name: 🇹🇭 泰国 (Thailand) 16 - xiaohe
+  server: 192.204.15.138
+  port: 42000
+  udp: true
+  type: socks5
+  username: X3s3JteD
+  password: mpbK00Pl
 - name: 🇹🇭 泰国 (Thailand) 17 - xiaohe
-  server: 109.66.136.42
-  port: 62000
+  server: 192.204.15.192
+  port: 42000
   udp: true
   type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇻🇳 越南 (Vietnam) 18 - xiaohe
-  server: 45.74.31.40
-  port: 5265
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 19 - xiaohe
-  server: 109.66.136.234
-  port: 62000
-  udp: true
-  type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
-  server: 45.74.31.47
-  port: 5579
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 21 - xiaohe
+  username: X3s3JteD
+  password: mpbK00Pl
+- name: 🇹🇭 泰国 (Thailand) 18 - xiaohe
   server: 109.66.136.194
   port: 62000
   udp: true
   type: socks5
   username: r3ZzP8WW
   password: zdnivBaI
-- name: 🇨🇿 捷克 (Czech) 22 - xiaohe
-  server: 78.80.149.106
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 23 - xiaohe
-  server: 45.74.31.47
-  port: 5172
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 24 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 19 - xiaohe
   server: 168.222.8.66
   port: 42000
   udp: true
   type: socks5
   username: JPjarpW3
   password: ao3W5ZML
-- name: 🇻🇳 越南 (Vietnam) 25 - xiaohe
-  server: 45.74.31.46
-  port: 4784
+- name: 🇹🇭 泰国 (Thailand) 20 - xiaohe
+  server: 192.204.15.135
+  port: 42000
   udp: true
   type: socks5
-- name: 🇨🇴 哥伦比亚 (Colombia) 26 - xiaohe
-  server: 45.74.31.47
-  port: 5470
+  username: X3s3JteD
+  password: mpbK00Pl
+- name: 🇹🇭 泰国 (Thailand) 21 - xiaohe
+  server: 168.222.8.119
+  port: 42000
   udp: true
   type: socks5
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: 🇹🇭 泰国 (Thailand) 22 - xiaohe
+  server: 151.246.109.158
+  port: 42000
+  udp: true
+  type: socks5
+  username: AJ3d9gJw
+  password: 1pB7HV6u
+- name: 🇹🇭 泰国 (Thailand) 23 - xiaohe
+  server: 103.14.164.30
+  port: 42000
+  udp: true
+  type: socks5
+  username: route164JIa2CBPxfy
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+- name: 🇹🇭 泰国 (Thailand) 24 - xiaohe
+  server: 109.66.136.42
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
+- name: 🇻🇳 越南 (Vietnam) 25 ★★★★☆ 家宽 - xiaohe
+  server: 116.104.52.59
+  port: 1039
+  udp: true
+  type: socks5
+- name: 🇹🇭 泰国 (Thailand) 26 - xiaohe
+  server: 109.66.136.234
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
 - name: 🇻🇳 越南 (Vietnam) 27 - xiaohe
   server: 45.74.31.47
-  port: 4853
+  port: 6030
   udp: true
   type: socks5
 - name: 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
-  server: 45.74.31.46
-  port: 18610
+  server: 45.74.31.47
+  port: 5337
+  udp: true
+  type: socks5
+- name: 🇺🇸 美国 (United States) 29 - xiaohe
+  server: 204.8.189.118
+  port: 1080
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 30 - xiaohe
+  server: 45.74.31.47
+  port: 5482
   udp: true
   type: socks5
 proxy-groups:
@@ -179,66 +201,70 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 05 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 09 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 10 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 07 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 08 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
   - 🇹🇭 泰国 (Thailand) 12 - xiaohe
   - 🇹🇭 泰国 (Thailand) 13 - xiaohe
   - 🇹🇭 泰国 (Thailand) 14 - xiaohe
   - 🇹🇭 泰国 (Thailand) 15 - xiaohe
   - 🇹🇭 泰国 (Thailand) 16 - xiaohe
   - 🇹🇭 泰国 (Thailand) 17 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 18 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 18 - xiaohe
   - 🇹🇭 泰国 (Thailand) 19 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 20 - xiaohe
   - 🇹🇭 泰国 (Thailand) 21 - xiaohe
-  - 🇨🇿 捷克 (Czech) 22 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 23 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 22 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 23 - xiaohe
   - 🇹🇭 泰国 (Thailand) 24 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 25 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 26 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 25 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 26 - xiaohe
   - 🇻🇳 越南 (Vietnam) 27 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
+  - 🇺🇸 美国 (United States) 29 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 30 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 05 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 08 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 09 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 10 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 11 - xiaohe
+  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 03 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 04 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 05 ★★★★★ 家宽 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 06 ★★★★☆ 家宽 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 07 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 08 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 09 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 10 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 11 - xiaohe
   - 🇹🇭 泰国 (Thailand) 12 - xiaohe
   - 🇹🇭 泰国 (Thailand) 13 - xiaohe
   - 🇹🇭 泰国 (Thailand) 14 - xiaohe
   - 🇹🇭 泰国 (Thailand) 15 - xiaohe
   - 🇹🇭 泰国 (Thailand) 16 - xiaohe
   - 🇹🇭 泰国 (Thailand) 17 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 18 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 18 - xiaohe
   - 🇹🇭 泰国 (Thailand) 19 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 20 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 20 - xiaohe
   - 🇹🇭 泰国 (Thailand) 21 - xiaohe
-  - 🇨🇿 捷克 (Czech) 22 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 23 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 22 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 23 - xiaohe
   - 🇹🇭 泰国 (Thailand) 24 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 25 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 26 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 25 ★★★★☆ 家宽 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 26 - xiaohe
   - 🇻🇳 越南 (Vietnam) 27 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 28 - xiaohe
+  - 🇺🇸 美国 (United States) 29 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 30 - xiaohe
 rules:
 - MATCH,PROXIES

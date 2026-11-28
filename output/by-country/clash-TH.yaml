@@ -5,82 +5,103 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: 82.47.152.151
-  port: 42000
-  udp: true
-  type: socks5
-  username: userLjVB
-  password: Ks4Iab43
-- name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: 168.222.8.4
-  port: 42000
-  udp: true
-  type: socks5
-  username: JPjarpW3
-  password: ao3W5ZML
-- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 192.204.15.192
-  port: 42000
-  udp: true
-  type: socks5
-  username: X3s3JteD
-  password: mpbK00Pl
-- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
   server: 109.66.136.242
   port: 62000
   udp: true
   type: socks5
   username: r3ZzP8WW
   password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 05 - xiaohe
-  server: 168.222.8.119
-  port: 42000
-  udp: true
-  type: socks5
-  username: JPjarpW3
-  password: ao3W5ZML
-- name: 🇹🇭 泰国 (Thailand) 06 - xiaohe
-  server: 103.14.164.30
+- name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
+  server: 103.14.164.202
   port: 42000
   udp: true
   type: socks5
   username: route164JIa2CBPxfy
   password: VAwyJQX0iKMJiyCw5UVK9wGH
-- name: 🇹🇭 泰国 (Thailand) 07 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  server: 168.222.8.4
+  port: 42000
+  udp: true
+  type: socks5
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
   server: 82.47.154.48
   port: 42000
   udp: true
   type: socks5
   username: userMGEj
   password: KsySvCAP
-- name: 🇹🇭 泰国 (Thailand) 08 - xiaohe
-  server: 109.66.136.42
-  port: 62000
+- name: 🇹🇭 泰国 (Thailand) 05 - xiaohe
+  server: 192.204.15.138
+  port: 42000
   udp: true
   type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 09 - xiaohe
-  server: 109.66.136.234
-  port: 62000
+  username: X3s3JteD
+  password: mpbK00Pl
+- name: 🇹🇭 泰国 (Thailand) 06 - xiaohe
+  server: 192.204.15.192
+  port: 42000
   udp: true
   type: socks5
-  username: r3ZzP8WW
-  password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 10 - xiaohe
+  username: X3s3JteD
+  password: mpbK00Pl
+- name: 🇹🇭 泰国 (Thailand) 07 - xiaohe
   server: 109.66.136.194
   port: 62000
   udp: true
   type: socks5
   username: r3ZzP8WW
   password: zdnivBaI
-- name: 🇹🇭 泰国 (Thailand) 11 - xiaohe
+- name: 🇹🇭 泰国 (Thailand) 08 - xiaohe
   server: 168.222.8.66
   port: 42000
   udp: true
   type: socks5
   username: JPjarpW3
   password: ao3W5ZML
+- name: 🇹🇭 泰国 (Thailand) 09 - xiaohe
+  server: 192.204.15.135
+  port: 42000
+  udp: true
+  type: socks5
+  username: X3s3JteD
+  password: mpbK00Pl
+- name: 🇹🇭 泰国 (Thailand) 10 - xiaohe
+  server: 168.222.8.119
+  port: 42000
+  udp: true
+  type: socks5
+  username: JPjarpW3
+  password: ao3W5ZML
+- name: 🇹🇭 泰国 (Thailand) 11 - xiaohe
+  server: 151.246.109.158
+  port: 42000
+  udp: true
+  type: socks5
+  username: AJ3d9gJw
+  password: 1pB7HV6u
+- name: 🇹🇭 泰国 (Thailand) 12 - xiaohe
+  server: 103.14.164.30
+  port: 42000
+  udp: true
+  type: socks5
+  username: route164JIa2CBPxfy
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+- name: 🇹🇭 泰国 (Thailand) 13 - xiaohe
+  server: 109.66.136.42
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
+- name: 🇹🇭 泰国 (Thailand) 14 - xiaohe
+  server: 109.66.136.234
+  port: 62000
+  udp: true
+  type: socks5
+  username: r3ZzP8WW
+  password: zdnivBaI
 proxy-groups:
 - name: PROXIES
   type: select
@@ -97,6 +118,9 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 09 - xiaohe
   - 🇹🇭 泰国 (Thailand) 10 - xiaohe
   - 🇹🇭 泰国 (Thailand) 11 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 12 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 13 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -113,5 +137,8 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 09 - xiaohe
   - 🇹🇭 泰国 (Thailand) 10 - xiaohe
   - 🇹🇭 泰国 (Thailand) 11 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 12 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 13 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 14 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,63 +5,42 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "94.194.166.52",
-      "server_port": 42000,
+      "server": "94.194.164.203",
+      "server_port": 62000,
       "version": "5",
-      "username": "userLRgK",
-      "password": "KsPAxZGn",
+      "username": "rVkkraqT",
+      "password": "2j7CCZQb",
       "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "201.184.179.198",
+      "server": "181.143.31.242",
       "server_port": 1080,
       "version": "4",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "188.150.229.60",
-      "server_port": 5678,
-      "version": "4",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "5.58.97.86",
-      "server_port": 41641,
-      "version": "4",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "177.66.43.189",
-      "server_port": 4145,
-      "version": "4",
-      "tag": "🇧🇷 巴西 (Brazil) 05 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "46.174.120.163",
-      "server_port": 8090,
+      "server": "94.194.166.52",
+      "server_port": 42000,
       "version": "5",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe"
+      "username": "userLRgK",
+      "password": "KsPAxZGn",
+      "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "191.7.129.133",
-      "server_port": 62000,
-      "version": "5",
-      "username": "uwrgfkwg",
-      "password": "0mvrt5jb",
-      "tag": "🇧🇷 巴西 (Brazil) 07 - xiaohe"
-    },
-    {
-      "type": "socks",
-      "server": "31.42.2.113",
-      "server_port": 5678,
+      "server": "163.128.137.239",
+      "server_port": 1080,
       "version": "4",
-      "tag": "🇵🇱 波兰 (Poland) 08 - xiaohe"
+      "tag": "🇮🇩 印尼 (Indonesia) 04 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "116.104.52.59",
+      "server_port": 1039,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -70,12 +49,9 @@
         "auto",
         "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 05 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 07 - xiaohe",
-        "🇵🇱 波兰 (Poland) 08 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -84,12 +60,9 @@
       "outbounds": [
         "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
         "🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 04 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 05 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 06 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 07 - xiaohe",
-        "🇵🇱 波兰 (Poland) 08 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
+        "🇮🇩 印尼 (Indonesia) 04 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

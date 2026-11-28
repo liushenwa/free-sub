@@ -14,24 +14,33 @@
     },
     {
       "type": "socks",
-      "server": "171.253.90.204",
-      "server_port": 1086,
+      "server": "103.184.113.236",
+      "server_port": 62000,
       "version": "5",
-      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe"
+      "username": "qT46DZLv",
+      "password": "jHsK2gqs",
+      "tag": "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.247.158.166",
-      "server_port": 1080,
+      "server": "171.253.90.204",
+      "server_port": 1036,
       "version": "4",
-      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe"
+      "tag": "🇻🇳 越南 (Vietnam) 03 ★★★★★ 移动家宽 - xiaohe"
     },
     {
       "type": "socks",
-      "server": "171.248.217.119",
-      "server_port": 1080,
+      "server": "116.104.52.124",
+      "server_port": 1092,
       "version": "4",
       "tag": "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "171.253.91.148",
+      "server_port": 1100,
+      "version": "5",
+      "tag": "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
     },
     {
       "type": "selector",
@@ -39,9 +48,10 @@
       "outbounds": [
         "auto",
         "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 移动家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
       ]
     },
     {
@@ -49,9 +59,10 @@
       "tag": "auto",
       "outbounds": [
         "🇻🇳 越南 (Vietnam) 01 ★★★★★ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 02 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 02 ★★★★★ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 03 ★★★★★ 移动家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 04 ★★★★☆ 家宽 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 05 ★★★★☆ 家宽 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

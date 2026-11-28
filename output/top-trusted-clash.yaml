@@ -4,61 +4,61 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  server: 142.190.95.154
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  server: 59.11.209.162
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  server: 49.0.85.207
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
+- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   server: 94.194.164.203
   port: 62000
   udp: true
   type: socks5
   username: rVkkraqT
   password: 2j7CCZQb
-- name: 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  server: 181.143.31.242
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇲🇽 墨西哥 (Mexico) 06 - xiaohe
+- name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
   server: 94.194.166.52
   port: 42000
   udp: true
   type: socks5
   username: userLRgK
   password: KsPAxZGn
+- name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  server: 188.150.229.60
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: 212.244.235.217
+  port: 4153
+  udp: true
+  type: socks4
+- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
+  server: 31.42.2.113
+  port: 5678
+  udp: true
+  type: socks4
+- name: 🇧🇷 巴西 (Brazil) 06 - xiaohe
+  server: 177.92.78.137
+  port: 1080
+  udp: true
+  type: socks4
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 06 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 ★★★★★ 家宽 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 ★★★★★ 家宽 - xiaohe
-  - 🇹🇭 泰国 (Thailand) 03 ★★★★★ 家宽 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
-  - 🇨🇴 哥伦比亚 (Colombia) 05 - xiaohe
-  - 🇲🇽 墨西哥 (Mexico) 06 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  - 🇵🇱 波兰 (Poland) 04 - xiaohe
+  - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 06 - xiaohe
 rules:
 - MATCH,PROXIES

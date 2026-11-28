@@ -5,21 +5,28 @@
   "outbounds": [
     {
       "type": "socks",
-      "server": "94.194.164.203",
-      "server_port": 62000,
-      "version": "5",
-      "username": "rVkkraqT",
-      "password": "2j7CCZQb",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
-    },
-    {
-      "type": "socks",
       "server": "94.194.166.52",
       "server_port": 42000,
       "version": "5",
       "username": "userLRgK",
       "password": "KsPAxZGn",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "94.194.164.203",
+      "server_port": 62000,
+      "version": "5",
+      "username": "rVkkraqT",
+      "password": "2j7CCZQb",
       "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe"
+    },
+    {
+      "type": "socks",
+      "server": "88.198.69.51",
+      "server_port": 1095,
+      "version": "5",
+      "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
     },
     {
       "type": "selector",
@@ -27,7 +34,8 @@
       "outbounds": [
         "auto",
         "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
       ]
     },
     {
@@ -35,7 +43,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

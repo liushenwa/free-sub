@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇪 秘鲁 (Peru) 01 - xiaohe
-  server: 200.106.124.169
-  port: 1080
+- name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
+  server: 46.174.121.3
+  port: 8090
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇪 秘鲁 (Peru) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇪 秘鲁 (Peru) 01 - xiaohe
+  - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
 rules:
 - MATCH,PROXIES

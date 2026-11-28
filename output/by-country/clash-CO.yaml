@@ -5,13 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  server: 45.74.31.47
-  port: 6034
+  server: 201.184.179.198
+  port: 1080
   udp: true
-  type: socks5
+  type: socks4
 - name: 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
   server: 45.74.31.47
-  port: 6020
+  port: 6537
+  udp: true
+  type: socks5
+- name: 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  server: 181.143.31.242
+  port: 1080
+  udp: true
+  type: socks4
+- name: 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
+  server: 45.74.31.47
+  port: 6514
   udp: true
   type: socks5
 proxy-groups:
@@ -21,6 +31,8 @@ proxy-groups:
   - AUTO
   - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -28,5 +40,7 @@ proxy-groups:
   proxies:
   - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
   - 🇨🇴 哥伦比亚 (Colombia) 02 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 03 - xiaohe
+  - 🇨🇴 哥伦比亚 (Colombia) 04 - xiaohe
 rules:
 - MATCH,PROXIES

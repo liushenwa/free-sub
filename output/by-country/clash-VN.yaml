@@ -5,52 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 113.161.251.9
+  server: 113.22.140.197
   port: 1080
   udp: true
   type: socks4
 - name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 113.161.185.238
-  port: 1080
+  server: 45.74.31.47
+  port: 6494
   udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 45.74.31.46
-  port: 5136
+  type: socks5
+- name: 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
+  server: 116.104.52.59
+  port: 1100
   udp: true
   type: socks5
 - name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  server: 45.74.31.42
-  port: 4033
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 160.191.49.84
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  server: 45.74.31.47
-  port: 6404
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 07 - xiaohe
-  server: 45.74.31.47
-  port: 6191
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  server: 116.104.52.59
-  port: 1090
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  server: 116.97.117.27
-  port: 4153
-  udp: true
-  type: socks4
-- name: 🇻🇳 越南 (Vietnam) 10 - xiaohe
-  server: 113.161.162.0
+  server: 113.161.185.160
   port: 1080
   udp: true
   type: socks4
@@ -61,14 +31,8 @@ proxy-groups:
   - AUTO
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,13 +40,7 @@ proxy-groups:
   proxies:
   - 🇻🇳 越南 (Vietnam) 01 - xiaohe
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 03 - xiaohe
+  - 🇻🇳 越南 (Vietnam) 03 ★★★★☆ 家宽 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 06 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 07 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 08 ★★★★☆ 家宽 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 09 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 10 - xiaohe
 rules:
 - MATCH,PROXIES

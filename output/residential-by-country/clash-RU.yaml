@@ -8,7 +8,7 @@ proxies:
   server: 109.173.126.26
   port: 2080
   udp: true
-  type: socks4
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

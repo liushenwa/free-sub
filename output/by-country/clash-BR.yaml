@@ -5,30 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 177.92.78.137
-  port: 1080
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  server: 177.66.43.189
-  port: 4145
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
   server: 191.7.129.133
   port: 62000
   udp: true
   type: socks5
   username: uwrgfkwg
   password: 0mvrt5jb
-- name: 🇧🇷 巴西 (Brazil) 04 - xiaohe
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 177.128.81.10
   port: 81
-  udp: true
-  type: socks4
-- name: 🇧🇷 巴西 (Brazil) 05 - xiaohe
-  server: 186.194.127.41
-  port: 4153
   udp: true
   type: socks4
 proxy-groups:
@@ -38,9 +23,6 @@ proxy-groups:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,8 +30,5 @@ proxy-groups:
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 04 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 05 - xiaohe
 rules:
 - MATCH,PROXIES
